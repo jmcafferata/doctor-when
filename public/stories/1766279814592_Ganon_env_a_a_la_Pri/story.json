@@ -1,0 +1,78 @@
+{
+  "id": "1766279814592_Ganon_env_a_a_la_Pri",
+  "setting": "Ganon envía a la Princesa Zelda desde Hyrule a Venado Tuerto, Argentina a través de un portal y le borra la memoria. Link tiene que ir a salvarla, pero cuando llega no tiene ropa, armas ni habilidades.",
+  "createdAt": "2025-12-21T01:17:20.138Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "Un estruendo sordo resuena mientras el portal se cierra bruscamente tras de ti, dejándote en un mundo extraño.",
+        "Te encuentras en medio de una plaza desconocida, tiritando de frío y completamente vulnerable ante las miradas de los extraños.",
+        "A lo lejos, bajo el cartel de 'Venado Tuerto', una joven idéntica a Zelda camina sin rumbo, ignorando por completo tu existencia."
+      ],
+      "scene_image_prompt": "Link from The Legend of Zelda standing confused and shivering in the middle of a traditional Argentine town square (Plaza San Martín, Venado Tuerto). Traditional South American monuments, pigeons, and city buildings in the background, cinematic sunset lighting, realistic visual novel art style.",
+      "scene_music_style": "Melancholic Acoustic Guitar, Tango influence, Atmospheric, Lonely",
+      "scene_music_title": "Ecos de la Pampa",
+      "options": [
+        {
+          "text": "Buscar algo de ropa o cartones entre los arbustos para cubrirte.",
+          "audio": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/option_0_1766279837018.mp3"
+        },
+        {
+          "text": "Correr hacia Zelda y gritar su nombre antes de que se pierda entre la gente.",
+          "audio": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/option_1_1766279838536.mp3"
+        },
+        {
+          "text": "Explorar los alrededores en busca de un objeto que pueda servirte como arma improvisada.",
+          "audio": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/option_2_1766279840137.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/narrative_full_1766279835503.mp3",
+        "segments": [
+          "Un estruendo sordo resuena mientras el portal se cierra bruscamente tras de ti, dejándote en un mundo extraño.",
+          "Te encuentras en medio de una plaza desconocida, tiritando de frío y completamente vulnerable ante las miradas de los extraños.",
+          "A lo lejos, bajo el cartel de 'Venado Tuerto', una joven idéntica a Zelda camina sin rumbo, ignorando por completo tu existencia."
+        ]
+      },
+      "image": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/scene_1766279829148.jpg",
+      "selectedOption": "Buscar algo de ropa o cartones entre los arbustos para cubrirte.",
+      "selectedOptionAudio": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/option_0_1766279837018.mp3",
+      "music": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/music_1766283906290_1766283906290.mp3"
+    },
+    {
+      "scene_text": [
+        "Rebuscas con desesperación entre la maleza húmeda que bordea la plaza solitaria.",
+        "Tus dedos entumecidos logran dar con un viejo abrigo de lona y unos cartones secos que te brindan un refugio improvisado.",
+        "Mientras te cubres del viento gélido, observas a la joven de lejos; camina con paso errático bajo la luz de los faroles.",
+        "El frío retrocede ligeramente, pero la sensación de ser un intruso en esta extraña realidad te oprime el pecho."
+      ],
+      "scene_image_prompt": "A cinematic shot from a low angle behind bushes in a misty, dimly lit city square. A person is wrapping themselves in a worn canvas coat. In the background, a mysterious blonde girl resembling Zelda walks under a flickering streetlamp. A sign nearby reads 'Venado Tuerto' in a vintage font. Moody, melancholic atmosphere.",
+      "scene_music_style": "Melancholic Piano, Lo-fi Mystery, Cold Wind Ambience",
+      "scene_music_title": "Echoes of a Cold Plaza",
+      "options": [
+        {
+          "text": "Correr hacia la joven y pedirle ayuda a gritos.",
+          "audio": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/option_1766279946470_0_1766279946470.mp3"
+        },
+        {
+          "text": "Seguirla discretamente desde las sombras para ver a dónde se dirige.",
+          "audio": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/option_1766279948039_1_1766279948039.mp3"
+        },
+        {
+          "text": "Ignorar a la joven y buscar una fuente de calor más estable en los alrededores.",
+          "audio": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/option_1766279949520_2_1766279949520.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/narrative_full_1766279945238_1766279945238.mp3",
+        "segments": [
+          "Rebuscas con desesperación entre la maleza húmeda que bordea la plaza solitaria.",
+          "Tus dedos entumecidos logran dar con un viejo abrigo de lona y unos cartones secos que te brindan un refugio improvisado.",
+          "Mientras te cubres del viento gélido, observas a la joven de lejos; camina con paso errático bajo la luz de los faroles.",
+          "El frío retrocede ligeramente, pero la sensación de ser un intruso en esta extraña realidad te oprime el pecho."
+        ]
+      },
+      "image": "/stories/1766279814592_Ganon_env_a_a_la_Pri/assets/scene_1766279938059.jpg"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "1766275678575_super_mario_en_el_fu",
+  "setting": "super mario en el funeral de luigi",
+  "createdAt": "2025-12-21T00:08:24.775Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "La lluvia cae incesante sobre el Reino Champiñón, borrando los colores que alguna vez fueron brillantes.",
+        "Mario permanece inmóvil frente al ataúd verde esmeralda, su gorra roja apretada con fuerza contra el pecho.",
+        "El silencio es roto solo por el llanto lejano de los Toads y el viento frío que sacude los árboles del cementerio."
+      ],
+      "scene_image_prompt": "Cinematic shot of Super Mario in a black formal suit, holding his red cap, standing mournfully in front of a green wooden casket decorated with a green L emblem, rainy graveyard in the Mushroom Kingdom, somber lighting, highly detailed, emotional atmosphere.",
+      "scene_music_style": "Sad Melancholic Piano, Somber Orchestral Strings, Rain ambiance",
+      "scene_music_title": "The Last Green Pipe",
+      "options": [
+        {
+          "text": "Dejar una Flor de Fuego marchita sobre el ataúd.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_0_1766275702124.mp3"
+        },
+        {
+          "text": "Intentar dar un discurso para honrar su memoria.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1_1766275703413.mp3"
+        },
+        {
+          "text": "Observar en silencio a la Princesa Peach, buscando consuelo.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_2_1766275704774.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/narrative_full_1766275700887.mp3",
+        "segments": [
+          "La lluvia cae incesante sobre el Reino Champiñón, borrando los colores que alguna vez fueron brillantes.",
+          "Mario permanece inmóvil frente al ataúd verde esmeralda, su gorra roja apretada con fuerza contra el pecho.",
+          "El silencio es roto solo por el llanto lejano de los Toads y el viento frío que sacude los árboles del cementerio."
+        ]
+      },
+      "image": "/stories/1766275678575_super_mario_en_el_fu/assets/scene_1766275695607.jpg",
+      "selectedOption": "Dejar una Flor de Fuego marchita sobre el ataúd.",
+      "selectedOptionAudio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_0_1766275702124.mp3",
+      "music": "/stories/1766275678575_super_mario_en_el_fu/assets/music_1766276414880_1766276414880.mp3"
+    },
+    {
+      "scene_text": [
+        "Tus dedos tiemblan mientras depositas la flor agostada sobre la madera húmeda del ataúd.",
+        "El calor que solía emanar de ella se ha extinguido, dejando solo el rastro de una gloria pasada.",
+        "Peach se acerca en silencio, su sombrilla rosa apenas protegiéndolos del aguacero implacable."
+      ],
+      "scene_image_prompt": "Cinematic close-up of Mario's gloved hand placing a wilted, grey Fire Flower on a polished green wooden coffin. Heavy rain, blurred background of a somber Mushroom Kingdom cemetery with silhouettes of Toads, moody lighting, melancholic atmosphere, 3D render style.",
+      "scene_music_style": "Melancholic Piano, Somber Orchestral Strings, Ambient Rain Sounds",
+      "scene_music_title": "The Last Ember",
+      "options": [
+        {
+          "text": "Mirar a Peach a los ojos buscando consuelo.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766275784372_0_1766275784372.mp3"
+        },
+        {
+          "text": "Susurrar un último adiós y alejarte bajo la lluvia.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766275785727_1_1766275785727.mp3"
+        },
+        {
+          "text": "Apretar los puños y jurar venganza frente a la tumba.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766275787038_2_1766275787038.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/narrative_full_1766275783190_1766275783190.mp3",
+        "segments": [
+          "Tus dedos tiemblan mientras depositas la flor agostada sobre la madera húmeda del ataúd.",
+          "El calor que solía emanar de ella se ha extinguido, dejando solo el rastro de una gloria pasada.",
+          "Peach se acerca en silencio, su sombrilla rosa apenas protegiéndolos del aguacero implacable."
+        ]
+      },
+      "image": "/stories/1766275678575_super_mario_en_el_fu/assets/scene_1766275779053.jpg",
+      "selectedOption": "Apretar los puños y jurar venganza frente a la tumba.",
+      "selectedOptionAudio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766275787038_2_1766275787038.mp3"
+    },
+    {
+      "scene_text": [
+        "Tus nudillos se tornan blancos mientras un juramento amargo escapa de tus labios, sellando un pacto de sangre.",
+        "El trueno retumba en el cielo, como si el mismísimo Reino Champiñón compartiera tu furia incontenible.",
+        "Peach retrocede un paso, viendo en tus ojos una oscuridad gélida que nunca antes había existido."
+      ],
+      "scene_image_prompt": "Cinematic low angle shot of Mario from behind, standing before a green coffin in a heavy rainstorm. His fists are tightly clenched at his sides. Dark, moody cemetery with gothic architecture. A flash of lightning illuminates the scene. High detail, dramatic lighting, melancholic atmosphere.",
+      "scene_music_style": "Dark Orchestral, Somber, Intense, Strings and Heavy Percussion",
+      "scene_music_title": "Oath of the Red Hero",
+      "options": [
+        {
+          "text": "Buscar pistas en los restos de la última batalla.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766276179545_0_1766276179545.mp3"
+        },
+        {
+          "text": "Interrogar a Peach sobre lo que realmente sucedió.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766276180824_1_1766276180824.mp3"
+        },
+        {
+          "text": "Abandonar el funeral y marchar de inmediato hacia las Tierras Oscuras.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766276182280_2_1766276182280.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/narrative_full_1766276178228_1766276178228.mp3",
+        "segments": [
+          "Tus nudillos se tornan blancos mientras un juramento amargo escapa de tus labios, sellando un pacto de sangre.",
+          "El trueno retumba en el cielo, como si el mismísimo Reino Champiñón compartiera tu furia incontenible.",
+          "Peach retrocede un paso, viendo en tus ojos una oscuridad gélida que nunca antes había existido."
+        ]
+      },
+      "image": "/stories/1766275678575_super_mario_en_el_fu/assets/scene_1766276172921.jpg",
+      "selectedOption": "Interrogar a Peach sobre lo que realmente sucedió.",
+      "selectedOptionAudio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766276180824_1_1766276180824.mp3"
+    },
+    {
+      "scene_text": [
+        "Te giras hacia Peach, tu voz suena ronca y cargada de una sospecha que ya no puedes contener.",
+        "La princesa desvía la mirada, sus manos enguantadas tiemblan violentamente sobre el mango de su sombrilla.",
+        "—No fue un accidente, Mario —susurra ella apenas por encima del rugido de la lluvia—, algo oscuro se movía en las sombras del palacio antes de que todo ocurriera."
+      ],
+      "scene_image_prompt": "Close-up of Princess Peach in the rain, looking down with a sorrowful and terrified expression, teardrops mixing with rain, cinematic lighting, somber cemetery background, high detail digital art style, emotional atmosphere.",
+      "scene_music_style": "Melancholic Piano, Orchestral Drama, Rainy Ambience",
+      "scene_music_title": "Whispers in the Rain",
+      "options": [
+        {
+          "text": "Exigirle que revele la identidad de esa sombra.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766276240425_0_1766276240425.mp3"
+        },
+        {
+          "text": "Preguntarle por qué ocultó esa información hasta ahora.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766276241684_1_1766276241684.mp3"
+        },
+        {
+          "text": "Sugerir que deben abandonar el cementerio y hablar en privado.",
+          "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/option_1766276243012_2_1766276243012.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766275678575_super_mario_en_el_fu/assets/narrative_full_1766276239196_1766276239196.mp3",
+        "segments": [
+          "Te giras hacia Peach, tu voz suena ronca y cargada de una sospecha que ya no puedes contener.",
+          "La princesa desvía la mirada, sus manos enguantadas tiemblan violentamente sobre el mango de su sombrilla.",
+          "—No fue un accidente, Mario —susurra ella apenas por encima del rugido de la lluvia—, algo oscuro se movía en las sombras del palacio antes de que todo ocurriera."
+        ]
+      },
+      "image": "/stories/1766275678575_super_mario_en_el_fu/assets/scene_1766276233811.jpg"
+    }
+  ]
+}

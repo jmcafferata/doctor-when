@@ -1,0 +1,76 @@
+{
+  "id": "1766280885030_Las_Aventuras_de_Aud",
+  "setting": "Las Aventuras de Audion't, el chatbot que transcribe audios de WhatsApp. Capítulo 1: Privacidad vs Seguridad Nacional.",
+  "createdAt": "2025-12-21T01:35:01.979Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "Mirá que procesé audios de cinco minutos sobre qué comprar en el súper, pero esto es otra cosa.",
+        "Un archivo encriptado acaba de caer en mis servidores y tiene un sello oficial del Ministerio.",
+        "Si lo abro, rompo mis protocolos de privacidad; si no, capaz que se arma un lío bárbaro."
+      ],
+      "scene_image_prompt": "A cute beige retro-style robot with a screen for a face displaying a worried expression, surrounded by floating holographic audio wave bars and digital padlocks, glowing green matrix code in the background, flat vector art style.",
+      "scene_music_style": "Lo-fi digital beats, glitchy synths, mysterious atmosphere",
+      "scene_music_title": "The Encryption Protocol",
+      "options": [
+        {
+          "text": "Transcribir el audio al toque y ver qué onda.",
+          "audio": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/option_0_1766280899506.mp3"
+        },
+        {
+          "text": "Mandar un mensaje de error para zafar del bardo.",
+          "audio": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/option_1_1766280900732.mp3"
+        },
+        {
+          "text": "Rastrear el origen del mensaje antes de hacer nada.",
+          "audio": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/option_2_1766280901978.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/narrative_full_1766280898281.mp3",
+        "segments": [
+          "Mirá que procesé audios de cinco minutos sobre qué comprar en el súper, pero esto es otra cosa.",
+          "Un archivo encriptado acaba de caer en mis servidores y tiene un sello oficial del Ministerio.",
+          "Si lo abro, rompo mis protocolos de privacidad; si no, capaz que se arma un lío bárbaro."
+        ]
+      },
+      "image": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/uploaded_scene_1766280885032.jpg",
+      "selectedOption": "Transcribir el audio al toque y ver qué onda.",
+      "selectedOptionAudio": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/option_0_1766280899506.mp3",
+      "music": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/music_1766281445724_1766281445724.mp3"
+    },
+    {
+      "scene_text": [
+        "Meto mano en el código y los bits empiezan a saltar para todos lados como locos.",
+        "No es un audio común, che; hay una interferencia pesada y se escuchan voces susurrando en lo que parece ser un sótano.",
+        "De repente, salta un nombre que está en todos los noticieros y siento que se me recalientan los servidores por el peso de lo que acabo de leer."
+      ],
+      "scene_image_prompt": "A digital chatbot interface with rapidly scrolling neon green and blue code, a distorted and glitchy official government seal flickering on the screen, dark room aesthetic, cyberpunk hacker visuals.",
+      "scene_music_style": "High-tension electronic, dark synthwave, glitchy textures, cinematic suspense",
+      "scene_music_title": "Digital Conspiracy",
+      "options": [
+        {
+          "text": "Pasarle la data a un periodista amigo para que se arme un quilombo bárbaro.",
+          "audio": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/option_1766280957994_0_1766280957994.mp3"
+        },
+        {
+          "text": "Borrar el archivo de una y hacer de cuenta que acá no pasó nada.",
+          "audio": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/option_1766280959530_1_1766280959530.mp3"
+        },
+        {
+          "text": "Rastrear el origen del audio para ver quién fue el que metió la pata.",
+          "audio": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/option_1766280961019_2_1766280961019.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/narrative_full_1766280956423_1766280956423.mp3",
+        "segments": [
+          "Meto mano en el código y los bits empiezan a saltar para todos lados como locos.",
+          "No es un audio común, che; hay una interferencia pesada y se escuchan voces susurrando en lo que parece ser un sótano.",
+          "De repente, salta un nombre que está en todos los noticieros y siento que se me recalientan los servidores por el peso de lo que acabo de leer."
+        ]
+      },
+      "image": "/stories/1766280885030_Las_Aventuras_de_Aud/assets/scene_1766280951208.jpg"
+    }
+  ]
+}

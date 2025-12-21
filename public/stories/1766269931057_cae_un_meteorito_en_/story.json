@@ -1,0 +1,112 @@
+{
+  "id": "1766269931057_cae_un_meteorito_en_",
+  "setting": "cae un meteorito en el dia de la asuncion a presidente de ca7riel y paco amoroso",
+  "createdAt": "2025-12-20T22:32:41.368Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "El sol de mediodía brilla sobre una Plaza de Mayo desbordada, donde miles de personas bailan al ritmo de la nueva era.",
+        "Ca7riel y Paco Amoroso se asoman al balcón de la Casa Rosada, luciendo bandas presidenciales de seda brillante y cadenas de oro que destellan bajo el sol.",
+        "De pronto, el griterío se convierte en un silencio sepulcral cuando el cielo se desgarra con un estruendo ensordecedor y una luz violeta eclipsa el día.",
+        "Un meteorito colosal desciende a toda velocidad, dejando una estela de fuego psicodélico justo sobre el centro de Buenos Aires."
+      ],
+      "scene_image_prompt": "Cinematic wide shot of the Casa Rosada balcony in Buenos Aires. Two stylish musicians dressed as presidents with flashy sashes. A massive flaming meteorite with purple and orange fire streaks across the sky directly above them. Dramatic lighting, vibrant colors, chaotic and epic atmosphere.",
+      "scene_music_style": "Dramatic Experimental Trap, Orchestral hybrid, fast-paced, high energy",
+      "scene_music_title": "Asunción Galáctica",
+      "options": [
+        {
+          "text": "Intentar desviar el meteorito con un solo de guitarra de poder místico.",
+          "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/option_0_1766269958247.mp3"
+        },
+        {
+          "text": "Ordenar a la multitud que busquen refugio mientras el caos se desata.",
+          "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/option_1_1766269959654.mp3"
+        },
+        {
+          "text": "Abrazar a Paco y transmitir el fin del mundo en vivo por redes sociales.",
+          "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/option_2_1766269961367.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/narrative_full_1766269956761.mp3",
+        "segments": [
+          "El sol de mediodía brilla sobre una Plaza de Mayo desbordada, donde miles de personas bailan al ritmo de la nueva era.",
+          "Ca7riel y Paco Amoroso se asoman al balcón de la Casa Rosada, luciendo bandas presidenciales de seda brillante y cadenas de oro que destellan bajo el sol.",
+          "De pronto, el griterío se convierte en un silencio sepulcral cuando el cielo se desgarra con un estruendo ensordecedor y una luz violeta eclipsa el día.",
+          "Un meteorito colosal desciende a toda velocidad, dejando una estela de fuego psicodélico justo sobre el centro de Buenos Aires."
+        ]
+      },
+      "image": "/stories/1766269931057_cae_un_meteorito_en_/assets/scene_1766269947703.jpg",
+      "selectedOption": "Abrazar a Paco y transmitir el fin del mundo en vivo por redes sociales."
+    },
+    {
+      "scene_text": [
+        "Ca7riel rodea a Paco con un brazo mientras sostiene el teléfono, la pantalla inundada de millones de reacciones y corazones rojos.",
+        "El meteorito violeta ruge sobre sus cabezas, tiñendo el mármol de la Casa Rosada con un brillo sobrenatural y letal.",
+        "\"Si nos vamos, nos vamos con todo\", murmura Paco a la cámara, mientras el aire vibra con una frecuencia eléctrica insoportable.",
+        "La ciudad entera contiene el aliento mientras la luz lo consume todo."
+      ],
+      "scene_image_prompt": "Cinematic shot from behind Ca7riel and Paco Amoroso on the balcony of Casa Rosada. They are wearing presidential sashes and gold chains. One holds a smartphone filming a livestream. In the purple-tinted sky, a massive psychedelic meteorite is inches from impact. High contrast, dramatic lighting, detailed city background, visual novel style.",
+      "scene_music_style": "Dramatic Orchestral, Epic Synthwave, Apocalyptic, Emotional Piano",
+      "scene_music_title": "El Último Stream",
+      "options": [
+        {
+          "text": "Gritar una última rima salvaje antes del impacto final.",
+          "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/option_1766270047760_0_1766270047760.mp3"
+        },
+        {
+          "text": "Cerrar los ojos y pedir un deseo colectivo a todos los seguidores.",
+          "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/option_1766270049198_1_1766270049198.mp3"
+        },
+        {
+          "text": "Saltar del balcón hacia la luz violeta para enfrentar el destino de frente.",
+          "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/option_1766270050688_2_1766270050688.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/narrative_full_1766270046427_1766270046427.mp3",
+        "segments": [
+          "Ca7riel rodea a Paco con un brazo mientras sostiene el teléfono, la pantalla inundada de millones de reacciones y corazones rojos.",
+          "El meteorito violeta ruge sobre sus cabezas, tiñendo el mármol de la Casa Rosada con un brillo sobrenatural y letal.",
+          "\"Si nos vamos, nos vamos con todo\", murmura Paco a la cámara, mientras el aire vibra con una frecuencia eléctrica insoportable.",
+          "La ciudad entera contiene el aliento mientras la luz lo consume todo."
+        ]
+      },
+      "image": "/stories/1766269931057_cae_un_meteorito_en_/assets/scene_1766270038793.jpg",
+      "selectedOption": "Saltar del balcón hacia la luz violeta para enfrentar el destino de frente."
+    },
+    {
+      "scene_text": [
+        "Te lanzas al vacío, sintiendo cómo la gravedad desaparece mientras la luz violeta te envuelve por completo.",
+        "El tiempo se detiene y el estruendo de la ciudad se apaga, reemplazado por un zumbido cósmico que vibra en tus huesos.",
+        "No hay impacto contra el suelo, solo una expansión infinita donde la realidad se deshace en un mar de energía psicodélica."
+      ],
+      "scene_image_prompt": "First-person perspective of jumping from a historic balcony into a colossal, glowing violet cosmic rift. The sky is a vortex of neon purple and gold. Below, the blurred architecture of Casa Rosada fades into light. Surreal, cinematic, hyper-detailed, synthwave color palette.",
+      "scene_music_style": "Epic Synthwave, Orchestral Hybrid, Ethereal, High Tension",
+      "scene_music_title": "The Violet Ascension",
+      "options": [
+        {
+          "text": "Intentar nadar a través del vacío hacia el corazón del meteorito.",
+          "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/option_1766270182081_0_1766270182081.mp3"
+        },
+        {
+          "text": "Gritar un último verso que resuene en toda la galaxia.",
+          "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/option_1766270183453_1_1766270183453.mp3"
+        },
+        {
+          "text": "Cerrar los ojos y dejar que la energía transforme tu ADN.",
+          "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/option_1766270184793_2_1766270184793.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766269931057_cae_un_meteorito_en_/assets/narrative_full_1766270180624_1766270180624.mp3",
+        "segments": [
+          "Te lanzas al vacío, sintiendo cómo la gravedad desaparece mientras la luz violeta te envuelve por completo.",
+          "El tiempo se detiene y el estruendo de la ciudad se apaga, reemplazado por un zumbido cósmico que vibra en tus huesos.",
+          "No hay impacto contra el suelo, solo una expansión infinita donde la realidad se deshace en un mar de energía psicodélica."
+        ]
+      },
+      "image": "/stories/1766269931057_cae_un_meteorito_en_/assets/scene_1766270174940.jpg"
+    }
+  ]
+}

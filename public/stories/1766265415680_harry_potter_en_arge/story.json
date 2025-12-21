@@ -1,0 +1,95 @@
+{
+  "id": "1766265415680_harry_potter_en_arge",
+  "setting": "harry potter en argentina viene a salvarnos de milei",
+  "createdAt": "2025-12-20T21:18:29.061Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "El aire de Buenos Aires huele a crisis y asfalto caliente bajo un cielo gris plomizo.",
+        "Frente al imponente Obelisco, una figura con túnica desgastada y una bufanda a rayas se materializa entre el caos del tráfico porteño.",
+        "Harry Potter ajusta sus anteojos circulares, observando con desconfianza los carteles que rezan 'No hay plata' cubriendo cada rincón de la ciudad.",
+        "La varita de saúco vibra en su mano, detectando una magia salvaje y disruptiva que emana directamente desde la Casa Rosada."
+      ],
+      "scene_image_prompt": "Cinematic wide shot of Harry Potter, wearing a dusty Gryffindor scarf and round glasses, standing in the middle of a chaotic 9 de Julio Avenue in Buenos Aires. The Obelisco towers in the background under a stormy, dramatic sky. On a weathered billboard in the background, the 'Toxi Media' logo is faded and partially covered by political posters, showing the circular icon over the X and the brand name. Gritty urban fantasy style, high contrast, hyper-realistic.",
+      "scene_music_style": "Dark Tango Orchestral, Dramatic Strings, Cinematic suspense",
+      "scene_music_title": "Vientos de Cambio en el Obelisco",
+      "options": [
+        {
+          "text": "Buscar un choripán mágico en un puesto callejero para recuperar fuerzas.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/option_0_1766265505869.mp3"
+        },
+        {
+          "text": "Caminar hacia la Casa Rosada para enfrentar al 'León' cara a cara.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/option_1_1766265507435.mp3"
+        },
+        {
+          "text": "Refugiarse en una pizzería de la calle Corrientes para contactar a la Orden del Fénix local.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/option_2_1766265509061.mp3"
+        }
+      ],
+      "narrative_chunks": [
+        {
+          "text": "El aire de Buenos Aires huele a crisis y asfalto caliente bajo un cielo gris plomizo.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/narrative_0_1766265498017.mp3"
+        },
+        {
+          "text": "Frente al imponente Obelisco, una figura con túnica desgastada y una bufanda a rayas se materializa entre el caos del tráfico porteño.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/narrative_1_1766265500086.mp3"
+        },
+        {
+          "text": "Harry Potter ajusta sus anteojos circulares, observando con desconfianza los carteles que rezan 'No hay plata' cubriendo cada rincón de la ciudad.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/narrative_2_1766265502272.mp3"
+        },
+        {
+          "text": "La varita de saúco vibra en su mano, detectando una magia salvaje y disruptiva que emana directamente desde la Casa Rosada.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/narrative_3_1766265504373.mp3"
+        }
+      ],
+      "image": "/stories/1766265415680_harry_potter_en_arge/assets/scene_1766265427428.jpg"
+    },
+    {
+      "scene_text": [
+        "El calor del horno a leña y el aroma a muzzarella envuelven a Harry mientras se desliza en un reservado al fondo del local.",
+        "Entre el griterío de los mozos y el tintineo de cubiertos, nota que el grabado en su mesa no es madera desgastada, sino una runa de contacto.",
+        "Un hombre canoso con poncho y ojos penetrantes se sienta frente a él, dejando un ejemplar de 'El Profeta Porteño' sobre la mesa.",
+        "La vibración de la varita se intensifica: la magia disruptiva está más cerca de lo que imaginaba."
+      ],
+      "scene_image_prompt": "Interior of a classic, dimly lit Buenos Aires pizzeria on Corrientes Avenue. Vintage wooden booths, golden lighting from old lamps. A slice of pizza sits on a plate. Subliminally, the Toxi Media logo—a stylized circular head with crossed lines beneath it—is formed by a dark grease stain on a stack of white paper napkins next to the plate. In the background, out-of-focus patrons and a waiter in a white shirt. Cinematic lighting, urban mystery atmosphere.",
+      "scene_music_style": "Tango-Noir, Dark Jazz, Accordion, Urban Mystery",
+      "scene_music_title": "Muzzarella y Conjuros",
+      "options": [
+        {
+          "text": "Preguntar por la ubicación de la Casa Rosada y los 'duendes' que la habitan.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/option_1766265670248_0_1766265670248.mp3"
+        },
+        {
+          "text": "Usar un encantamiento de 'Prior Incantato' sobre el periódico para revelar mensajes ocultos.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/option_1766265671996_1_1766265671996.mp3"
+        },
+        {
+          "text": "Pedir una porción de fugazzetta y esperar a que el contacto hable primero.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/option_1766265673469_2_1766265673469.mp3"
+        }
+      ],
+      "narrative_chunks": [
+        {
+          "text": "El calor del horno a leña y el aroma a muzzarella envuelven a Harry mientras se desliza en un reservado al fondo del local.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/narrative_1766265662526_0_1766265662526.mp3"
+        },
+        {
+          "text": "Entre el griterío de los mozos y el tintineo de cubiertos, nota que el grabado en su mesa no es madera desgastada, sino una runa de contacto.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/narrative_1766265664815_1_1766265664815.mp3"
+        },
+        {
+          "text": "Un hombre canoso con poncho y ojos penetrantes se sienta frente a él, dejando un ejemplar de 'El Profeta Porteño' sobre la mesa.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/narrative_1766265666881_2_1766265666881.mp3"
+        },
+        {
+          "text": "La vibración de la varita se intensifica: la magia disruptiva está más cerca de lo que imaginaba.",
+          "audio": "/stories/1766265415680_harry_potter_en_arge/assets/narrative_1766265668678_3_1766265668678.mp3"
+        }
+      ],
+      "image": "/stories/1766265415680_harry_potter_en_arge/assets/scene_1766265590209.jpg"
+    }
+  ]
+}

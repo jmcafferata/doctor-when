@@ -1,0 +1,182 @@
+{
+  "id": "1766269177660_mirtha_legrand_en_la",
+  "setting": "mirtha legrand en la noche del hundimiento del titanic",
+  "createdAt": "2025-12-20T22:20:12.818Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "Las joyas de Mirtha destellan bajo las lámparas de cristal del opulento salón comedor de primera clase.",
+        "Un estruendo sordo sacude la vajilla de porcelana fina, pero ella no pierde la compostura ni el brillo en su mirada.",
+        "El champán se agita levemente en su copa mientras el rumor del pánico comienza a filtrarse por las pesadas puertas de roble."
+      ],
+      "scene_image_prompt": "A cinematic, highly detailed portrait of a young, elegant Mirtha Legrand in a lavish 1912 Edwardian evening gown and a massive diamond necklace, sitting at a grand dining table on the Titanic. Warm candlelight, luxury interior, polished wood, cinematic lighting, sophisticated atmosphere.",
+      "scene_music_style": "Orchestral, Dramatic, Melancholic, 1910s period style",
+      "scene_music_title": "La Última Cena en el Mar",
+      "options": [
+        {
+          "text": "Mantener la calma y terminar la copa con su elegancia característica.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_0_1766269209838.mp3"
+        },
+        {
+          "text": "Llamar al capitán Smith para exigir una explicación sobre el estruendo.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1_1766269211285.mp3"
+        },
+        {
+          "text": "Recoger sus pieles y dirigirse con paso firme hacia la cubierta principal.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_2_1766269212817.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/narrative_full_1766269208357.mp3",
+        "segments": [
+          "Las joyas de Mirtha destellan bajo las lámparas de cristal del opulento salón comedor de primera clase.",
+          "Un estruendo sordo sacude la vajilla de porcelana fina, pero ella no pierde la compostura ni el brillo en su mirada.",
+          "El champán se agita levemente en su copa mientras el rumor del pánico comienza a filtrarse por las pesadas puertas de roble."
+        ]
+      },
+      "image": "/stories/1766269177660_mirtha_legrand_en_la/assets/scene_1766269202582.jpg",
+      "selectedOption": "viene jack dawson y me dice que me quiere besar. atras suyo, una mujer llamada rose asintiendo con la cabeza, interesada"
+    },
+    {
+      "scene_text": [
+        "Jack se abre paso entre los mayordomos con una sonrisa pícara que desafía las rígidas normas de la alta sociedad.",
+        "Rose, luciendo su elegancia rebelde, te observa con una curiosidad cómplice mientras asiente con un brillo intrigante en los ojos.",
+        "El murmullo de los aristócratas se apaga, dejando solo el eco del metal crujiendo en las profundidades del barco."
+      ],
+      "scene_image_prompt": "A young handsome man with 1912 commoner clothes standing in a luxurious Titanic first-class dining hall, leaning in towards an elegant lady, a beautiful woman in a silk evening dress stands behind him nodding and smiling, cinematic lighting, opulent background with crystal chandeliers, digital art style.",
+      "scene_music_style": "Romantic Orchestral, Slow Waltz, Suspenseful Strings",
+      "scene_music_title": "Forbidden Waltz on the Titanic",
+      "options": [
+        {
+          "text": "Aceptar el beso de Jack ante la mirada atónita de los invitados.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269307481_0_1766269307481.mp3"
+        },
+        {
+          "text": "Preguntarle a Rose por qué parece tan interesada en este encuentro.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269308946_1_1766269308946.mp3"
+        },
+        {
+          "text": "Ignorar la insolencia y advertirles sobre el estruendo que sacudió el barco.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269310402_2_1766269310402.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/narrative_full_1766269306008_1766269306008.mp3",
+        "segments": [
+          "Jack se abre paso entre los mayordomos con una sonrisa pícara que desafía las rígidas normas de la alta sociedad.",
+          "Rose, luciendo su elegancia rebelde, te observa con una curiosidad cómplice mientras asiente con un brillo intrigante en los ojos.",
+          "El murmullo de los aristócratas se apaga, dejando solo el eco del metal crujiendo en las profundidades del barco."
+        ]
+      },
+      "image": "/stories/1766269177660_mirtha_legrand_en_la/assets/scene_1766269300018.jpg",
+      "selectedOption": "Preguntarle a Rose por qué parece tan interesada en este encuentro."
+    },
+    {
+      "scene_text": [
+        "Rose se inclina hacia ti, con una sonrisa que mezcla la melancolía con una chispa de travesura.",
+        "—Porque en este barco de reglas de hierro, tú eres el único brillo que parece real —susurra ella, ignorando el caos exterior.",
+        "Jack ensancha su sonrisa y apoya una mano en el respaldo de tu silla, desafiando a los estupefactos aristócratas.",
+        "Bajo sus pies, un lamento metálico recorre el suelo, anunciando que el tiempo del Titanic se agota."
+      ],
+      "scene_image_prompt": "Close up of a beautiful woman with red hair and an elegant 1910s evening gown, whispering secrets, a handsome young man with blonde hair in a commoner's suit standing behind her, luxurious first-class dining room background with crystal chandeliers, cinematic lighting, romantic and tense atmosphere, highly detailed.",
+      "scene_music_style": "Orchestral, Emotional, Melancholic Piano, Tense Strings",
+      "scene_music_title": "Whispers of the Deep",
+      "options": [
+        {
+          "text": "Mirar a Jack a los ojos y aceptar su atrevimiento.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269381094_0_1766269381094.mp3"
+        },
+        {
+          "text": "Advertirles que el barco está en peligro y deben salir de allí.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269382593_1_1766269382593.mp3"
+        },
+        {
+          "text": "Ofrecerles una copa de champán para brindar por el fin del mundo.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269383946_2_1766269383946.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/narrative_full_1766269379679_1766269379679.mp3",
+        "segments": [
+          "Rose se inclina hacia ti, con una sonrisa que mezcla la melancolía con una chispa de travesura.",
+          "—Porque en este barco de reglas de hierro, tú eres el único brillo que parece real —susurra ella, ignorando el caos exterior.",
+          "Jack ensancha su sonrisa y apoya una mano en el respaldo de tu silla, desafiando a los estupefactos aristócratas.",
+          "Bajo sus pies, un lamento metálico recorre el suelo, anunciando que el tiempo del Titanic se agota."
+        ]
+      },
+      "image": "/stories/1766269177660_mirtha_legrand_en_la/assets/scene_1766269372111.jpg",
+      "selectedOption": "Ofrecerles una copa de champán para brindar por el fin del mundo."
+    },
+    {
+      "scene_text": [
+        "Jack toma una copa con una carcajada que desafía a la muerte, mientras el brillo dorado del champán refleja las luces que parpadean sobre vuestras cabezas.",
+        "Rose alza la suya, chocando el cristal con un sonido agudo que parece silenciar el pánico creciente fuera del salón.",
+        "—Al fin del mundo, entonces —brindan al unísono, justo cuando el suelo se inclina bajo vuestros pies con un crujido metálico y profundo.",
+        "El lujo que os rodea se siente ahora como una jaula de oro que comienza a sumergirse en las gélidas sombras del Atlántico."
+      ],
+      "scene_image_prompt": "Cinematic shot of three people clinking crystal champagne glasses in the opulent first-class dining room of the Titanic. Jack Dawson with a defiant smile and Rose in an elegant dress. Golden lighting, sparkling chandeliers, luxury furniture. The room is noticeably tilted. High detail, photorealistic, dramatic atmosphere.",
+      "scene_music_style": "Melancholic Orchestral, Cinematic Strings, Somber Waltz",
+      "scene_music_title": "The Last Toast on the Titanic",
+      "options": [
+        {
+          "text": "Sugerir que es hora de buscar los botes salvavidas antes de que sea tarde.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269530962_0_1766269530962.mp3"
+        },
+        {
+          "text": "Pedirle a Jack que haga un boceto rápido de este brindis final para la posteridad.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269532565_1_1766269532565.mp3"
+        },
+        {
+          "text": "Entregarle a Rose uno de tus collares de diamantes como amuleto para lo que vendrá.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269534214_2_1766269534214.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/narrative_full_1766269529519_1766269529519.mp3",
+        "segments": [
+          "Jack toma una copa con una carcajada que desafía a la muerte, mientras el brillo dorado del champán refleja las luces que parpadean sobre vuestras cabezas.",
+          "Rose alza la suya, chocando el cristal con un sonido agudo que parece silenciar el pánico creciente fuera del salón.",
+          "—Al fin del mundo, entonces —brindan al unísono, justo cuando el suelo se inclina bajo vuestros pies con un crujido metálico y profundo.",
+          "El lujo que os rodea se siente ahora como una jaula de oro que comienza a sumergirse en las gélidas sombras del Atlántico."
+        ]
+      },
+      "image": "/stories/1766269177660_mirtha_legrand_en_la/assets/scene_1766269520702.jpg",
+      "selectedOption": "sacarles la ropa a jack y rose"
+    },
+    {
+      "scene_text": [
+        "La urgencia del momento rompe cualquier barrera de decoro mientras las capas de seda y lana caen al suelo inundado.",
+        "Jack y Rose se despojan de sus ataduras sociales, quedando vulnerables y reales ante la inminente oscuridad del océano.",
+        "El contraste entre el calor de vuestra piel y el aliento gélido del Atlántico crea una atmósfera de desesperada intimidad.",
+        "Bajo la luz parpadeante de las lámparas, solo queda la verdad de vuestros cuerpos frente al abismo."
+      ],
+      "scene_image_prompt": "Cinematic and dramatic shot inside the sinking Titanic ballroom, Jack and Rose standing close and partially undressed, discarding their heavy formal clothes, warm flickering light from chandeliers, cold blue water creeping across the floor, emotional and intimate atmosphere, hyper-realistic, 8k, visual novel style.",
+      "scene_music_style": "Melancholic Cello, Romantic Orchestral, Slow Dark Ambient",
+      "scene_music_title": "Desperate Intimacy",
+      "options": [
+        {
+          "text": "Buscar un refugio más cálido antes de que el salón se inunde por completo.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269809398_0_1766269809398.mp3"
+        },
+        {
+          "text": "Abrazarlos con fuerza mientras el barco se inclina violentamente hacia el abismo.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269810952_1_1766269810952.mp3"
+        },
+        {
+          "text": "Recordarles que deben vestirse rápidamente para sobrevivir al frío del exterior.",
+          "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/option_1766269812458_2_1766269812458.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766269177660_mirtha_legrand_en_la/assets/narrative_full_1766269807938_1766269807938.mp3",
+        "segments": [
+          "La urgencia del momento rompe cualquier barrera de decoro mientras las capas de seda y lana caen al suelo inundado.",
+          "Jack y Rose se despojan de sus ataduras sociales, quedando vulnerables y reales ante la inminente oscuridad del océano.",
+          "El contraste entre el calor de vuestra piel y el aliento gélido del Atlántico crea una atmósfera de desesperada intimidad.",
+          "Bajo la luz parpadeante de las lámparas, solo queda la verdad de vuestros cuerpos frente al abismo."
+        ]
+      },
+      "image": "/stories/1766269177660_mirtha_legrand_en_la/assets/scene_1766269801185.jpg"
+    }
+  ]
+}

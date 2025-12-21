@@ -1,0 +1,39 @@
+{
+  "id": "1766268881704_mirtha_legrand_en_la",
+  "setting": "mirtha legrand en la noche del hundimiento del titanic",
+  "createdAt": "2025-12-20T22:15:09.676Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "Las joyas de diamantes destellan bajo las arañas de cristal del Gran Salón, mientras el champán fluye entre la aristocracia.",
+        "Mirtha observa el despliegue de lujo con su elegancia habitual, pero nota una vibración inusual bajo sus pies.",
+        "Un estruendo sordo sacude la vajilla de porcelana y un silencio gélido se apodera de la mesa principal."
+      ],
+      "scene_image_prompt": "Cinematic shot of a young Mirtha Legrand in an opulent 1912 silk evening gown and massive diamond necklace, seated at a lavishly set dinner table inside the Titanic's First Class dining saloon. Crystal chandeliers, golden accents, warm lighting, high detail, photorealistic, 8k.",
+      "scene_music_style": "Orchestral, Elegant, Suspenseful, Period Drama",
+      "scene_music_title": "Gala at the Edge of the Abyss",
+      "options": [
+        {
+          "text": "Llamar al camarero para exigir una explicación por el movimiento brusco.",
+          "audio": "/stories/1766268881704_mirtha_legrand_en_la/assets/option_0_1766268906618.mp3"
+        },
+        {
+          "text": "Caminar hacia la cubierta con paso firme para ver qué ha ocurrido.",
+          "audio": "/stories/1766268881704_mirtha_legrand_en_la/assets/option_1_1766268908041.mp3"
+        },
+        {
+          "text": "Tranquilizar a los comensales recordando que 'como te ven, te tratan'.",
+          "audio": "/stories/1766268881704_mirtha_legrand_en_la/assets/option_2_1766268909675.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766268881704_mirtha_legrand_en_la/assets/narrative_full_1766268905172.mp3",
+        "segments": [
+          "Las joyas de diamantes destellan bajo las arañas de cristal del Gran Salón, mientras el champán fluye entre la aristocracia.",
+          "Mirtha observa el despliegue de lujo con su elegancia habitual, pero nota una vibración inusual bajo sus pies.",
+          "Un estruendo sordo sacude la vajilla de porcelana y un silencio gélido se apodera de la mesa principal."
+        ]
+      }
+    }
+  ]
+}

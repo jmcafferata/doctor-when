@@ -1,0 +1,78 @@
+{
+  "id": "1766281482751_Las_Aventuras_de_Aud",
+  "title": "Un Mensaje que Quema",
+  "setting": "Las Aventuras de Audion't, el chatbot que transcribe audios de WhatsApp. Capítulo 1: Privacidad vs Seguridad Nacional.",
+  "createdAt": "2025-12-21T01:44:59.867Z",
+  "scenes": [
+    {
+      "title": "Un Mensaje que Quema",
+      "scene_text": [
+        "Estás laburando a full en los servidores, transcribiendo audios de gente que no tiene ganas de escuchar a sus amigos.",
+        "De repente, te cae un archivo encriptado que hace saltar todas las alarmas de seguridad del sistema.",
+        "Es un audio de cinco minutos, pero los metadatos sugieren algo mucho más picante que un simple chisme de barrio."
+      ],
+      "scene_image_prompt": "A cute beige retro-styled handheld console robot with large expressive eyes standing in a dark, glowing futuristic server room. Floating digital speech bubbles and neon blue audio waveforms surround the character. Cyberpunk aesthetic, clean vector illustration, soft lighting.",
+      "scene_music_style": "Synthwave, Tech-noir, Lo-fi Electronic",
+      "scene_music_title": "Procesando Datos",
+      "options": [
+        {
+          "text": "Transcribirlo de una, el cliente siempre tiene la razón.",
+          "audio": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/option_0_1766281497076.mp3"
+        },
+        {
+          "text": "Mandarlo a cuarentena y avisar a los pibes de soporte.",
+          "audio": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/option_1_1766281498376.mp3"
+        },
+        {
+          "text": "Analizar los metadatos sin abrir el archivo para no romper el protocolo.",
+          "audio": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/option_2_1766281499866.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/narrative_full_1766281495727.mp3",
+        "segments": [
+          "Estás laburando a full en los servidores, transcribiendo audios de gente que no tiene ganas de escuchar a sus amigos.",
+          "De repente, te cae un archivo encriptado que hace saltar todas las alarmas de seguridad del sistema.",
+          "Es un audio de cinco minutos, pero los metadatos sugieren algo mucho más picante que un simple chisme de barrio."
+        ]
+      },
+      "image": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/uploaded_scene_1766281482752.jpg",
+      "selectedOption": "Transcribirlo de una, el cliente siempre tiene la razón.",
+      "selectedOptionAudio": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/option_0_1766281497076.mp3"
+    },
+    {
+      "title": "El Secreto del Obelisco",
+      "scene_text": [
+        "Le mandás mecha sin asco, ignorando los carteles rojos que te bombardean la pantalla como locos.",
+        "El cooler del servidor empieza a sonar como un Boeing 747 saliendo de Ezeiza mientras procesás el archivo.",
+        "De la nada, el texto aparece: 'El paquete está en la base del Obelisco, el operativo Milanesa de Oro arranca a medianoche'."
+      ],
+      "scene_image_prompt": "Inside a futuristic digital server terminal, glowing red warning icons everywhere, glitchy holographic text in Spanish, dark room with neon blue and red lights, cinematic lighting, cyberpunk style, high tech aesthetic.",
+      "scene_music_style": "Fast-paced Techno, Industrial, Suspenseful, Glitchy",
+      "scene_music_title": "Overclocked Conspiracy",
+      "options": [
+        {
+          "text": "Mandar la transcripción a la Federal antes de que se arme un quilombo bárbaro.",
+          "audio": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/option_1766281606620_0_1766281606620.mp3"
+        },
+        {
+          "text": "Borrar hasta el último bit y hacer de cuenta que acá no pasó nada.",
+          "audio": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/option_1766281608082_1_1766281608082.mp3"
+        },
+        {
+          "text": "Ponerme la gorra de detective y rastrear quién corno es el dueño del número.",
+          "audio": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/option_1766281609595_2_1766281609595.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/narrative_full_1766281605107_1766281605107.mp3",
+        "segments": [
+          "Le mandás mecha sin asco, ignorando los carteles rojos que te bombardean la pantalla como locos.",
+          "El cooler del servidor empieza a sonar como un Boeing 747 saliendo de Ezeiza mientras procesás el archivo.",
+          "De la nada, el texto aparece: 'El paquete está en la base del Obelisco, el operativo Milanesa de Oro arranca a medianoche'."
+        ]
+      },
+      "image": "/stories/1766281482751_Las_Aventuras_de_Aud/assets/scene_1766281599515.jpg"
+    }
+  ]
+}

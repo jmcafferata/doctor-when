@@ -1,0 +1,40 @@
+{
+  "id": "1766268987207_mirtha_legrand_en_la",
+  "setting": "mirtha legrand en la noche del hundimiento del titanic",
+  "createdAt": "2025-12-20T22:16:58.546Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "Las luces de cristal del Gran Comedor oscilan violentamente, pero Mirtha no suelta su copa de plata.",
+        "El estruendo del metal desgarrándose bajo el agua resuena como un eco lejano entre las risas nerviosas de la aristocracia.",
+        "Con una elegancia imperturbable, ella observa el reloj de oro en su muñeca: la medianoche ha pasado."
+      ],
+      "scene_image_prompt": "A sophisticated woman resembling Mirtha Legrand in 1912 period clothing, wearing extravagant diamond necklaces and a lavish fur wrap. She is seated at a mahogany dining table on the Titanic. The room is opulent with gold leaf and velvet, but the floor is noticeably tilted. Water is slowly creeping across the carpet. Highly detailed, cinematic lighting, dramatic atmosphere.",
+      "scene_music_style": "Dramatic Orchestral, Somber Waltz, Cinematic Strings",
+      "scene_music_title": "La Última Gala",
+      "options": [
+        {
+          "text": "Llamar al camarero para exigir que traigan el postre de inmediato.",
+          "audio": "/stories/1766268987207_mirtha_legrand_en_la/assets/option_0_1766269015552.mp3"
+        },
+        {
+          "text": "Pronunciar un discurso sobre la importancia de mantener la compostura ante el desastre.",
+          "audio": "/stories/1766268987207_mirtha_legrand_en_la/assets/option_1_1766269017134.mp3"
+        },
+        {
+          "text": "Caminar hacia la cubierta superior para observar el iceberg de cerca.",
+          "audio": "/stories/1766268987207_mirtha_legrand_en_la/assets/option_2_1766269018545.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766268987207_mirtha_legrand_en_la/assets/narrative_full_1766269014065.mp3",
+        "segments": [
+          "Las luces de cristal del Gran Comedor oscilan violentamente, pero Mirtha no suelta su copa de plata.",
+          "El estruendo del metal desgarrándose bajo el agua resuena como un eco lejano entre las risas nerviosas de la aristocracia.",
+          "Con una elegancia imperturbable, ella observa el reloj de oro en su muñeca: la medianoche ha pasado."
+        ]
+      },
+      "image": "/stories/1766268987207_mirtha_legrand_en_la/assets/scene_1766269008404.jpg"
+    }
+  ]
+}

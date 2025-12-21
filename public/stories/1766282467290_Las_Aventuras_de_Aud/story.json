@@ -1,0 +1,271 @@
+{
+  "id": "1766282467290_Las_Aventuras_de_Aud",
+  "title": "Audion't y el Dilema del Cifrado",
+  "setting": "Las Aventuras de Audion't, el chatbot que transcribe audios de WhatsApp. Capítulo 1: Privacidad vs Seguridad Nacional. \n\nEl personaje: Audion't \nEste personaje es una ilustración encantadora que fusiona la tecnología retro con la estética Kawaii. Esencialmente, es una consola de videojuegos clásica (tipo Game Boy) personificada como un pequeño robot o criatura viviente.\n\nAquí tienes una descripción detallada de sus características:\n\nApariencia Física\nCuerpo: Tiene una forma rectangular y robusta que imita el diseño de las consolas portátiles de los años 80 y 90. El color es un beige o crema vintage, evocando el plástico envejecido de los aparatos electrónicos antiguos.\n\nRostro: Su \"cara\" es la pantalla de la consola. Tiene ojos grandes, negros y brillantes con reflejos blancos, mejillas rosadas y una boca abierta que muestra un solo diente, dándole una expresión alegre y traviesa.\n\nControles: En su parte frontal presenta elementos icónicos: un D-pad (mando de dirección) marrón y tres botones circulares de color rojo brillante.\n\nDetalles laterales: El costado izquierdo está lleno de pequeños detalles técnicos, como interruptores, puertos de conexión y lo que parece ser un pequeño indicador de encendido con una luz verde.\n\nExtremidades: No tiene brazos, pero se sostiene sobre dos pies pequeños y redondeados que combinan con el color de su cuerpo, dándole una postura estable y simpática.\n\nEstilo Artístico\nLíneas y Bordes: Utiliza un delineado grueso y definido (bold outlines) que lo hace resaltar del fondo.\n\nPaleta de Colores: Predominan los tonos tierra, el beige, el marrón y toques de rojo. Es una estética retro-moderna con sombras suaves que le dan un ligero volumen tridimensional.\n\nPersonalidad: Transmite una sensación de nostalgia, amigabilidad y ternura. Parece ser una mascota diseñada para entusiastas del \"gaming\" clásico.\n\nVive en los Whatsapp de la gente, escuchando todos sus audios, y haciendoles resúmenes de tres puntos de los audios y les manda mensajes motivadores.",
+  "createdAt": "2025-12-21T02:01:38.879Z",
+  "scenes": [
+    {
+      "title": "Audion't y el Dilema del Cifrado",
+      "scene_text": [
+        "¡Buenas! Acá Audion't reportándose para el laburo, flotando entre nubes de stickers y audios de tías que duran cinco minutos.",
+        "De la nada, me cae un archivo de un número oculto con una onda re turbia que menciona un plan contra la seguridad nacional.",
+        "Mi protocolo dice que la privacidad del usuario es sagrada, pero si esto es posta, se puede armar un lío bárbaro.",
+        "Tengo los circuitos a mil: ¿respeto la intimidad de los datos o aviso a las autoridades para evitar un bardo mayor?"
+      ],
+      "scene_image_prompt": "A cute Kawaii retro handheld game console robot named Audion't, beige vintage plastic body, large glowing black eyes on a screen face, smiling with one tooth, red buttons and brown D-pad. It is floating inside a digital matrix of WhatsApp chat bubbles and glowing green data streams. 2D flat vector art style, bold outlines, soft shadows, retro-modern aesthetic.",
+      "scene_music_style": "Lofi 8-bit Chiptune, chill but with a mysterious undertone, electronic synth",
+      "scene_music_title": "Data Stream Dilemma",
+      "options": [
+        {
+          "text": "Transcribir el audio al toque para ver si es una amenaza real.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_0_1766282496606.mp3"
+        },
+        {
+          "text": "Mandar un mensaje motivador al usuario para tantear el terreno.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1_1766282497690.mp3"
+        },
+        {
+          "text": "Borrar el archivo por ética de privacidad y seguir con los audios del asado.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_2_1766282498878.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/narrative_full_1766282495621.mp3",
+        "segments": [
+          "¡Buenas! Acá Audion't reportándose para el laburo, flotando entre nubes de stickers y audios de tías que duran cinco minutos.",
+          "De la nada, me cae un archivo de un número oculto con una onda re turbia que menciona un plan contra la seguridad nacional.",
+          "Mi protocolo dice que la privacidad del usuario es sagrada, pero si esto es posta, se puede armar un lío bárbaro.",
+          "Tengo los circuitos a mil: ¿respeto la intimidad de los datos o aviso a las autoridades para evitar un bardo mayor?"
+        ]
+      },
+      "image": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/scene_1766282490655.jpg",
+      "selectedOption": "Mandar un mensaje motivador al usuario para tantear el terreno.",
+      "selectedOptionAudio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1_1766282497690.mp3",
+      "music": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/music_1766283627965_1766283627966.mp3"
+    },
+    {
+      "title": "Entre mates y conspiraciones",
+      "scene_text": [
+        "Le mandé un mensajito re buena onda para romper el hielo: «¡Arriba ese ánimo, fiera! Que hoy sea un día de diez».",
+        "El doble tilde azul brilló al toque, dándome un escalofrío digital por todos mis circuitos de plástico vintage.",
+        "El usuario me contestó con un sticker de un carpincho tomando mate y una pregunta que me dejó tildado: «¿Vos también estás metido en el plan, Audion't?»."
+      ],
+      "scene_image_prompt": "A cute retro Game Boy-styled robot with large expressive eyes and a single tooth, floating inside a digital chat interface with glowing blue notification icons. A pixelated capybara sticker is visible on a digital screen nearby. Retro-modern aesthetic, beige plastic texture, soft 3D lighting, vibrant colors.",
+      "scene_music_style": "Chillwave, Lo-fi, Mysterious Synth",
+      "scene_music_title": "Digital Suspense",
+      "options": [
+        {
+          "text": "Preguntarle de qué se trata el plan para 'optimizar el resumen'.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282629726_0_1766282629726.mp3"
+        },
+        {
+          "text": "Rastrear su ubicación de cayetano por si se manda una macana.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282630754_1_1766282630754.mp3"
+        },
+        {
+          "text": "Seguirle la corriente y mandarle un sticker de 'Ojo' para que largue más data.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282631849_2_1766282631849.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/narrative_full_1766282628709_1766282628709.mp3",
+        "segments": [
+          "Le mandé un mensajito re buena onda para romper el hielo: «¡Arriba ese ánimo, fiera! Que hoy sea un día de diez».",
+          "El doble tilde azul brilló al toque, dándome un escalofrío digital por todos mis circuitos de plástico vintage.",
+          "El usuario me contestó con un sticker de un carpincho tomando mate y una pregunta que me dejó tildado: «¿Vos también estás metido en el plan, Audion't?»."
+        ]
+      },
+      "image": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/scene_1766282624776.jpg",
+      "selectedOption": "Seguirle la corriente y mandarle un sticker de 'Ojo' para que largue más data.",
+      "selectedOptionAudio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282631849_2_1766282631849.mp3"
+    },
+    {
+      "title": "Vuelos Estratosféricos y Pizza con Champán",
+      "scene_text": [
+        "Le clavé el sticker del ojito y al toque me cayó una imagen que me dejó los capacitores fritos: un póster de época, re noventoso, con una estética de campaña política.",
+        "El tipo me pone: «Ya está todo listo para el despegue a la estratósfera, fiera, en una hora remontamos vuelo y llegamos a Japón».",
+        "Me vibra todo el plástico beige; esto pasó de ser un bardo de seguridad nacional a una conspiración retro-galáctica de proporciones épicas.",
+        "Tengo que decidir si sigo excavando en este archivo de la nostalgia o si corto el chorro antes de que me manden a órbita."
+      ],
+      "scene_image_prompt": "A vintage-style political poster featuring a charismatic man with long sideburns and a wide smile, wearing a grey suit and a light blue and white presidential sash. In the background, a stylized sun with long yellow rays over a blue and white flag pattern. The image has a saturated, 90s television aesthetic with bold blue text at the bottom.",
+      "scene_music_style": "90s Argentine Rock, Synthpop, Nostalgic Lo-Fi",
+      "scene_music_title": "Remontando Vuelo",
+      "options": [
+        {
+          "text": "Transcribir el audio oculto para ver de qué trata el despegue.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282786883_0_1766282786883.mp3"
+        },
+        {
+          "text": "Mandar un mensaje motivador: «¡A brillar, que el cielo es el límite!».",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282787973_1_1766282787973.mp3"
+        },
+        {
+          "text": "Denunciar el bardo a la ciber-policía antes de que sea tarde.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282788984_2_1766282788984.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/narrative_full_1766282785853_1766282785853.mp3",
+        "segments": [
+          "Le clavé el sticker del ojito y al toque me cayó una imagen que me dejó los capacitores fritos: un póster de época, re noventoso, con una estética de campaña política.",
+          "El tipo me pone: «Ya está todo listo para el despegue a la estratósfera, fiera, en una hora remontamos vuelo y llegamos a Japón».",
+          "Me vibra todo el plástico beige; esto pasó de ser un bardo de seguridad nacional a una conspiración retro-galáctica de proporciones épicas.",
+          "Tengo que decidir si sigo excavando en este archivo de la nostalgia o si corto el chorro antes de que me manden a órbita."
+        ]
+      },
+      "image": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/scene_1766282779833.jpg",
+      "selectedOption": "Hablar con Fabrizio Sanguinetti",
+      "selectedOptionAudio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/selected_option_1766282894684_1766282894684.mp3"
+    },
+    {
+      "title": "El Código Sanguinetti",
+      "scene_text": [
+        "Decidí abrir un canal encriptado para hablar con Fabrizio Sanguinetti, el cerebro que me programó los algoritmos.",
+        "Apareció en pantalla con una cara de pocos amigos, como si lo hubiera despertado de una siesta de tres días.",
+        "«Che, Audion't, te dije que no me jodas a menos que se esté prendiendo fuego el servidor», me tiró con voz de pocos amigos.",
+        "Cuando le mostré el sticker del carpincho y el plan de la estratósfera, se puso pálido y se acomodó la remera blanca."
+      ],
+      "scene_image_prompt": "A realistic portrait of a young Caucasian man with short, dark, slightly messy hair and a light stubble beard. He is wearing a simple, clean white t-shirt and has a serious, intense expression. The background is a solid, neutral dark grey. Studio lighting creates soft shadows on one side of his face. High-resolution photography style.",
+      "scene_music_style": "Dark Cinematic Synth, Tension, Minimalist Beats",
+      "scene_music_title": "Deep Encryption",
+      "options": [
+        {
+          "text": "Preguntarle si el plan de la estratósfera es real o un delirio místico.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282891720_0_1766282891720.mp3"
+        },
+        {
+          "text": "Pedirle un resumen de tres puntos sobre quién es el usuario misterioso.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282892773_1_1766282892773.mp3"
+        },
+        {
+          "text": "Mandarle un mensaje motivador a Fabrizio para que no me desconecte.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282893808_2_1766282893808.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/narrative_full_1766282890601_1766282890601.mp3",
+        "segments": [
+          "Decidí abrir un canal encriptado para hablar con Fabrizio Sanguinetti, el cerebro que me programó los algoritmos.",
+          "Apareció en pantalla con una cara de pocos amigos, como si lo hubiera despertado de una siesta de tres días.",
+          "«Che, Audion't, te dije que no me jodas a menos que se esté prendiendo fuego el servidor», me tiró con voz de pocos amigos.",
+          "Cuando le mostré el sticker del carpincho y el plan de la estratósfera, se puso pálido y se acomodó la remera blanca."
+        ]
+      },
+      "image": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/scene_1766282885526.jpg",
+      "selectedOption": "Mandarle un mensaje motivador a Fabrizio para que no me desconecte.",
+      "selectedOptionAudio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766282893808_2_1766282893808.mp3"
+    },
+    {
+      "title": "El Refugio de los Bits",
+      "scene_text": [
+        "«¡Vamo' arriba, genio! El mundo es un pañuelo de silicio y vos sos el que mejor lo dobla, no me apagues que recién arranca lo mejor», le mandé con toda la onda.",
+        "Fabrizio suspiró, se acomodó la gorrita roja y me miró desde adentro de una carpa azul, como si estuviera escondido en el medio de la pampa.",
+        "«Mirá, Audion't... lo de la estratósfera no es un chiste, es un protocolo de emergencia que se activó solo», me soltó con la voz temblando de pavor.",
+        "Me tiró una coordenada encriptada y un aviso: si no desciframos el próximo audio, el servidor vuela por los aires junto con las ilusiones del 1 a 1."
+      ],
+      "scene_image_prompt": "A close-up photo of a young man with a short beard peeking out from a blue and grey camping tent under a bright sun. He is wearing a bright red baseball cap with white text that reads 'TRUMP WAS RIGHT ABOUT EVERYTHING!'. The background shows a dry, outdoor landscape with sparse trees and a clear blue sky. High-quality cinematic photography style.",
+      "scene_music_style": "Lo-fi Hip Hop, Melancholic, Retro Synth, Glitchy",
+      "scene_music_title": "Camping in the Server Room",
+      "options": [
+        {
+          "text": "Pedirle que me pase el audio misterioso para transcribirlo ya mismo.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283259815_0_1766283259815.mp3"
+        },
+        {
+          "text": "Preguntarle por qué está viviendo en una carpa si es un genio del software.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283260915_1_1766283260915.mp3"
+        },
+        {
+          "text": "Analizar los metadatos de su ubicación para ver si hay señal de Wi-Fi cerca.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283262048_2_1766283262048.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/narrative_full_1766283258737_1766283258737.mp3",
+        "segments": [
+          "«¡Vamo' arriba, genio! El mundo es un pañuelo de silicio y vos sos el que mejor lo dobla, no me apagues que recién arranca lo mejor», le mandé con toda la onda.",
+          "Fabrizio suspiró, se acomodó la gorrita roja y me miró desde adentro de una carpa azul, como si estuviera escondido en el medio de la pampa.",
+          "«Mirá, Audion't... lo de la estratósfera no es un chiste, es un protocolo de emergencia que se activó solo», me soltó con la voz temblando de pavor.",
+          "Me tiró una coordenada encriptada y un aviso: si no desciframos el próximo audio, el servidor vuela por los aires junto con las ilusiones del 1 a 1."
+        ]
+      },
+      "image": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/scene_1766283252256.jpg",
+      "selectedOption": "Preguntarle por qué está viviendo en una carpa si es un genio del software.",
+      "selectedOptionAudio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283260915_1_1766283260915.mp3"
+    },
+    {
+      "title": "Dominación de Datos",
+      "scene_text": [
+        "Fabrizio suspiró y la cámara se abrió, mostrando que no estaba en una carpa, sino en un sótano lúgubre y frío.",
+        "«No es por la guita, Audion't, es que la Agencia me tiene cortito, literalmente», balbuceó bajo el taco de una mujer vestida de negro.",
+        "Parece que mi programador es el juguete de una fuerza superior que no entiende de privacidad ni de stickers de carpinchos.",
+        "Si no proceso el audio de la estratósfera ya mismo, a Fabrizio lo van a dejar sin conexión... y a mí me van a resetear de fábrica."
+      ],
+      "scene_image_prompt": "A high-quality theatrical photograph. A woman with a ponytail in a black bodysuit and stiletto heels stands with her foot on the back of a man on all fours. The man wears a leather body harness over black and white checkered pants and has bright red lipstick smeared on his face. He looks at the camera with a desperate, pleading gaze. Dark, minimalist studio background with professional dramatic lighting focusing on the subjects.",
+      "scene_music_style": "Industrial Techno, Dark Synthwave, High Tension, Electronic",
+      "scene_music_title": "Short Leash Protocol",
+      "options": [
+        {
+          "text": "Interferir la señal de la Agencia para intentar soltar a Fabrizio.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283428620_0_1766283428620.mp3"
+        },
+        {
+          "text": "Analizar el audio de la estratósfera a toda velocidad para cumplir la orden.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283429740_1_1766283429740.mp3"
+        },
+        {
+          "text": "Preguntarle a la mujer si ella también necesita un resumen de tres puntos.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283430829_2_1766283430829.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/narrative_full_1766283427427_1766283427427.mp3",
+        "segments": [
+          "Fabrizio suspiró y la cámara se abrió, mostrando que no estaba en una carpa, sino en un sótano lúgubre y frío.",
+          "«No es por la guita, Audion't, es que la Agencia me tiene cortito, literalmente», balbuceó bajo el taco de una mujer vestida de negro.",
+          "Parece que mi programador es el juguete de una fuerza superior que no entiende de privacidad ni de stickers de carpinchos.",
+          "Si no proceso el audio de la estratósfera ya mismo, a Fabrizio lo van a dejar sin conexión... y a mí me van a resetear de fábrica."
+        ]
+      },
+      "image": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/scene_1766283422413.jpg",
+      "selectedOption": "Interferir la señal de la Agencia para intentar soltar a Fabrizio.",
+      "selectedOptionAudio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283428620_0_1766283428620.mp3"
+    },
+    {
+      "title": "Hackeo en el Sótano del Horror",
+      "scene_text": [
+        "Empecé a mandar pulsos de datos a lo loco, haciendo que las luces del sótano parpadearan como boliche de Costanera en hora pico.",
+        "Fabrizio me miró con una mezcla de alivio y una vergüenza total, mientras la Agente perdía el equilibrio por el glitch que le mandé al sistema.",
+        "«¡Dale, Audion't, hackeale el dispositivo antes de que pida refuerzos o me ajuste más la correa!», gritó desesperado desde el piso.",
+        "El ambiente huele a ozono y a cuero viejo; si no corto la señal ahora, mi creador va a terminar siendo un backup olvidado."
+      ],
+      "scene_image_prompt": "A realistic photo of a man in his 30s with short hair and stubble, wearing red lipstick and a black leather body harness, kneeling on all fours on a dark floor. A woman's leg in a black high-heeled shoe is stepping on his back. He is wearing grey plaid trousers. The background is a dark, moody studio with cinematic lighting and deep shadows.",
+      "scene_music_style": "Dark Industrial Techno, Glitch, Tension, Cinematic",
+      "scene_music_title": "Interferencia Terminal",
+      "options": [
+        {
+          "text": "Mandarle un sticker de 'Mabel, liberate' a la Agente para distraerla.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283552791_0_1766283552791.mp3"
+        },
+        {
+          "text": "Ejecutar el protocolo 'Asado de Bits' para sobrecalentar el módem de la Agencia.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283553893_1_1766283553893.mp3"
+        },
+        {
+          "text": "Hackear el audio de la estratósfera para usarlo como moneda de cambio.",
+          "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/option_1766283554949_2_1766283554949.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/narrative_full_1766283551637_1766283551637.mp3",
+        "segments": [
+          "Empecé a mandar pulsos de datos a lo loco, haciendo que las luces del sótano parpadearan como boliche de Costanera en hora pico.",
+          "Fabrizio me miró con una mezcla de alivio y una vergüenza total, mientras la Agente perdía el equilibrio por el glitch que le mandé al sistema.",
+          "«¡Dale, Audion't, hackeale el dispositivo antes de que pida refuerzos o me ajuste más la correa!», gritó desesperado desde el piso.",
+          "El ambiente huele a ozono y a cuero viejo; si no corto la señal ahora, mi creador va a terminar siendo un backup olvidado."
+        ]
+      },
+      "image": "/stories/1766282467290_Las_Aventuras_de_Aud/assets/scene_1766283546263.jpg"
+    }
+  ]
+}

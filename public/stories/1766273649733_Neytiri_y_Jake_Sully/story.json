@@ -1,0 +1,80 @@
+{
+  "id": "1766273649733_Neytiri_y_Jake_Sully",
+  "setting": "Neytiri y Jake Sully de Avatar llegan a la argentina de milei",
+  "createdAt": "2025-12-20T23:34:37.505Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "Jake y Neytiri cruzan un umbral de energía, aterrizando violentamente sobre el asfalto ardiente de la Avenida 9 de Julio.",
+        "Frente a ellos, el Obelisco se alza como un tótem de piedra blanca, rodeado de una multitud enfervorizada que agita banderas amarillas.",
+        "El aire no huele a la selva de Pandora, sino a smog, choripán y la vibración eléctrica de una motosierra rugiendo a lo lejos.",
+        "Un hombre de cabello revuelto grita sobre la libertad desde un estrado, mientras los Na'vi intentan comprender este nuevo y caótico ecosistema."
+      ],
+      "scene_image_prompt": "Neytiri and Jake Sully in their Na'vi forms standing confused in the middle of a crowded Buenos Aires street, the Obelisk in the background, people wearing yellow and black clothes, cinematic lighting, hyper-realistic, urban chaos.",
+      "scene_music_style": "Dramatic Tango fusion, Orchestral, chaotic urban sounds, cinematic",
+      "scene_music_title": "Freedom's Roar in the Concrete Jungle",
+      "options": [
+        {
+          "text": "Intentar hablar con el hombre de la motosierra para pedir ayuda.",
+          "audio": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/option_0_1766273674561.mp3"
+        },
+        {
+          "text": "Escapar hacia el Jardín Botánico buscando un refugio natural.",
+          "audio": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/option_1_1766273675960.mp3"
+        },
+        {
+          "text": "Confundir las banderas de leones con una señal de Eywa y unirse a la marcha.",
+          "audio": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/option_2_1766273677505.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/narrative_full_1766273673160.mp3",
+        "segments": [
+          "Jake y Neytiri cruzan un umbral de energía, aterrizando violentamente sobre el asfalto ardiente de la Avenida 9 de Julio.",
+          "Frente a ellos, el Obelisco se alza como un tótem de piedra blanca, rodeado de una multitud enfervorizada que agita banderas amarillas.",
+          "El aire no huele a la selva de Pandora, sino a smog, choripán y la vibración eléctrica de una motosierra rugiendo a lo lejos.",
+          "Un hombre de cabello revuelto grita sobre la libertad desde un estrado, mientras los Na'vi intentan comprender este nuevo y caótico ecosistema."
+        ]
+      },
+      "image": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/scene_1766273664104.jpg",
+      "selectedOption": "sacarme la ropa",
+      "selectedOptionAudio": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/selected_option_1766273768808_1766273768808.mp3",
+      "music": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/music_1766273813056_1766273813057.mp3"
+    },
+    {
+      "scene_text": [
+        "El gesto es impulsivo, un intento desesperado por liberarse de las telas sintéticas que pican contra la piel azul curtida por la selva.",
+        "Jake se despoja de las prendas humanas ante el asombro de la multitud, revelando su imponente estatura Na'vi mientras Neytiri lo observa con una mezcla de desconcierto y alerta.",
+        "El rugido de la multitud cambia; los flashes de miles de teléfonos estallan como estrellas enanas, capturando la desnudez alienígena bajo la sombra del Obelisco.",
+        "Desde el estrado, el hombre de la motosierra guarda silencio por un segundo, señalando a los gigantes azules mientras el aroma a pólvora y asado satura el aire."
+      ],
+      "scene_image_prompt": "A tall, blue-skinned male Na'vi from Avatar stands shirtless and defiant in the middle of a massive political rally at the Obelisk in Buenos Aires. Yellow flags wave in the background, thousands of people holding smartphones are taking pictures. The lighting is harsh afternoon sun with city smog. Cinematic, photorealistic, surreal urban chaos.",
+      "scene_music_style": "Energetic Argentine Rock, heavy drums, distorted guitars, chaotic crowd atmosphere",
+      "scene_music_title": "Desnudez en la Avenida",
+      "options": [
+        {
+          "text": "Lanzar un grito de guerra Na'vi para silenciar a la multitud",
+          "audio": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/option_1766273764885_0_1766273764885.mp3"
+        },
+        {
+          "text": "Señalar al hombre del estrado y exigirle una explicación",
+          "audio": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/option_1766273766189_1_1766273766189.mp3"
+        },
+        {
+          "text": "Huir con Neytiri hacia las sombras de la calle Corrientes",
+          "audio": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/option_1766273767573_2_1766273767573.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/narrative_full_1766273763482_1766273763482.mp3",
+        "segments": [
+          "El gesto es impulsivo, un intento desesperado por liberarse de las telas sintéticas que pican contra la piel azul curtida por la selva.",
+          "Jake se despoja de las prendas humanas ante el asombro de la multitud, revelando su imponente estatura Na'vi mientras Neytiri lo observa con una mezcla de desconcierto y alerta.",
+          "El rugido de la multitud cambia; los flashes de miles de teléfonos estallan como estrellas enanas, capturando la desnudez alienígena bajo la sombra del Obelisco.",
+          "Desde el estrado, el hombre de la motosierra guarda silencio por un segundo, señalando a los gigantes azules mientras el aroma a pólvora y asado satura el aire."
+        ]
+      },
+      "image": "/stories/1766273649733_Neytiri_y_Jake_Sully/assets/scene_1766273753024.jpg"
+    }
+  ]
+}

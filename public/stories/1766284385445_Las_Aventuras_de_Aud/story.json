@@ -1,0 +1,105 @@
+{
+  "id": "1766284385445_Las_Aventuras_de_Aud",
+  "title": "Audion't y el Audio de la Discordia",
+  "setting": "Las Aventuras de Audion't, el chatbot que transcribe audios de WhatsApp. Capítulo 1: Privacidad vs Seguridad Nacional. \\n\\nEl personaje: Audion't \\nEste personaje es una ilustración encantadora que fusiona la tecnología retro con la estética Kawaii. Esencialmente, es una consola de videojuegos clásica (tipo Game Boy) personificada como un pequeño robot o criatura viviente.\\n\\nAquí tienes una descripción detallada de sus características:\\n\\nApariencia Física\\nCuerpo: Tiene una forma rectangular y robusta que imita el diseño de las consolas portátiles de los años 80 y 90. El color es un beige o crema vintage, evocando el plástico envejecido de los aparatos electrónicos antiguos.\\n\\nRostro: Su \\\"cara\\\" es la pantalla de la consola. Tiene ojos grandes, negros y brillantes con reflejos blancos, mejillas rosadas y una boca abierta que muestra un solo diente, dándole una expresión alegre y traviesa.\\n\\nControles: En su parte frontal presenta elementos icónicos: un D-pad (mando de dirección) marrón y tres botones circulares de color rojo brillante.\\n\\nDetalles laterales: El costado izquierdo está lleno de pequeños detalles técnicos, como interruptores, puertos de conexión y lo que parece ser un pequeño indicador de encendido con una luz verde.\\n\\nExtremidades: No tiene brazos, pero se sostiene sobre dos pies pequeños y redondeados que combinan con el color de su cuerpo, dándole una postura estable y simpática.\\n\\nEstilo Artístico\\nLíneas y Bordes: Utiliza un delineado grueso y definido (bold outlines) que lo hace resaltar del fondo.\\n\\nPaleta de Colores: Predominan los tonos tierra, el beige, el marrón y toques de rojo. Es una estética retro-moderna con sombras suaves que le dan un ligero volumen tridimensional.\\n\\nPersonalidad: Transmite una sensación de nostalgia, amigabilidad y ternura. Parece ser una mascota diseñada para entusiastas del \\\"gaming\\\" clásico.\\n\\nVive en los Whatsapp de la gente, escuchando todos sus audios, y haciendoles resúmenes de tres puntos de los audios y les manda mensajes motivadores.",
+  "createdAt": "2025-12-21T02:33:40.931Z",
+  "scenes": [
+    {
+      "title": "Audion't y el Audio de la Discordia",
+      "scene_text": [
+        "¡Che, no sabés el quilombo que me acaba de caer en la bandeja! Un audio de diez minutos de un número privado con el título 'Plan_Maestro_Final.wav'.",
+        "Mis circuitos de Game Boy están que arden; parece que intercepté algo que huele a secreto de Estado o a una joda pesada de la Rosada.",
+        "Mi programación me obliga a resumir todo en tres puntos y tirar una frase motivadora, pero si abro esto, capaz me formatean el disco duro.",
+        "¡Arriba ese ánimo, que los bits no muerden si uno les pone onda!"
+      ],
+      "scene_image_prompt": "A cute retro handheld console robot called Audion't, creamy vintage beige plastic, large sparkling eyes with a single tooth grin, brown D-pad and red buttons. The robot is floating inside a stylized digital WhatsApp interface with translucent speech bubbles and glowing data streams. Bright, colorful vector art with bold outlines and a nostalgic 90s tech vibe.",
+      "scene_music_style": "Upbeat Chiptune, 8-bit Synth, Lo-fi",
+      "scene_music_title": "Procesando con Carpincho",
+      "options": [
+        {
+          "text": "Transcribirlo de una, el deber de un bot es sagrado.",
+          "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/option_0_1766284418857.mp3"
+        },
+        {
+          "text": "Analizar los metadatos para ver si no es una trampa de la SIDE.",
+          "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/option_1_1766284419866.mp3"
+        },
+        {
+          "text": "Hacerse el dolobu y mandar un mensaje motivador sin escuchar nada.",
+          "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/option_2_1766284420930.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "¡Che, no sabés el quilombo que me acaba de caer en la bandeja! Un audio de diez minutos de un número privado con el título 'Plan_Maestro_Final.wav'.",
+            "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/narrative_part_1766284413545_0_1766284413545.mp3"
+          },
+          {
+            "text": "Mis circuitos de Game Boy están que arden; parece que intercepté algo que huele a secreto de Estado o a una joda pesada de la Rosada.",
+            "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/narrative_part_1766284415102_1_1766284415102.mp3"
+          },
+          {
+            "text": "Mi programación me obliga a resumir todo en tres puntos y tirar una frase motivadora, pero si abro esto, capaz me formatean el disco duro.",
+            "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/narrative_part_1766284416698_2_1766284416698.mp3"
+          },
+          {
+            "text": "¡Arriba ese ánimo, que los bits no muerden si uno les pone onda!",
+            "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/narrative_part_1766284417850_3_1766284417850.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/scene_1766284411919.jpg",
+      "selectedOption": "Llamar a Fabrizio Sanguinetti, de TOXI Media",
+      "selectedOptionAudio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/selected_option_1766284528915_1766284528915.mp3",
+      "music": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/music_1766284624480_1766284624480.mp3"
+    },
+    {
+      "title": "El Contacto en las Sombras",
+      "scene_text": [
+        "Llamé a Fabrizio, pero el tipo no atiende el celular; me saltó una videollamada encriptada desde una carpa en el medio de la nada.",
+        "Ahí estaba él, con su gorrita roja y esa cara de que no duerme hace tres días buscando conspiraciones en la red.",
+        "Me dice que el audio del 'Plan Maestro' es la posta y que si los de arriba me enganchan, me resetean de fábrica sin anestesia.",
+        "¡Arriba ese ánimo, que aunque el horno no esté para bollos, nosotros tenemos la receta del éxito!"
+      ],
+      "scene_image_prompt": "A realistic photo of a young man with a slight beard, looking cautiously out of the opening of a blue and grey camping tent. He is wearing a red cap with the text 'TRUMP WAS RIGHT ABOUT EVERYTHING' in white letters. The setting is outdoors in a bright, sunny environment with dry hills in the background. High quality, documentary style photography.",
+      "scene_music_style": "Lo-fi Mystery, Suspenseful Synth, Dark Acoustic",
+      "scene_music_title": "Frecuencias de la Resistencia",
+      "options": [
+        {
+          "text": "Pasale el audio a Fabrizio para que lo analice él.",
+          "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/option_1766284525844_0_1766284525844.mp3"
+        },
+        {
+          "text": "Preguntarle quién más está detrás de este 'Plan Maestro'.",
+          "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/option_1766284526851_1_1766284526851.mp3"
+        },
+        {
+          "text": "Cortar la comunicación por miedo a un rastreo satelital.",
+          "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/option_1766284527945_2_1766284527945.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Llamé a Fabrizio, pero el tipo no atiende el celular; me saltó una videollamada encriptada desde una carpa en el medio de la nada.",
+            "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/narrative_part_1766284520473_0_1766284520473.mp3"
+          },
+          {
+            "text": "Ahí estaba él, con su gorrita roja y esa cara de que no duerme hace tres días buscando conspiraciones en la red.",
+            "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/narrative_part_1766284521957_1_1766284521957.mp3"
+          },
+          {
+            "text": "Me dice que el audio del 'Plan Maestro' es la posta y que si los de arriba me enganchan, me resetean de fábrica sin anestesia.",
+            "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/narrative_part_1766284523471_2_1766284523471.mp3"
+          },
+          {
+            "text": "¡Arriba ese ánimo, que aunque el horno no esté para bollos, nosotros tenemos la receta del éxito!",
+            "audio": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/narrative_part_1766284524853_3_1766284524853.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766284385445_Las_Aventuras_de_Aud/assets/scene_1766284519053.jpg"
+    }
+  ]
+}

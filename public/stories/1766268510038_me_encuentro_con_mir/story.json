@@ -1,0 +1,43 @@
+{
+  "id": "1766268510038_me_encuentro_con_mir",
+  "setting": "me encuentro con mirtha legrand en la noche que se hunde el titanic",
+  "createdAt": "2025-12-20T22:10:02.219Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "El estruendo del metal desgarrándose bajo el agua resuena como un lamento profundo en la oscuridad del Atlántico.",
+        "En el salón de primera clase, ajena al pánico que crece en las cubiertas superiores, una figura resplandece bajo las lámparas de cristal.",
+        "Mirtha Legrand, impecablemente vestida con sedas y diamantes, te observa desde una mesa perfectamente servida.",
+        "\"Si te ven mal, te maltratan\", susurra con una sonrisa gélida mientras el suelo comienza a inclinarse peligrosamente."
+      ],
+      "scene_image_prompt": "A cinematic shot of Mirtha Legrand in a luxurious 1912 evening gown, sitting at a grand dining table inside the Titanic's first-class lounge. The room is tilting slightly, fine china sliding. Through the window, dark icy water and a starry sky. High detail, realistic style, dramatic lighting.",
+      "scene_music_style": "Orchestral, Melancholic, Classical Violin, Cinematic Tension",
+      "scene_music_title": "The Last Banquet on the Abyss",
+      "options": [
+        {
+          "text": "Sentarse a la mesa y preguntarle por el destino del barco.",
+          "audio": "/stories/1766268510038_me_encuentro_con_mir/assets/option_0_1766268599058.mp3"
+        },
+        {
+          "text": "Advertirle que el barco se está hundiendo y que debe evacuar de inmediato.",
+          "audio": "/stories/1766268510038_me_encuentro_con_mir/assets/option_1_1766268600570.mp3"
+        },
+        {
+          "text": "Preguntarle cómo es posible que ella ya esté aquí, décadas antes de su tiempo.",
+          "audio": "/stories/1766268510038_me_encuentro_con_mir/assets/option_2_1766268602219.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766268510038_me_encuentro_con_mir/assets/narrative_full_1766268597684.mp3",
+        "segments": [
+          "El estruendo del metal desgarrándose bajo el agua resuena como un lamento profundo en la oscuridad del Atlántico.",
+          "En el salón de primera clase, ajena al pánico que crece en las cubiertas superiores, una figura resplandece bajo las lámparas de cristal.",
+          "Mirtha Legrand, impecablemente vestida con sedas y diamantes, te observa desde una mesa perfectamente servida.",
+          "\"Si te ven mal, te maltratan\", susurra con una sonrisa gélida mientras el suelo comienza a inclinarse peligrosamente."
+        ]
+      },
+      "image": "/stories/1766268510038_me_encuentro_con_mir/assets/scene_1766268521098.jpg",
+      "music": "/stories/1766268510038_me_encuentro_con_mir/assets/music_1766280617241_1766280617241.mp3"
+    }
+  ]
+}

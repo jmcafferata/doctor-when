@@ -1,0 +1,289 @@
+{
+  "id": "1766270634511_me_encuentro_con_mir",
+  "setting": "me encuentro con mirtha legrand en la noche de huundimiento del titanic festejando en 3ra clase su ultimo dia de vida",
+  "createdAt": "2025-12-20T22:44:26.565Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "El estruendo del metal chocando contra el hielo aún vibra en el aire, pero el sonido de un acordeón desafinado en la tercera clase ahoga los gritos lejanos.",
+        "Entre el humo del tabaco barato y el olor a whisky, una figura resplandece con una elegancia imposible: Mirtha Legrand levanta una copa de cristal, rodeada de inmigrantes que ríen sin saber su destino.",
+        "\"¡Traigan más vino, que hoy es una noche de gala!\" exclama ella, su mirada eterna encontrándose con la tuya mientras el suelo comienza a inclinarse levemente."
+      ],
+      "scene_image_prompt": "Cinematic shot inside the 3rd class lounge of the Titanic, golden warm lighting, wooden pillars, Mirtha Legrand in a luxurious 1912 silk dress with diamond necklaces holding a champagne glass, festive atmosphere with Irish musicians, slight tilt of the room to indicate sinking, realistic style, 8k.",
+      "scene_music_style": "Irish Folk, Melancholic Accordion, Orchestral Dramatic, Tavern Ambience",
+      "scene_music_title": "The Last Waltz at Steerage",
+      "options": [
+        {
+          "text": "Acercarme y preguntarle cómo sabe que este es su último día.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_0_1766270663785.mp3"
+        },
+        {
+          "text": "Brindar con ella y pedirle un consejo para la posteridad.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1_1766270665140.mp3"
+        },
+        {
+          "text": "Advertirle que el barco se hunde y debemos buscar un bote salvavidas.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_2_1766270666564.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/narrative_full_1766270662451.mp3",
+        "segments": [
+          "El estruendo del metal chocando contra el hielo aún vibra en el aire, pero el sonido de un acordeón desafinado en la tercera clase ahoga los gritos lejanos.",
+          "Entre el humo del tabaco barato y el olor a whisky, una figura resplandece con una elegancia imposible: Mirtha Legrand levanta una copa de cristal, rodeada de inmigrantes que ríen sin saber su destino.",
+          "\"¡Traigan más vino, que hoy es una noche de gala!\" exclama ella, su mirada eterna encontrándose con la tuya mientras el suelo comienza a inclinarse levemente."
+        ]
+      },
+      "image": "/stories/1766270634511_me_encuentro_con_mir/assets/scene_1766270654014.jpg",
+      "selectedOption": "sacarle la ropa",
+      "music": "/stories/1766270634511_me_encuentro_con_mir/assets/music_1766270925247_1766270925248.mp3"
+    },
+    {
+      "scene_text": [
+        "Mirtha te dedica una mirada gélida que corta más que el iceberg, ajustando su estola de piel con una dignidad inquebrantable.",
+        "«¡Qué atrevimiento, por favor! ¡Este no es el programa para tales ordinarieces!», exclama mientras el agua helada comienza a filtrarse por el suelo.",
+        "El pánico estalla a tu alrededor, pero ella no suelta su copa, desafiando al destino con un desplante de elegancia absoluta."
+      ],
+      "scene_image_prompt": "A regal woman in a luxurious 1912 evening gown with furs and diamonds, looking offended and majestic, standing in a flooding wooden ship cabin, dramatic lighting, cinematic style, hyper-realistic, Titanic atmosphere.",
+      "scene_music_style": "Dramatic Orchestral, Suspenseful Strings, Operatic, 1910s Waltz",
+      "scene_music_title": "Dignity in the Deep",
+      "options": [
+        {
+          "text": "Rogar por su perdón y escoltarla de inmediato a los botes.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766270751517_0_1766270751517.mp3"
+        },
+        {
+          "text": "Aprovechar la confusión para arrebatarle el collar de diamantes.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766270752969_1_1766270752969.mp3"
+        },
+        {
+          "text": "Beber de su copa y aceptar el naufragio con estilo junto a ella.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766270754382_2_1766270754382.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/narrative_full_1766270750193_1766270750193.mp3",
+        "segments": [
+          "Mirtha te dedica una mirada gélida que corta más que el iceberg, ajustando su estola de piel con una dignidad inquebrantable.",
+          "«¡Qué atrevimiento, por favor! ¡Este no es el programa para tales ordinarieces!», exclama mientras el agua helada comienza a filtrarse por el suelo.",
+          "El pánico estalla a tu alrededor, pero ella no suelta su copa, desafiando al destino con un desplante de elegancia absoluta."
+        ]
+      },
+      "image": "/stories/1766270634511_me_encuentro_con_mir/assets/scene_1766270743597.jpg",
+      "selectedOption": "Aprovechar la confusión para arrebatarle el collar de diamantes."
+    },
+    {
+      "scene_text": [
+        "Tus dedos rozan el frío metal y el brillo cegador de los diamantes mientras el agua helada ya cubre tus tobillos.",
+        "Mirtha reacciona con la rapidez de una cobra, golpeando tu mano con su abanico de seda antes de que puedas cerrar el puño.",
+        "«¡Qué chusma, por Dios! ¡A mí no me vas a sacar ni un solo quilate!», exclama ella mientras el barco emite un gemido metálico ensordecedor.",
+        "La inclinación del suelo se vuelve crítica, lanzándolos a ambos contra una mesa de roble que comienza a flotar en la creciente inundación."
+      ],
+      "scene_image_prompt": "A cinematic close-up of an elegant elderly woman with blonde hair and a glowing diamond necklace, her face showing a mix of indignation and power. A thief's hand is caught mid-air near her neck. In the background, dark seawater is flooding a wooden 1912 ship cabin, floating furniture, flickering warm lights, dramatic shadows, 8k resolution.",
+      "scene_music_style": "Dramatic Tango, Orchestral Tension, Rushing Water, Accordion, Dark Cinematic",
+      "scene_music_title": "Tango en el Abismo",
+      "options": [
+        {
+          "text": "Rogar por su perdón y pedirle que te lleve con ella a los botes salvavidas.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766270831634_0_1766270831634.mp3"
+        },
+        {
+          "text": "Forcejear violentamente por el collar antes de que la habitación se llene de agua.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766270833204_1_1766270833204.mp3"
+        },
+        {
+          "text": "Olvidar las joyas y correr hacia la cubierta superior antes de quedar atrapado.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766270834723_2_1766270834723.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/narrative_full_1766270830120_1766270830120.mp3",
+        "segments": [
+          "Tus dedos rozan el frío metal y el brillo cegador de los diamantes mientras el agua helada ya cubre tus tobillos.",
+          "Mirtha reacciona con la rapidez de una cobra, golpeando tu mano con su abanico de seda antes de que puedas cerrar el puño.",
+          "«¡Qué chusma, por Dios! ¡A mí no me vas a sacar ni un solo quilate!», exclama ella mientras el barco emite un gemido metálico ensordecedor.",
+          "La inclinación del suelo se vuelve crítica, lanzándolos a ambos contra una mesa de roble que comienza a flotar en la creciente inundación."
+        ]
+      },
+      "image": "/stories/1766270634511_me_encuentro_con_mir/assets/scene_1766270821643.jpg",
+      "selectedOption": "Forcejear violentamente por el collar antes de que la habitación se llene de agua."
+    },
+    {
+      "scene_text": [
+        "Tus manos se cierran sobre el cuello de la diva, pero Mirtha tiene la fuerza de un siglo de televisión en sus venas.",
+        "El agua helada ya les llega a la cintura, arrastrando sillas y botellas vacías en un torbellino mortal.",
+        "Un crujido seco resuena: el collar se rompe, dispersando diamantes como estrellas fugaces en el agua turbia.",
+        "Mirtha te mira con un odio aristocrático mientras el Titanic da su último suspiro de hierro."
+      ],
+      "scene_image_prompt": "A dramatic low-angle shot in a flooding 1910s ship cabin. An elderly elegant woman with blonde hair and a fur stole is struggling against a shadowy figure. Ice-cold seawater is waist-high. Broken furniture and glasses float around. Individual diamonds are falling into the dark water, glittering against the murky liquid. Cinematic lighting, intense shadows, disaster movie aesthetic.",
+      "scene_music_style": "Dark Orchestral, Intense, Sinking Ship, Panicked Strings, Cinematic Tension",
+      "scene_music_title": "The Last Jewel of the Abyss",
+      "options": [
+        {
+          "text": "Bucear desesperadamente para recoger los diamantes del fondo.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766270915082_0_1766270915082.mp3"
+        },
+        {
+          "text": "Ayudar a Mirtha a subir a una mesa flotante para intentar salvarla.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766270916565_1_1766270916565.mp3"
+        },
+        {
+          "text": "Abandonar a la diva y correr hacia las cubiertas superiores antes de que la puerta se bloquee.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766270918175_2_1766270918175.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/narrative_full_1766270913732_1766270913732.mp3",
+        "segments": [
+          "Tus manos se cierran sobre el cuello de la diva, pero Mirtha tiene la fuerza de un siglo de televisión en sus venas.",
+          "El agua helada ya les llega a la cintura, arrastrando sillas y botellas vacías en un torbellino mortal.",
+          "Un crujido seco resuena: el collar se rompe, dispersando diamantes como estrellas fugaces en el agua turbia.",
+          "Mirtha te mira con un odio aristocrático mientras el Titanic da su último suspiro de hierro."
+        ]
+      },
+      "image": "/stories/1766270634511_me_encuentro_con_mir/assets/scene_1766270906781.jpg",
+      "selectedOption": "matarla"
+    },
+    {
+      "scene_text": [
+        "El agua helada ya no es el mayor de sus problemas; tus manos se cierran alrededor de su garganta con una furia desesperada.",
+        "Mirtha exhala un último suspiro de indignación mientras la luz de las lámparas de cristal parpadea y se extingue bajo el océano.",
+        "El cuerpo de la diva flota ingrávido entre los restos del banquete, su rostro congelado en una mueca de eterno desprecio.",
+        "Estás solo ahora, con los diamantes perdidos en el abismo y el rugido del mar reclamando lo que queda del gran salón."
+      ],
+      "scene_image_prompt": "Cinematic, dramatic shot of a flooded Victorian ballroom on the Titanic. A woman in high-fashion 1910s furs and jewels is submerged under dark, icy water. Flickering golden light from a sinking chandelier. Floating debris and diamonds shimmering in the dark blue depths. Haunting and tragic atmosphere.",
+      "scene_music_style": "Dark Orchestral, Melancholic Violins, Drowning Ambience",
+      "scene_music_title": "The Diva's Last Breath",
+      "options": [
+        {
+          "text": "Bucear frenéticamente para recuperar los diamantes sueltos.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271092759_0_1766271092759.mp3"
+        },
+        {
+          "text": "Buscar una salida desesperadamente antes de quedar atrapado.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271094070_1_1766271094070.mp3"
+        },
+        {
+          "text": "Aceptar el final y hundirse en la oscuridad junto a ella.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271095403_2_1766271095403.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/narrative_full_1766271091409_1766271091409.mp3",
+        "segments": [
+          "El agua helada ya no es el mayor de sus problemas; tus manos se cierran alrededor de su garganta con una furia desesperada.",
+          "Mirtha exhala un último suspiro de indignación mientras la luz de las lámparas de cristal parpadea y se extingue bajo el océano.",
+          "El cuerpo de la diva flota ingrávido entre los restos del banquete, su rostro congelado en una mueca de eterno desprecio.",
+          "Estás solo ahora, con los diamantes perdidos en el abismo y el rugido del mar reclamando lo que queda del gran salón."
+        ]
+      },
+      "image": "/stories/1766270634511_me_encuentro_con_mir/assets/scene_1766271083560.jpg",
+      "selectedOption": "volver al presente y ver como es el mundo con mirtha habiendo muerto en el titanic (distopia)"
+    },
+    {
+      "scene_text": [
+        "Despiertas en una metrópolis de acero frío y cielos perpetuamente grises, donde el nombre de Mirtha es solo una nota al pie en los libros de tragedias marítimas.",
+        "Sin su influencia mediática que unió generaciones, el tejido cultural se ha desmoronado en una dictadura del silencio y la propaganda algorítmica.",
+        "Grandes pantallas muestran su rostro joven y congelado en 1912, tratándola como una santa de un mundo que perdió su alegría antes de empezar.",
+        "Te das cuenta de que al matarla, borraste la calidez de la mesa argentina, dejando un vacío que el autoritarismo llenó con cemento."
+      ],
+      "scene_image_prompt": "A dystopian futuristic city square in Buenos Aires, giant holographic monuments of a young woman from 1912, dark brutalist architecture, rain, neon signs in cold blue and grey, cinematic lighting, hyper-realistic, melancholic atmosphere.",
+      "scene_music_style": "Dark Dystopian Synth, Melancholic Piano, Cinematic Orchestral",
+      "scene_music_title": "The Silent Table of History",
+      "options": [
+        {
+          "text": "Buscar en los archivos digitales qué pasó con el país sin sus almuerzos.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271187123_0_1766271187123.mp3"
+        },
+        {
+          "text": "Unirse a la resistencia que adora el mito de 'La Chiqui' oculta en las sombras.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271188726_1_1766271188726.mp3"
+        },
+        {
+          "text": "Intentar encontrar una grieta temporal para evitar tu propio crimen.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271190094_2_1766271190094.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/narrative_full_1766271185585_1766271185585.mp3",
+        "segments": [
+          "Despiertas en una metrópolis de acero frío y cielos perpetuamente grises, donde el nombre de Mirtha es solo una nota al pie en los libros de tragedias marítimas.",
+          "Sin su influencia mediática que unió generaciones, el tejido cultural se ha desmoronado en una dictadura del silencio y la propaganda algorítmica.",
+          "Grandes pantallas muestran su rostro joven y congelado en 1912, tratándola como una santa de un mundo que perdió su alegría antes de empezar.",
+          "Te das cuenta de que al matarla, borraste la calidez de la mesa argentina, dejando un vacío que el autoritarismo llenó con cemento."
+        ]
+      },
+      "image": "/stories/1766270634511_me_encuentro_con_mir/assets/scene_1766271175958.jpg",
+      "selectedOption": "Buscar en los archivos digitales qué pasó con el país sin sus almuerzos."
+    },
+    {
+      "scene_text": [
+        "Los archivos parpadean con una luz azulada, revelando una cronología de fragmentación social absoluta.",
+        "Sin las famosas mesas que obligaban a los enemigos a dialogar, el país se fracturó en sectas irreconciliables durante los años 50.",
+        "La 'Gran Ausencia' dio paso a un régimen de 'Armonía Obligatoria', donde comer en grupo está prohibido para evitar el disenso.",
+        "En las pantallas, ves fotos de comedores vacíos y ciudadanos consumiendo raciones grises en soledad frente a terminales de propaganda."
+      ],
+      "scene_image_prompt": "A dimly lit futuristic archive room with holographic screens. The screens show grainy, black and white footage of an empty, dusty banquet table with overturned chairs. Cold blue and teal lighting, cinematic atmosphere, cyberpunk aesthetic.",
+      "scene_music_style": "Dark Ambient, Glitch, Melancholic Synth",
+      "scene_music_title": "The Silence of the Table",
+      "options": [
+        {
+          "text": "Investigar si existe una resistencia que aún realiza almuerzos clandestinos.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271283761_0_1766271283761.mp3"
+        },
+        {
+          "text": "Buscar en los archivos prohibidos un método para volver a 1912 y evitar el asesinato.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271285398_1_1766271285398.mp3"
+        },
+        {
+          "text": "Rastrear el destino de los diamantes del Titanic para financiar una rebelión.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271286950_2_1766271286950.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/narrative_full_1766271282339_1766271282339.mp3",
+        "segments": [
+          "Los archivos parpadean con una luz azulada, revelando una cronología de fragmentación social absoluta.",
+          "Sin las famosas mesas que obligaban a los enemigos a dialogar, el país se fracturó en sectas irreconciliables durante los años 50.",
+          "La 'Gran Ausencia' dio paso a un régimen de 'Armonía Obligatoria', donde comer en grupo está prohibido para evitar el disenso.",
+          "En las pantallas, ves fotos de comedores vacíos y ciudadanos consumiendo raciones grises en soledad frente a terminales de propaganda."
+        ]
+      },
+      "image": "/stories/1766270634511_me_encuentro_con_mir/assets/scene_1766271274576.jpg",
+      "selectedOption": "crear un programa de almuerzo imitando a la chiqui. en ese programa invito a politicos que se pelean en vivo"
+    },
+    {
+      "scene_text": [
+        "Las cámaras oxidadas cobran vida, capturando el brillo falso de una mesa que no debería existir.",
+        "Los políticos se miran con odio, desconcertados por la presencia de comida real y el permiso para disentir.",
+        "El silencio del régimen se rompe con el primer grito, un eco de una democracia que murió en el Titanic."
+      ],
+      "scene_image_prompt": "Cinematic shot of an underground, gritty TV studio in a dystopian city. A lavish round dining table with a white tablecloth sits in the center. Two politicians in sharp, dark authoritarian suits are shouting at each other across the table. High contrast lighting, neon blue and deep shadows, digital glitch effects in the air.",
+      "scene_music_style": "Industrial Techno, Dark Cinematic, Tense Orchestral Strings",
+      "scene_music_title": "The Forbidden Banquet",
+      "options": [
+        {
+          "text": "Golpear la mesa con la cucharita y exigir: '¡Digan la verdad!'",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271399738_0_1766271399738.mp3"
+        },
+        {
+          "text": "Incitar un enfrentamiento físico lanzando una copa de cristal.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271401177_1_1766271401177.mp3"
+        },
+        {
+          "text": "Hackear la red nacional para transmitir el caos en vivo a toda la población.",
+          "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/option_1766271402692_2_1766271402692.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766270634511_me_encuentro_con_mir/assets/narrative_full_1766271398225_1766271398225.mp3",
+        "segments": [
+          "Las cámaras oxidadas cobran vida, capturando el brillo falso de una mesa que no debería existir.",
+          "Los políticos se miran con odio, desconcertados por la presencia de comida real y el permiso para disentir.",
+          "El silencio del régimen se rompe con el primer grito, un eco de una democracia que murió en el Titanic."
+        ]
+      },
+      "image": "/stories/1766270634511_me_encuentro_con_mir/assets/scene_1766271392920.jpg"
+    }
+  ]
+}

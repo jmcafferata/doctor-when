@@ -1,0 +1,42 @@
+{
+  "id": "1766266674770_mirtha_legrand_cenan",
+  "setting": "mirtha legrand cenando con dinosaurios en la epoca de los dinosaurios",
+  "createdAt": "2025-12-20T21:38:19.856Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "El sol del Cretácico brilla con una intensidad insoportable sobre una mesa de cristal impecable.",
+        "Frente a ti, la legendaria Mirtha Legrand acomoda sus joyas mientras un Triceratops espera pacientemente su entrada.",
+        "\"Como te ven, te tratan,\" murmura ella con elegancia, ignorando el rugido de un T-Rex a lo lejos.",
+        "La cena más antigua de la televisión está a punto de comenzar en medio de la selva prehistórica."
+      ],
+      "scene_image_prompt": "A cinematic, hyper-realistic wide shot of Mirtha Legrand, an elegant elderly blonde woman in a high-fashion pink suit and pearls, sitting at a luxurious dinner table with a white lace tablecloth. The table is set in a lush, prehistoric jungle with giant ferns and active volcanoes in the background. A large Triceratops is seated politely at the table next to her. Subliminally integrated, the 'Toxi Media' logo is visible as a natural pattern formed by the veins and shadows of a giant tropical leaf behind Mirtha's chair. 8k resolution, vibrant lighting.",
+      "scene_music_style": "Classical Orchestral, Cinematic, Tribal Percussion, Jungle Ambience",
+      "scene_music_title": "La Mesaza de los Tiempos",
+      "options": [
+        {
+          "text": "Elogiar el peinado del Triceratops para romper el hielo.",
+          "audio": "/stories/1766266674770_mirtha_legrand_cenan/assets/option_0_1766266696732.mp3"
+        },
+        {
+          "text": "Preguntar a Mirtha si este es el programa con más presupuesto de su carrera.",
+          "audio": "/stories/1766266674770_mirtha_legrand_cenan/assets/option_1_1766266698330.mp3"
+        },
+        {
+          "text": "Mirar con nerviosismo hacia los arbustos donde algo grande se está moviendo.",
+          "audio": "/stories/1766266674770_mirtha_legrand_cenan/assets/option_2_1766266699855.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766266674770_mirtha_legrand_cenan/assets/narrative_full_1766266695430.mp3",
+        "segments": [
+          "El sol del Cretácico brilla con una intensidad insoportable sobre una mesa de cristal impecable.",
+          "Frente a ti, la legendaria Mirtha Legrand acomoda sus joyas mientras un Triceratops espera pacientemente su entrada.",
+          "\"Como te ven, te tratan,\" murmura ella con elegancia, ignorando el rugido de un T-Rex a lo lejos.",
+          "La cena más antigua de la televisión está a punto de comenzar en medio de la selva prehistórica."
+        ]
+      },
+      "image": "/stories/1766266674770_mirtha_legrand_cenan/assets/scene_1766266687759.jpg"
+    }
+  ]
+}

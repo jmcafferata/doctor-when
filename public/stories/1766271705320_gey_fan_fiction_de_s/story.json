@@ -1,0 +1,178 @@
+{
+  "id": "1766271705320_gey_fan_fiction_de_s",
+  "setting": "gey fan fiction de san martin y belgrano",
+  "createdAt": "2025-12-20T23:02:13.118Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "Las sombras de la tienda de campaña bailan bajo la tenue luz de las velas, mientras el frío de Tucumán se filtra por la lona.",
+        "Manuel Belgrano, con el rostro cansado pero los ojos brillantes, sostiene un mapa que parece haber olvidado mirar.",
+        "Frente a él, José de San Martín rompe el silencio con una voz que es apenas un susurro cargado de una admiración que va más allá del deber militar."
+      ],
+      "scene_image_prompt": "Cinematic historical painting style. Two 19th-century military generals inside a dimly lit canvas tent at night. José de San Martín with intense dark eyes and sharp features looks longingly at Manuel Belgrano, who has soft blonde hair and a weary but noble expression. Scattered maps, a quill, and flickering candles on a wooden table. Warm candlelight highlights, deep shadows, intimate and romantic tension.",
+      "scene_music_style": "Orchestral, Melancholic Cello, Period Drama, Soft Piano, Romantic",
+      "scene_music_title": "El Encuentro en el Norte",
+      "options": [
+        {
+          "text": "Colocar una mano sobre la de Manuel para darle ánimos.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_0_1766271730042.mp3"
+        },
+        {
+          "text": "Confesar la profunda admiración que has sentido por él desde lejos.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1_1766271731510.mp3"
+        },
+        {
+          "text": "Acercarse para examinar el mapa, reduciendo peligrosamente la distancia entre ambos.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_2_1766271733117.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/narrative_full_1766271728709.mp3",
+        "segments": [
+          "Las sombras de la tienda de campaña bailan bajo la tenue luz de las velas, mientras el frío de Tucumán se filtra por la lona.",
+          "Manuel Belgrano, con el rostro cansado pero los ojos brillantes, sostiene un mapa que parece haber olvidado mirar.",
+          "Frente a él, José de San Martín rompe el silencio con una voz que es apenas un susurro cargado de una admiración que va más allá del deber militar."
+        ]
+      },
+      "image": "/stories/1766271705320_gey_fan_fiction_de_s/assets/scene_1766271722566.jpg",
+      "selectedOption": "a belgrano se le mete una araña en la camisa y se la tiene que sacar"
+    },
+    {
+      "scene_text": [
+        "Un repentino cosquilleo recorre la espalda de Belgrano, rompiendo abruptamente la solemnidad del encuentro histórico.",
+        "Sus ojos se abren con un pánico contenido mientras comienza a desabrocharse frenéticamente los botones dorados de su casaca militar.",
+        "San Martín observa desconcertado cómo el prócer lucha contra una pequeña intrusa de ocho patas que se oculta bajo su camisa de lino."
+      ],
+      "scene_image_prompt": "Close-up of General Manuel Belgrano in a 19th-century blue military uniform, looking panicked and hastily unbuttoning his shirt inside a dim candlelit tent, a small spider visible on his white collar, Jose de San Martin looking confused in the background, oil painting style, dramatic shadows.",
+      "scene_music_style": "Fast-paced Acoustic Guitar, Tension, Period Drama",
+      "scene_music_title": "The General's Unwelcome Guest",
+      "options": [
+        {
+          "text": "Pedir ayuda a San Martín para que le quite la araña.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766271832539_0_1766271832539.mp3"
+        },
+        {
+          "text": "Sacudirse la camisa violentamente sin importar el protocolo.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766271833879_1_1766271833879.mp3"
+        },
+        {
+          "text": "Intentar mantener la compostura y atraparla con un pañuelo.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766271835189_2_1766271835189.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/narrative_full_1766271831217_1766271831217.mp3",
+        "segments": [
+          "Un repentino cosquilleo recorre la espalda de Belgrano, rompiendo abruptamente la solemnidad del encuentro histórico.",
+          "Sus ojos se abren con un pánico contenido mientras comienza a desabrocharse frenéticamente los botones dorados de su casaca militar.",
+          "San Martín observa desconcertado cómo el prócer lucha contra una pequeña intrusa de ocho patas que se oculta bajo su camisa de lino."
+        ]
+      },
+      "image": "/stories/1766271705320_gey_fan_fiction_de_s/assets/scene_1766271824971.jpg",
+      "selectedOption": "sacarse la ropa"
+    },
+    {
+      "scene_text": [
+        "Manuel arroja la pesada casaca azul al suelo sin pensarlo dos veces, revelando la agitación de sus movimientos desesperados.",
+        "Sus dedos torpes forcejean con los botones de la camisa de lino hasta que, con un tirón, queda con el torso al descubierto ante la mirada atónita de San Martín.",
+        "La araña cae finalmente sobre el mapa de las Provincias Unidas, mientras un silencio sepulcral y cargado de incomodidad se apodera de la tienda."
+      ],
+      "scene_image_prompt": "Historical oil painting style. Inside a dimly lit 19th-century military tent. Manuel Belgrano is shirtless, looking distressed and breathing heavily. José de San Martín stands opposite him, looking shocked and holding a candle. A small spider is visible on a wooden table covered with old maps. Cinematic lighting, warm candlelight, dramatic shadows, realistic textures.",
+      "scene_music_style": "Classical Period Drama, Suspenseful yet light, Orchestral Strings",
+      "scene_music_title": "El Incidente del Mapa",
+      "options": [
+        {
+          "text": "Soltar una carcajada nerviosa para romper el hielo.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766271901797_0_1766271901797.mp3"
+        },
+        {
+          "text": "Pedirle a San Martín que aplaste a la araña antes de que escape.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766271903226_1_1766271903226.mp3"
+        },
+        {
+          "text": "Disculparse profundamente y vestirse con rapidez y dignidad.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766271904579_2_1766271904579.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/narrative_full_1766271900527_1766271900527.mp3",
+        "segments": [
+          "Manuel arroja la pesada casaca azul al suelo sin pensarlo dos veces, revelando la agitación de sus movimientos desesperados.",
+          "Sus dedos torpes forcejean con los botones de la camisa de lino hasta que, con un tirón, queda con el torso al descubierto ante la mirada atónita de San Martín.",
+          "La araña cae finalmente sobre el mapa de las Provincias Unidas, mientras un silencio sepulcral y cargado de incomodidad se apodera de la tienda."
+        ]
+      },
+      "image": "/stories/1766271705320_gey_fan_fiction_de_s/assets/scene_1766271893939.jpg",
+      "selectedOption": "san martin se saca la ropa para que belgrano no sienta verguenza"
+    },
+    {
+      "scene_text": [
+        "San Martín, tras un instante de desconcierto, comienza a desabrochar su propia guerrera con una parsimonia casi ritual.",
+        "«No hay deshonor en la piel desnuda, Manuel, pues es el único uniforme que compartimos todos ante el destino», murmura el Libertador con calma.",
+        "Pronto, ambos generales permanecen en el centro de la tienda despojados de sus rangos, mientras el frío de la noche tucumana choca contra sus torsos marcados por las cicatrices del deber.",
+        "La pequeña araña corre ahora sobre las líneas del Alto Perú en el mapa, ajena a la vulnerabilidad compartida entre los dos hombres."
+      ],
+      "scene_image_prompt": "Two 19th-century military officers, Belgrano and San Martín, standing shirtless inside a dim military tent. Soft candlelight, dramatic shadows, oil painting style, historical uniforms discarded on the ground, a wooden table with a map in the foreground.",
+      "scene_music_style": "Cello Solo, Melancholic, Historical Drama, Soft Orchestral",
+      "scene_music_title": "The Weight of the Uniform",
+      "options": [
+        {
+          "text": "Reírse de lo absurdo de la situación para aliviar la tensión.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766271998666_0_1766271998666.mp3"
+        },
+        {
+          "text": "Retomar la discusión estratégica como si no estuvieran medio desnudos.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766272000044_1_1766272000044.mp3"
+        },
+        {
+          "text": "Brindar con un jarro de vino por la fraternidad de sus causas.",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766272001337_2_1766272001337.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/narrative_full_1766271997212_1766271997212.mp3",
+        "segments": [
+          "San Martín, tras un instante de desconcierto, comienza a desabrochar su propia guerrera con una parsimonia casi ritual.",
+          "«No hay deshonor en la piel desnuda, Manuel, pues es el único uniforme que compartimos todos ante el destino», murmura el Libertador con calma.",
+          "Pronto, ambos generales permanecen en el centro de la tienda despojados de sus rangos, mientras el frío de la noche tucumana choca contra sus torsos marcados por las cicatrices del deber.",
+          "La pequeña araña corre ahora sobre las líneas del Alto Perú en el mapa, ajena a la vulnerabilidad compartida entre los dos hombres."
+        ]
+      },
+      "image": "/stories/1766271705320_gey_fan_fiction_de_s/assets/scene_1766271987847.jpg",
+      "selectedOption": "sacarle el pantalon y iniciar coito gay"
+    },
+    {
+      "scene_text": [
+        "La tensión acumulada en los campos de batalla se transmuta en un deseo incontenible, un fuego que arde con más fuerza que la pólvora de los cañones.",
+        "Manuel se deshace de las últimas prendas que los separan, mientras José cierra los ojos, entregándose a la calidez de la piel ajena en un suspiro compartido.",
+        "En la penumbra de la tienda, los títulos y las glorias desaparecen, dejando solo a dos hombres unidos por un vínculo secreto bajo el vasto cielo de Tucumán."
+      ],
+      "scene_image_prompt": "Two men in the 19th century, shirtless, in a dimly lit military campaign tent. Warm candlelight casting dramatic shadows. An intimate and romantic atmosphere, oil painting style, rich textures of linen and canvas, historical aesthetic.",
+      "scene_music_style": "Emotional Orchestral, Romantic Strings, Intimate Piano, Soft Cello",
+      "scene_music_title": "Votos en la Oscuridad",
+      "options": [
+        {
+          "text": "Entregarse por completo a la pasión de la noche",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766272092006_0_1766272092006.mp3"
+        },
+        {
+          "text": "Jurarse lealtad y silencio eterno antes del alba",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766272093383_1_1766272093383.mp3"
+        },
+        {
+          "text": "Refugiarse en los brazos del otro frente al frío de la guerra",
+          "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/option_1766272094715_2_1766272094715.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766271705320_gey_fan_fiction_de_s/assets/narrative_full_1766272090741_1766272090741.mp3",
+        "segments": [
+          "La tensión acumulada en los campos de batalla se transmuta en un deseo incontenible, un fuego que arde con más fuerza que la pólvora de los cañones.",
+          "Manuel se deshace de las últimas prendas que los separan, mientras José cierra los ojos, entregándose a la calidez de la piel ajena en un suspiro compartido.",
+          "En la penumbra de la tienda, los títulos y las glorias desaparecen, dejando solo a dos hombres unidos por un vínculo secreto bajo el vasto cielo de Tucumán."
+        ]
+      },
+      "image": "/stories/1766271705320_gey_fan_fiction_de_s/assets/scene_1766272083577.jpg"
+    }
+  ]
+}

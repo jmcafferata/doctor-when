@@ -1,0 +1,99 @@
+{
+  "id": "1766286451374_Justo_antes_de_la_ba",
+  "title": "El Ocaso en el Palomar",
+  "setting": "Justo antes de la batalla de Caseros...",
+  "createdAt": "2025-12-21T03:08:05.494Z",
+  "scenes": [
+    {
+      "title": "El Ocaso en el Palomar",
+      "scene_text": [
+        "El amanecer del 3 de febrero de 1852 tiñe de un rojo sangriento los campos de Buenos Aires.",
+        "A lo lejos, el Ejército Grande de Urquiza avanza como una marea imparable sobre las posiciones federales.",
+        "Juan Manuel de Rosas observa desde su campamento, sintiendo que el peso de dos décadas de poder absoluto pende de un hilo.",
+        "El aire está cargado con el olor a pólvora y la incertidumbre de una nación a punto de cambiar para siempre."
+      ],
+      "scene_image_prompt": "A wide shot of a 19th-century military camp in the Argentine pampas during dawn. Soldiers in red federal uniforms are preparing for battle. In the distance, a large army is visible through the morning mist. Cinematic lighting, historical realism, oil painting style.",
+      "scene_music_style": "Cinematic Orchestral, Tense Strings, Historical Drama",
+      "scene_music_title": "The Dawn of Caseros",
+      "options": [
+        {
+          "text": "Revisar las defensas del Palomar y arengar a las tropas federales.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_0_1766286483298.mp3"
+        },
+        {
+          "text": "Escribir una última proclama política antes de que comience el estruendo.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1_1766286484405.mp3"
+        },
+        {
+          "text": "Reunirse con el estado mayor para ajustar la estrategia de artillería.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_2_1766286485494.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "El amanecer del 3 de febrero de 1852 tiñe de un rojo sangriento los campos de Buenos Aires.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286477707_0_1766286477707.mp3"
+          },
+          {
+            "text": "A lo lejos, el Ejército Grande de Urquiza avanza como una marea imparable sobre las posiciones federales.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286479186_1_1766286479186.mp3"
+          },
+          {
+            "text": "Juan Manuel de Rosas observa desde su campamento, sintiendo que el peso de dos décadas de poder absoluto pende de un hilo.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286480703_2_1766286480703.mp3"
+          },
+          {
+            "text": "El aire está cargado con el olor a pólvora y la incertidumbre de una nación a punto de cambiar para siempre.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286482227_3_1766286482227.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766286451374_Justo_antes_de_la_ba/assets/scene_1766286476338.jpg",
+      "selectedOption": "Escribir una última proclama política antes de que comience el estruendo.",
+      "selectedOptionAudio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1_1766286484405.mp3"
+    },
+    {
+      "title": "El Último Manifiesto del Restaurador",
+      "scene_text": [
+        "Con mano firme pero corazón sombrío, Rosas toma la pluma para sentenciar su visión final de la Confederación.",
+        "En el papel denuncia la traición de Urquiza y la injerencia extranjera, reafirmando su papel como protector de la soberanía.",
+        "El papel cruje bajo la luz de la vela mientras las primeras salvas de artillería retumban a lo lejos, marcando el fin de la tregua."
+      ],
+      "scene_image_prompt": "Historical oil painting style portrait of Juan Manuel de Rosas, a 19th-century Argentine leader with wavy brown hair and intense blue eyes. He wears a dark blue military uniform with intricate gold leaf embroidery on the high collar and shoulders, a bright red sash, and a large gold sun-shaped medal on his chest. The lighting is dramatic and classic, with a soft, warm background.",
+      "scene_music_style": "Cinematic Orchestral, Tense Strings, 19th Century Period Drama",
+      "scene_music_title": "Ecos de la Federación",
+      "options": [
+        {
+          "text": "Entregar la proclama a un mensajero para que se lea ante las tropas.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766286612406_0_1766286612406.mp3"
+        },
+        {
+          "text": "Quemar el documento, decidiendo que solo el acero hablará hoy.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766286613488_1_1766286613488.mp3"
+        },
+        {
+          "text": "Montar a caballo y dirigirse personalmente al frente de batalla.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766286614555_2_1766286614555.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Con mano firme pero corazón sombrío, Rosas toma la pluma para sentenciar su visión final de la Confederación.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286608233_0_1766286608233.mp3"
+          },
+          {
+            "text": "En el papel denuncia la traición de Urquiza y la injerencia extranjera, reafirmando su papel como protector de la soberanía.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286609807_1_1766286609807.mp3"
+          },
+          {
+            "text": "El papel cruje bajo la luz de la vela mientras las primeras salvas de artillería retumban a lo lejos, marcando el fin de la tregua.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286611324_2_1766286611324.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766286451374_Justo_antes_de_la_ba/assets/scene_1766286606753.jpg"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "id": "1766277983639_El_descongelamiento_",
+  "setting": "El descongelamiento de Walt",
+  "createdAt": "2025-12-21T00:46:47.432Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "El frío abrasador se retira lentamente, dejando una capa de escarcha sobre tus párpados que se niegan a abrirse.",
+        "Un zumbido rítmico y mecánico resuena en las paredes de metal, rompiendo un silencio que ha durado décadas.",
+        "A través de la bruma blanquecina del nitrógeno, vislumbras las siluetas de extraños con batas blancas observando tu despertar."
+      ],
+      "scene_image_prompt": "Cinematic shot from inside a futuristic cryogenic pod, looking out through frosted glass. Wisps of cold vapor escaping as the lid slides open. High-tech laboratory in the background with blue and white fluorescent lighting, sterile environment, hyper-realistic, 8k.",
+      "scene_music_style": "Ambient Sci-Fi, Ethereal Synth, Clinical, Suspenseful",
+      "scene_music_title": "The First Breath of Frost",
+      "options": [
+        {
+          "text": "Preguntar con voz ronca: '¿Cuánto tiempo ha pasado?'",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_0_1766278004823.mp3"
+        },
+        {
+          "text": "Intentar mover las manos para liberarte de los sensores.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1_1766278006129.mp3"
+        },
+        {
+          "text": "Cerrar los ojos de nuevo y esperar a que el mareo pase.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_2_1766278007431.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766277983639_El_descongelamiento_/assets/narrative_full_1766278003444.mp3",
+        "segments": [
+          "El frío abrasador se retira lentamente, dejando una capa de escarcha sobre tus párpados que se niegan a abrirse.",
+          "Un zumbido rítmico y mecánico resuena en las paredes de metal, rompiendo un silencio que ha durado décadas.",
+          "A través de la bruma blanquecina del nitrógeno, vislumbras las siluetas de extraños con batas blancas observando tu despertar."
+        ]
+      },
+      "image": "/stories/1766277983639_El_descongelamiento_/assets/scene_1766277997774.jpg",
+      "selectedOption": "Chequear si tengo puesto mi reloj de Mickey",
+      "selectedOptionAudio": "/stories/1766277983639_El_descongelamiento_/assets/selected_option_1766278088988_1766278088988.mp3",
+      "music": "/stories/1766277983639_El_descongelamiento_/assets/music_1766279192753_1766279192753.mp3"
+    },
+    {
+      "scene_text": [
+        "Bajas la vista hacia tu muñeca izquierda, ignorando por un momento el mareo punzante tras el despertar.",
+        "Allí, bajo una fina capa de condensación, la cara sonriente de Mickey Mouse te devuelve la mirada, sus brazos señalando un tiempo que ya no existe.",
+        "Uno de los científicos se inclina, sus ojos se abren con sorpresa al ver el anacronismo de plástico y metal en tu brazo.",
+        "\"Todavía funciona...\", murmura una voz distorsionada por una máscara de oxígeno."
+      ],
+      "scene_image_prompt": "Close-up of a vintage 1990s Mickey Mouse watch on a pale wrist, condensation on the glass, background shows a futuristic sterile laboratory with blue and white lights, cinematic lighting, high detail, retro-futurism.",
+      "scene_music_style": "Eerie nostalgia, soft synthesizers, clock ticking sounds, cinematic tension",
+      "scene_music_title": "Frozen Seconds",
+      "options": [
+        {
+          "text": "Preguntar cuántos años han pasado",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278084726_0_1766278084726.mp3"
+        },
+        {
+          "text": "Intentar levantarse de la cápsula bruscamente",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278085941_1_1766278085941.mp3"
+        },
+        {
+          "text": "Esconder el reloj bajo la manta de criogenia",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278087154_2_1766278087154.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766277983639_El_descongelamiento_/assets/narrative_full_1766278083536_1766278083536.mp3",
+        "segments": [
+          "Bajas la vista hacia tu muñeca izquierda, ignorando por un momento el mareo punzante tras el despertar.",
+          "Allí, bajo una fina capa de condensación, la cara sonriente de Mickey Mouse te devuelve la mirada, sus brazos señalando un tiempo que ya no existe.",
+          "Uno de los científicos se inclina, sus ojos se abren con sorpresa al ver el anacronismo de plástico y metal en tu brazo.",
+          "\"Todavía funciona...\", murmura una voz distorsionada por una máscara de oxígeno."
+        ]
+      },
+      "image": "/stories/1766277983639_El_descongelamiento_/assets/scene_1766278076529.jpg",
+      "selectedOption": "Preguntar qué estudio tiene el record de taquilla mundial",
+      "selectedOptionAudio": "/stories/1766277983639_El_descongelamiento_/assets/selected_option_1766278200087_1766278200087.mp3"
+    },
+    {
+      "scene_text": [
+        "Los científicos intercambian miradas de desconcierto, susurrando entre ellos mientras las luces de la sala parpadean con un tono azul gélido.",
+        "\"El concepto de 'estudios' desapareció hace más de un siglo, tras la Gran Unificación Digital\", responde la mujer de la máscara, su voz carente de emoción.",
+        "Ella toca una pantalla flotante y añade: \"Hoy, la Red de Entretenimiento Neural 'Aethelgard' posee el monopolio absoluto de la conciencia recreativa.\"",
+        "La palabra 'siglo' resuena en tu mente como un eco infinito, dándote cuenta de que el mundo que conocías ha sido enterrado por el polvo del tiempo."
+      ],
+      "scene_image_prompt": "A futuristic clinical laboratory with glowing blue holographic displays, medical scientists in sleek white bio-hazard suits, cold vapor rising from a metallic stasis pod, cinematic lighting, photorealistic, 8k.",
+      "scene_music_style": "Electronic, Atmospheric, Ethereal, Suspenseful",
+      "scene_music_title": "Echoes of a Lost Era",
+      "options": [
+        {
+          "text": "Preguntar cuánto tiempo ha pasado exactamente desde que te congelaron.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278195914_0_1766278195914.mp3"
+        },
+        {
+          "text": "Intentar incorporarte de la cápsula para ver el resto de la habitación.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278197402_1_1766278197402.mp3"
+        },
+        {
+          "text": "Preguntar qué es exactamente la 'Red de Entretenimiento Neural'.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278198771_2_1766278198771.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766277983639_El_descongelamiento_/assets/narrative_full_1766278194487_1766278194487.mp3",
+        "segments": [
+          "Los científicos intercambian miradas de desconcierto, susurrando entre ellos mientras las luces de la sala parpadean con un tono azul gélido.",
+          "\"El concepto de 'estudios' desapareció hace más de un siglo, tras la Gran Unificación Digital\", responde la mujer de la máscara, su voz carente de emoción.",
+          "Ella toca una pantalla flotante y añade: \"Hoy, la Red de Entretenimiento Neural 'Aethelgard' posee el monopolio absoluto de la conciencia recreativa.\"",
+          "La palabra 'siglo' resuena en tu mente como un eco infinito, dándote cuenta de que el mundo que conocías ha sido enterrado por el polvo del tiempo."
+        ]
+      },
+      "image": "/stories/1766277983639_El_descongelamiento_/assets/scene_1766278185187.jpg",
+      "selectedOption": "Cantar \"Chim Chim Cher-ee\" y decirles que yo inventé esa canción con los Sherman.",
+      "selectedOptionAudio": "/stories/1766277983639_El_descongelamiento_/assets/selected_option_1766278327622_1766278327622.mp3"
+    },
+    {
+      "scene_text": [
+        "Tu voz, raspada por décadas de desuso, entona la melodía alegre en el aire gélido del laboratorio.",
+        "Los científicos retroceden un paso, sus sensores biométricos emitiendo pitidos de advertencia ante tu súbito estallido de energía.",
+        "\"Los Sherman... esa firma genética no consta en los registros activos\", murmura el hombre, mientras una luz de escáner recorre tu rostro.",
+        "La mujer se acerca, observándote con una mezcla de curiosidad científica y un rastro de algo parecido a la nostalgia por una era olvidada."
+      ],
+      "scene_image_prompt": "A cinematic shot of a person sitting up in a cryo-pod, singing, while futuristic scientists in sleek white suits and glowing visors look on in confusion. The room is filled with blue holographic screens and frost vapor. High-tech, clean, sterile, sci-fi aesthetic.",
+      "scene_music_style": "Eerie Melancholic Piano, Cinematic Sci-Fi, Ambient Synth",
+      "scene_music_title": "Fading Melodies of Old",
+      "options": [
+        {
+          "text": "Pedir ver un dibujo animado de la Red 'Aethelgard'.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278323133_0_1766278323133.mp3"
+        },
+        {
+          "text": "Exigir que te lleven a tu oficina en Burbank de inmediato.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278324581_1_1766278324581.mp3"
+        },
+        {
+          "text": "Preguntar si todavía existen los parques donde la gente era feliz.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278325953_2_1766278325953.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766277983639_El_descongelamiento_/assets/narrative_full_1766278321821_1766278321821.mp3",
+        "segments": [
+          "Tu voz, raspada por décadas de desuso, entona la melodía alegre en el aire gélido del laboratorio.",
+          "Los científicos retroceden un paso, sus sensores biométricos emitiendo pitidos de advertencia ante tu súbito estallido de energía.",
+          "\"Los Sherman... esa firma genética no consta en los registros activos\", murmura el hombre, mientras una luz de escáner recorre tu rostro.",
+          "La mujer se acerca, observándote con una mezcla de curiosidad científica y un rastro de algo parecido a la nostalgia por una era olvidada."
+        ]
+      },
+      "image": "/stories/1766277983639_El_descongelamiento_/assets/scene_1766278313868.jpg",
+      "selectedOption": "Pedir ver un dibujo animado de la Red 'Aethelgard'.",
+      "selectedOptionAudio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278323133_0_1766278323133.mp3"
+    },
+    {
+      "scene_text": [
+        "La mujer asiente y presiona un sensor en su sien, activando una proyección que inunda la habitación de un brillo cian.",
+        "No hay una pantalla; las imágenes bailan directamente en el aire, fractales de luz que pulsan al ritmo de un latido digital.",
+        "Es una narrativa de patrones matemáticos y ruidos blancos, una experiencia sensorial pura que carece de personajes, tramas o calidez humana.",
+        "La 'animación' de Aethelgard se siente como un virus de información intentando reescribir tus propios recuerdos."
+      ],
+      "scene_image_prompt": "A futuristic laboratory filled with blue holographic fractals and abstract neon light shapes floating in the air. The protagonist is bathed in intense, surreal colors. A group of scientists in high-tech masks watch the display. Cinematic lighting, hyper-detailed, sci-fi aesthetic, ethereal and overwhelming.",
+      "scene_music_style": "Glitchy Synth, Ethereal, Cyberpunk, Distorted Vocals, Ambient Drone",
+      "scene_music_title": "Neural Overload",
+      "options": [
+        {
+          "text": "Protestar por la falta de 'alma' y personajes en la obra.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278403333_0_1766278403333.mp3"
+        },
+        {
+          "text": "Intentar tocar las proyecciones para ver si son tangibles.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278404664_1_1766278404664.mp3"
+        },
+        {
+          "text": "Cerrar los ojos y tararear una melodía clásica para proteger tu mente.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278406229_2_1766278406229.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766277983639_El_descongelamiento_/assets/narrative_full_1766278402009_1766278402009.mp3",
+        "segments": [
+          "La mujer asiente y presiona un sensor en su sien, activando una proyección que inunda la habitación de un brillo cian.",
+          "No hay una pantalla; las imágenes bailan directamente en el aire, fractales de luz que pulsan al ritmo de un latido digital.",
+          "Es una narrativa de patrones matemáticos y ruidos blancos, una experiencia sensorial pura que carece de personajes, tramas o calidez humana.",
+          "La 'animación' de Aethelgard se siente como un virus de información intentando reescribir tus propios recuerdos."
+        ]
+      },
+      "image": "/stories/1766277983639_El_descongelamiento_/assets/scene_1766278395052.jpg",
+      "selectedOption": "Preguntar por qué me descongelaron",
+      "selectedOptionAudio": "/stories/1766277983639_El_descongelamiento_/assets/selected_option_1766278509031_1766278509031.mp3"
+    },
+    {
+      "scene_text": [
+        "La mujer desactiva la proyección y un silencio sepulcral envuelve la sala, roto solo por el zumbido de los servidores.",
+        "\"Eres una anomalía biológica, un 'Punto Cero' cuya huella neuronal no ha sido moldeada por la Red Aethelgard\", explica con voz gélida.",
+        "\"Nuestra sociedad se ha vuelto tan predecible que el algoritmo ha dejado de evolucionar; necesitamos tu caos, tus recuerdos desordenados, para reiniciar la creatividad del sistema.\"",
+        "Eres, literalmente, la última fuente de inspiración orgánica en un mundo de lógica pura."
+      ],
+      "scene_image_prompt": "A cinematic close-up of a futuristic female scientist with glowing cybernetic implants in her eyes, reflecting floating holographic data, dark high-tech laboratory background with cold blue and sharp white lights, realistic, 8k, cyberpunk aesthetic.",
+      "scene_music_style": "Dark Cinematic Synth, Ethereal, Suspenseful",
+      "scene_music_title": "The Zero Point Anomaly",
+      "options": [
+        {
+          "text": "¿Qué gano yo a cambio de ayudarlos con su sistema?",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278505228_0_1766278505228.mp3"
+        },
+        {
+          "text": "Si mi 'caos' es tan valioso, entonces yo tengo el control aquí.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278506603_1_1766278506603.mp3"
+        },
+        {
+          "text": "¿Qué pasará con mi mente si me conectan a esa Red?",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278507842_2_1766278507842.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766277983639_El_descongelamiento_/assets/narrative_full_1766278503916_1766278503916.mp3",
+        "segments": [
+          "La mujer desactiva la proyección y un silencio sepulcral envuelve la sala, roto solo por el zumbido de los servidores.",
+          "\"Eres una anomalía biológica, un 'Punto Cero' cuya huella neuronal no ha sido moldeada por la Red Aethelgard\", explica con voz gélida.",
+          "\"Nuestra sociedad se ha vuelto tan predecible que el algoritmo ha dejado de evolucionar; necesitamos tu caos, tus recuerdos desordenados, para reiniciar la creatividad del sistema.\"",
+          "Eres, literalmente, la última fuente de inspiración orgánica en un mundo de lógica pura."
+        ]
+      },
+      "image": "/stories/1766277983639_El_descongelamiento_/assets/scene_1766278494985.jpg",
+      "selectedOption": "¿Qué gano yo a cambio de ayudarlos con su sistema?",
+      "selectedOptionAudio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278505228_0_1766278505228.mp3"
+    },
+    {
+      "scene_text": [
+        "La mujer intercambia una mirada gélida con su colega antes de volverse hacia ti con una sonrisa que no llega a sus ojos.",
+        "\"Aethelgard no conoce la escasez, por lo que el concepto de 'pago' es obsoleto; te ofrecemos algo más valioso: la Propiedad de la Realidad.\"",
+        "Muestra un panel donde parpadean dos opciones: una vida eterna en un paraíso digital que recrea tu siglo XXI, o un cuerpo sintético mejorado para caminar en nuestro nuevo mundo.",
+        "Pero el brillo de las máquinas a tu alrededor te recuerda que, en este lugar, incluso la libertad tiene un código fuente."
+      ],
+      "scene_image_prompt": "Cinematic shot of a futuristic laboratory, a sleek holographic display showing a lush green 21st-century park contrasting with the cold, sterile white and blue lab surroundings, a female scientist with a glowing neural implant looking at the camera, photorealistic, cyberpunk aesthetic, high contrast.",
+      "scene_music_style": "Minimalist Electronic, Ethereal, Suspenseful, Dystopian",
+      "scene_music_title": "The Price of a Soul",
+      "options": [
+        {
+          "text": "Elegir la simulación: Quiero volver a ver mi hogar, aunque sea una mentira.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278708609_0_1766278708609.mp3"
+        },
+        {
+          "text": "Elegir el cuerpo sintético: Deseo ver qué ha sido de la Tierra en el mundo real.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278710161_1_1766278710161.mp3"
+        },
+        {
+          "text": "Rechazar ambos: No seré una mascota en su sistema perfecto.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278711563_2_1766278711563.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766277983639_El_descongelamiento_/assets/narrative_full_1766278707000_1766278707000.mp3",
+        "segments": [
+          "La mujer intercambia una mirada gélida con su colega antes de volverse hacia ti con una sonrisa que no llega a sus ojos.",
+          "\"Aethelgard no conoce la escasez, por lo que el concepto de 'pago' es obsoleto; te ofrecemos algo más valioso: la Propiedad de la Realidad.\"",
+          "Muestra un panel donde parpadean dos opciones: una vida eterna en un paraíso digital que recrea tu siglo XXI, o un cuerpo sintético mejorado para caminar en nuestro nuevo mundo.",
+          "Pero el brillo de las máquinas a tu alrededor te recuerda que, en este lugar, incluso la libertad tiene un código fuente."
+        ]
+      },
+      "image": "/stories/1766277983639_El_descongelamiento_/assets/scene_1766278698099.jpg",
+      "selectedOption": "Darle un beso.",
+      "selectedOptionAudio": "/stories/1766277983639_El_descongelamiento_/assets/selected_option_1766278814380_1766278814380.mp3"
+    },
+    {
+      "scene_text": [
+        "Te inclinas y presionas tus labios contra los de ella, un acto de caos biológico en un santuario de lógica pura.",
+        "Sus ojos se dilatan y el brillo cian de sus implantes parpadea con una estática errática, como un sistema al borde del colapso.",
+        "El aire se carga de electricidad mientras ella retrocede, procesando una sensación que no existe en los archivos de Aethelgard.",
+        "\"Interesante\", susurra, mientras un aviso de 'Error de Prioridad' flota brevemente sobre su hombro."
+      ],
+      "scene_image_prompt": "Close-up of a futuristic woman with pale skin and glowing cyan cybernetic circuitry on her face. She has an expression of shock and bewilderment. Holographic 'System Error' warnings in geometric shapes float around her in a dark, high-tech laboratory with neon blue accents. 8k resolution, cinematic lighting, cyberpunk aesthetic.",
+      "scene_music_style": "Glitch, Minimalist Electronic, Ethereal, Suspenseful",
+      "scene_music_title": "The Ghost in the Machine",
+      "options": [
+        {
+          "text": "Preguntar si el beso fue procesado como 'inspiración'.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278810723_0_1766278810723.mp3"
+        },
+        {
+          "text": "Exigir ver el mundo exterior sin filtros digitales.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278812067_1_1766278812067.mp3"
+        },
+        {
+          "text": "Burlarte de su falta de respuesta emocional.",
+          "audio": "/stories/1766277983639_El_descongelamiento_/assets/option_1766278813286_2_1766278813286.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766277983639_El_descongelamiento_/assets/narrative_full_1766278809409_1766278809409.mp3",
+        "segments": [
+          "Te inclinas y presionas tus labios contra los de ella, un acto de caos biológico en un santuario de lógica pura.",
+          "Sus ojos se dilatan y el brillo cian de sus implantes parpadea con una estática errática, como un sistema al borde del colapso.",
+          "El aire se carga de electricidad mientras ella retrocede, procesando una sensación que no existe en los archivos de Aethelgard.",
+          "\"Interesante\", susurra, mientras un aviso de 'Error de Prioridad' flota brevemente sobre su hombro."
+        ]
+      },
+      "image": "/stories/1766277983639_El_descongelamiento_/assets/scene_1766278802186.jpg"
+    }
+  ]
+}

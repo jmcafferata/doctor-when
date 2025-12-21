@@ -1,0 +1,210 @@
+{
+  "id": "1766272629876_batalla_de_stalingra",
+  "setting": "batalla de stalingrado. soy un general sovietico. los nazis empiezan a atacar.",
+  "createdAt": "2025-12-20T23:17:33.671Z",
+  "scenes": [
+    {
+      "scene_text": [
+        "El aire de Stalingrado sabe a ceniza y hierro frío mientras el horizonte se tiñe de un rojo antinatural.",
+        "Los informes de inteligencia eran ciertos: la maquinaria de guerra alemana ha desatado un infierno de artillería sobre nuestras posiciones.",
+        "Desde tu puesto de mando fortificado, escuchas el rugido de los Stukas picando hacia el Volga; el destino de la Madre Patria pende de un hilo."
+      ],
+      "scene_image_prompt": "Cinematic shot from the perspective of a Soviet General in a heavy winter uniform, looking out of a ruined concrete building's window. Smoke and explosions over the destroyed city of Stalingrad, Ju-87 Stuka planes diving through a dark, soot-filled sky, gritty historical realism, 8k resolution.",
+      "scene_music_style": "Dark Orchestral, Heavy Percussion, Tense, Russian Choral elements",
+      "scene_music_title": "The Siege Begins",
+      "options": [
+        {
+          "text": "Ordenar un contraataque inmediato con las reservas de tanques T-34.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_0_1766272650646.mp3"
+        },
+        {
+          "text": "Fortificar las ruinas del sector central y priorizar la defensa a toda costa.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1_1766272652132.mp3"
+        },
+        {
+          "text": "Solicitar apoyo de la artillería pesada Katusha para frenar el avance enemigo.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_2_1766272653671.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766272629876_batalla_de_stalingra/assets/narrative_full_1766272649194.mp3",
+        "segments": [
+          "El aire de Stalingrado sabe a ceniza y hierro frío mientras el horizonte se tiñe de un rojo antinatural.",
+          "Los informes de inteligencia eran ciertos: la maquinaria de guerra alemana ha desatado un infierno de artillería sobre nuestras posiciones.",
+          "Desde tu puesto de mando fortificado, escuchas el rugido de los Stukas picando hacia el Volga; el destino de la Madre Patria pende de un hilo."
+        ]
+      },
+      "image": "/stories/1766272629876_batalla_de_stalingra/assets/scene_1766272640567.jpg",
+      "selectedOption": "Ordenar un contraataque inmediato con las reservas de tanques T-34.",
+      "music": "/stories/1766272629876_batalla_de_stalingra/assets/music_1766272810154_1766272810154.mp3"
+    },
+    {
+      "scene_text": [
+        "Los motores diésel de los T-34 rugen, rompiendo el silencio sepulcral de las ruinas mientras avanzan entre los escombros.",
+        "El metal choca contra el metal; tus tanques emergen de la humareda para embestir de frente a la vanguardia de la Wehrmacht.",
+        "El estruendo de los cañones de 76mm sacude la tierra, pero la respuesta alemana es feroz y precisa."
+      ],
+      "scene_image_prompt": "Cinematic shot of Soviet T-34 tanks charging through the burning ruins of Stalingrad, heavy smoke, debris, intense fire, dramatic orange and grey lighting, gritty war atmosphere, highly detailed, realistic style.",
+      "scene_music_style": "Cinematic Orchestral, Intense, Percussive, Epic War Theme",
+      "scene_music_title": "Iron and Snow",
+      "options": [
+        {
+          "text": "Presionar el avance hacia el sector industrial a pesar de las bajas.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766272764774_0_1766272764774.mp3"
+        },
+        {
+          "text": "Ordenar a la infantería que flanquee las posiciones antitanque enemigas.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766272766247_1_1766272766247.mp3"
+        },
+        {
+          "text": "Retirar los tanques supervivientes a una posición defensiva mejor.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766272767670_2_1766272767670.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766272629876_batalla_de_stalingra/assets/narrative_full_1766272763243_1766272763243.mp3",
+        "segments": [
+          "Los motores diésel de los T-34 rugen, rompiendo el silencio sepulcral de las ruinas mientras avanzan entre los escombros.",
+          "El metal choca contra el metal; tus tanques emergen de la humareda para embestir de frente a la vanguardia de la Wehrmacht.",
+          "El estruendo de los cañones de 76mm sacude la tierra, pero la respuesta alemana es feroz y precisa."
+        ]
+      },
+      "image": "/stories/1766272629876_batalla_de_stalingra/assets/scene_1766272757500.jpg",
+      "selectedOption": "Ordenar a la infantería que flanquee las posiciones antitanque enemigas."
+    },
+    {
+      "scene_text": [
+        "Tus soldados se deslizan como sombras entre los esqueletos de hormigón y el humo denso de las ruinas.",
+        "El martilleo de las ametralladoras enemigas cesa abruptamente tras una serie de explosiones coordinadas en sus flancos.",
+        "Los cañones antitanque alemanes han sido silenciados, dejando a sus blindados vulnerables ante el avance de tus T-34."
+      ],
+      "scene_image_prompt": "Cinematic shot of Soviet infantry moving through the snowy, destroyed ruins of Stalingrad at dusk. Thick smoke, debris, and distant fires. Gritty war atmosphere, high contrast, dramatic cinematic lighting, hyper-realistic.",
+      "scene_music_style": "Dramatic Orchestral, Heavy Percussion, War Drums, Gritty",
+      "scene_music_title": "The Flank of the Fallen",
+      "options": [
+        {
+          "text": "Aprovechar la brecha y lanzar una carga masiva hacia el centro de la ciudad.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766272887141_0_1766272887141.mp3"
+        },
+        {
+          "text": "Asegurar el terreno conquistado y establecer posiciones defensivas inmediatas.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766272888656_1_1766272888656.mp3"
+        },
+        {
+          "text": "Enviar equipos de reconocimiento para localizar el cuartel general del sector enemigo.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766272890134_2_1766272890134.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766272629876_batalla_de_stalingra/assets/narrative_full_1766272885629_1766272885629.mp3",
+        "segments": [
+          "Tus soldados se deslizan como sombras entre los esqueletos de hormigón y el humo denso de las ruinas.",
+          "El martilleo de las ametralladoras enemigas cesa abruptamente tras una serie de explosiones coordinadas en sus flancos.",
+          "Los cañones antitanque alemanes han sido silenciados, dejando a sus blindados vulnerables ante el avance de tus T-34."
+        ]
+      },
+      "image": "/stories/1766272629876_batalla_de_stalingra/assets/scene_1766272880409.jpg",
+      "selectedOption": "mandar orden a infanteria de que peleen cuerpo a cuerpo"
+    },
+    {
+      "scene_text": [
+        "Los soldados saltan a las trincheras enemigas con gritos de guerra que ahogan el estruendo de los disparos.",
+        "El acero de las bayonetas y las palas de trinchera brilla entre el humo, convirtiendo la batalla en una carnicería cuerpo a cuerpo.",
+        "Entre los escombros y el lodo, cada rincón se disputa con una ferocidad salvaje que redefine el horror de la guerra."
+      ],
+      "scene_image_prompt": "Cinematic shot of WWII Soviet soldiers in a brutal close-quarters trench fight in the ruins of Stalingrad, bayonets fixed, smoke and fire in the background, grit and mud on faces, dramatic lighting, highly detailed historical realism.",
+      "scene_music_style": "Intense Orchestral, War Drums, Gritty, High Tension",
+      "scene_music_title": "The Dance of Steel",
+      "options": [
+        {
+          "text": "Consolidar la posición y establecer un perímetro defensivo.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766273018921_0_1766273018921.mp3"
+        },
+        {
+          "text": "Presionar hacia el centro de comunicaciones enemigo aprovechando el caos.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766273020399_1_1766273020399.mp3"
+        },
+        {
+          "text": "Solicitar apoyo aéreo para destruir los blindados alemanes en retirada.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766273021992_2_1766273021992.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766272629876_batalla_de_stalingra/assets/narrative_full_1766273017541_1766273017541.mp3",
+        "segments": [
+          "Los soldados saltan a las trincheras enemigas con gritos de guerra que ahogan el estruendo de los disparos.",
+          "El acero de las bayonetas y las palas de trinchera brilla entre el humo, convirtiendo la batalla en una carnicería cuerpo a cuerpo.",
+          "Entre los escombros y el lodo, cada rincón se disputa con una ferocidad salvaje que redefine el horror de la guerra."
+        ]
+      },
+      "image": "/stories/1766272629876_batalla_de_stalingra/assets/scene_1766273011868.jpg",
+      "selectedOption": "Pensar una buena estrategia para ganar"
+    },
+    {
+      "scene_text": [
+        "Observas el mapa manchado de ceniza mientras el estruendo de la batalla se convierte en un zumbido distante en tus oídos.",
+        "La vanguardia enemiga se ha atrincherado en la antigua estación ferroviaria, convirtiendo cada ventana en un nido de ametralladoras.",
+        "Un ataque frontal sería un suicidio, pero divisas una debilidad: el flanco izquierdo alemán está expuesto a través de los túneles industriales inundados."
+      ],
+      "scene_image_prompt": "A Soviet military commander in a gritty, ruined bunker, looking intensely at a tactical map covered in soot and blood. Through a hole in the wall, burning T-34 tanks and crumbling buildings of Stalingrad are visible under a dark, smoky sky. Cinematic lighting, hyper-realistic, war photography style.",
+      "scene_music_style": "Dramatic Orchestral, Low Brass, Tense Percussion, War Atmosphere",
+      "scene_music_title": "The Weight of Command",
+      "options": [
+        {
+          "text": "Infiltrar un equipo de choque a través de los túneles inundados para sabotear su retaguardia.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766273231223_0_1766273231223.mp3"
+        },
+        {
+          "text": "Solicitar una barrera de artillería pesada sobre la estación antes de avanzar.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766273232705_1_1766273232705.mp3"
+        },
+        {
+          "text": "Utilizar los tanques dañados como cobertura móvil para un avance lento pero imparable.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766273234343_2_1766273234343.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766272629876_batalla_de_stalingra/assets/narrative_full_1766273229612_1766273229612.mp3",
+        "segments": [
+          "Observas el mapa manchado de ceniza mientras el estruendo de la batalla se convierte en un zumbido distante en tus oídos.",
+          "La vanguardia enemiga se ha atrincherado en la antigua estación ferroviaria, convirtiendo cada ventana en un nido de ametralladoras.",
+          "Un ataque frontal sería un suicidio, pero divisas una debilidad: el flanco izquierdo alemán está expuesto a través de los túneles industriales inundados."
+        ]
+      },
+      "image": "/stories/1766272629876_batalla_de_stalingra/assets/scene_1766273223213.jpg",
+      "selectedOption": "sacarme la ropa"
+    },
+    {
+      "scene_text": [
+        "El frío gélido de la estepa se clava en tu piel como mil agujas mientras dejas caer tu uniforme al suelo embarrado.",
+        "Tus subordinados te observan con una mezcla de horror y confusión, paralizados ante la aparente locura de su comandante.",
+        "En medio del caos de la guerra, este acto de desnudez absoluta surge como un grito irracional contra la muerte inminente."
+      ],
+      "scene_image_prompt": "A dramatic, gritty scene in a ruined industrial war zone. A commander stands shirtless amidst falling snow and grey rubble. Stunned Soviet soldiers in heavy winter coats stare in shock. Smoke rises from burnt tanks in the background. Cinematic lighting, hyper-realistic, somber and surreal atmosphere.",
+      "scene_music_style": "Eerie Silence, Cold Wind Howling, Melancholic Lone Violin",
+      "scene_music_title": "The Madness of the Front",
+      "options": [
+        {
+          "text": "Gritar que la muerte no tiene nada que esconder y cargar al frente.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766273321608_0_1766273321608.mp3"
+        },
+        {
+          "text": "Caminar hacia las líneas enemigas en un trance desafiante.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766273322922_1_1766273322922.mp3"
+        },
+        {
+          "text": "Recuperar la cordura y vestirte bajo las miradas de juicio.",
+          "audio": "/stories/1766272629876_batalla_de_stalingra/assets/option_1766273324251_2_1766273324251.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766272629876_batalla_de_stalingra/assets/narrative_full_1766273320227_1766273320227.mp3",
+        "segments": [
+          "El frío gélido de la estepa se clava en tu piel como mil agujas mientras dejas caer tu uniforme al suelo embarrado.",
+          "Tus subordinados te observan con una mezcla de horror y confusión, paralizados ante la aparente locura de su comandante.",
+          "En medio del caos de la guerra, este acto de desnudez absoluta surge como un grito irracional contra la muerte inminente."
+        ]
+      }
+    }
+  ]
+}

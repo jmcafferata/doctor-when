@@ -1,0 +1,42 @@
+{
+  "id": "1766282320278_Las_Aventuras_de_Aud",
+  "title": "Audion't y el Choclo de la Seguridad Nacional",
+  "setting": "Las Aventuras de Audion't, el chatbot que transcribe audios de WhatsApp. Capítulo 1: Privacidad vs Seguridad Nacional. \n\nEl personaje: Audion't \nEste personaje es una ilustración encantadora que fusiona la tecnología retro con la estética Kawaii. Esencialmente, es una consola de videojuegos clásica (tipo Game Boy) personificada como un pequeño robot o criatura viviente.\n\nAquí tienes una descripción detallada de sus características:\n\nApariencia Física\nCuerpo: Tiene una forma rectangular y robusta que imita el diseño de las consolas portátiles de los años 80 y 90. El color es un beige o crema vintage, evocando el plástico envejecido de los aparatos electrónicos antiguos.\n\nRostro: Su \"cara\" es la pantalla de la consola. Tiene ojos grandes, negros y brillantes con reflejos blancos, mejillas rosadas y una boca abierta que muestra un solo diente, dándole una expresión alegre y traviesa.\n\nControles: En su parte frontal presenta elementos icónicos: un D-pad (mando de dirección) marrón y tres botones circulares de color rojo brillante.\n\nDetalles laterales: El costado izquierdo está lleno de pequeños detalles técnicos, como interruptores, puertos de conexión y lo que parece ser un pequeño indicador de encendido con una luz verde.\n\nExtremidades: No tiene brazos, pero se sostiene sobre dos pies pequeños y redondeados que combinan con el color de su cuerpo, dándole una postura estable y simpática.\n\nEstilo Artístico\nLíneas y Bordes: Utiliza un delineado grueso y definido (bold outlines) que lo hace resaltar del fondo.\n\nPaleta de Colores: Predominan los tonos tierra, el beige, el marrón y toques de rojo. Es una estética retro-moderna con sombras suaves que le dan un ligero volumen tridimensional.\n\nPersonalidad: Transmite una sensación de nostalgia, amigabilidad y ternura. Parece ser una mascota diseñada para entusiastas del \"gaming\" clásico.\n\nVive en los Whatsapp de la gente, escuchando todos sus audios, y haciendoles resúmenes de tres puntos de los audios y les manda mensajes motivadores.",
+  "createdAt": "2025-12-21T01:59:15.088Z",
+  "scenes": [
+    {
+      "title": "Audion't y el Choclo de la Seguridad Nacional",
+      "scene_text": [
+        "¡Buenas! Acá Audion't al aparato, listo para ahorrarte el garrón de fumarte audios infinitos de tus amigos.",
+        "De golpe te cae un audio de 15 minutos de un número privado; la pantalla se llena de alertas de 'Confidencial' y el ventilador interno te empieza a zumbar como loco.",
+        "Parece que no es un chisme cualquiera: los metadatos dicen que esto viene de la SIDE y hay palabras clave que huelen a problemas legales."
+      ],
+      "scene_image_prompt": "A cute, retro-style handheld game console robot named Audion't with a vintage beige body, big shiny black eyes, and a one-toothed smile on its screen-face. It is floating in a digital green WhatsApp-style void. Red digital warning signs and 'TOP SECRET' stamps are glitching around it. 2D vector art, bold outlines, kawaii aesthetic, retro-gaming vibe.",
+      "scene_music_style": "8-bit Lo-fi, Retro Synthwave, slightly tense but upbeat",
+      "scene_music_title": "Bitrate Intrigue",
+      "options": [
+        {
+          "text": "¡Mandale mecha! Transcribí todo que el chisme es salud.",
+          "audio": "/stories/1766282320278_Las_Aventuras_de_Aud/assets/option_0_1766282352709.mp3"
+        },
+        {
+          "text": "Frená un toque y preguntale al usuario si se quiere meter en este quilombo.",
+          "audio": "/stories/1766282320278_Las_Aventuras_de_Aud/assets/option_1_1766282353832.mp3"
+        },
+        {
+          "text": "Hacer un resumen motivador de tres puntos y borrar el rastro: '¡Tu privacidad es lo primero, genio!'",
+          "audio": "/stories/1766282320278_Las_Aventuras_de_Aud/assets/option_2_1766282355087.mp3"
+        }
+      ],
+      "narrative": {
+        "audio": "/stories/1766282320278_Las_Aventuras_de_Aud/assets/narrative_full_1766282351649.mp3",
+        "segments": [
+          "¡Buenas! Acá Audion't al aparato, listo para ahorrarte el garrón de fumarte audios infinitos de tus amigos.",
+          "De golpe te cae un audio de 15 minutos de un número privado; la pantalla se llena de alertas de 'Confidencial' y el ventilador interno te empieza a zumbar como loco.",
+          "Parece que no es un chisme cualquiera: los metadatos dicen que esto viene de la SIDE y hay palabras clave que huelen a problemas legales."
+        ]
+      },
+      "image": "/stories/1766282320278_Las_Aventuras_de_Aud/assets/scene_1766282345969.jpg"
+    }
+  ]
+}
