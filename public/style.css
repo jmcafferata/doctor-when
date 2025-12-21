@@ -421,6 +421,32 @@ button:hover {
     animation: presentationZoom 5s ease-out forwards;
 }
 
+@media (max-width: 768px) {
+    .hero-image-wrapper {
+        overflow: visible;
+    }
+
+    @keyframes mobilePresentationPan {
+        0% {
+            opacity: 0;
+            transform: translateY(calc(50vh - 50% - 60px)) translateX(-20%) scale(2.5);
+            transform-origin: center center;
+        }
+        60% {
+            opacity: 1;
+            transform: translateY(calc(50vh - 50% - 60px)) translateX(20%) scale(2.5);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0) translateX(0) scale(1);
+        }
+    }
+
+    .presentation-mode {
+        animation: mobilePresentationPan 5s ease-in-out forwards;
+    }
+}
+
 #main-image {
     width: 100%;
     height: auto;

@@ -392,6 +392,7 @@ function updateGameScreen(data) {
     sceneGenerationId++;
     // Reset UI state
     mainImage.classList.remove('visible');
+    mainImage.classList.remove('presentation-mode');
     
     // Force instant opacity reset
     mainImage.style.transition = 'none';
