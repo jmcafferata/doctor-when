@@ -3,6 +3,8 @@ const homeScreen = document.getElementById('home-screen');
 const startScreen = document.getElementById('start-screen');
 const loadingScreen = document.getElementById('loading-screen');
 const gameScreen = document.getElementById('game-screen');
+const endScreen = document.getElementById('end-screen');
+const endHomeBtn = document.getElementById('end-home-btn');
 const settingInput = document.getElementById('setting-input');
 const startBtn = document.getElementById('start-btn');
 const newStoryBtn = document.getElementById('new-story-btn');
@@ -16,8 +18,11 @@ const customActionInput = document.getElementById('custom-action-input');
 const customActionBtn = document.getElementById('custom-action-btn');
 const voiceVolumeSlider = document.getElementById('voice-volume');
 const musicVolumeSlider = document.getElementById('music-volume');
+const reverbLevelSlider = document.getElementById('reverb-level');
 const navHomeBtn = document.getElementById('nav-home-btn');
 const navHelpBtn = document.getElementById('nav-help-btn');
+const helpOverlay = document.getElementById('help-overlay');
+const closeHelpBtn = document.getElementById('close-help-btn');
 const imageInput = document.getElementById('image-input');
 const uploadImgBtn = document.getElementById('upload-img-btn');
 const imagePreview = document.getElementById('image-preview');
@@ -42,6 +47,7 @@ let savedStoryData = null;
 let currentSceneIndex = 0;
 let voiceVolume = 1.0;
 let musicVolume = 0.4;
+let reverbLevel = 0.3;
 let playbackSpeed = 1.0;
 let selectedImagesBase64 = [];
 let selectedGameImagesBase64 = [];
@@ -186,7 +192,21 @@ if (navHomeBtn) {
 
 if (navHelpBtn) {
     navHelpBtn.addEventListener('click', () => {
-        alert("¡Bienvenido a Doctor When!\n\nCrea tu propia aventura generada por IA o reproduce historias existentes.\n\nUsa la configuración para ajustar el volumen.");
+        if (helpOverlay) helpOverlay.classList.remove('hidden');
+    });
+}
+
+if (closeHelpBtn) {
+    closeHelpBtn.addEventListener('click', () => {
+        if (helpOverlay) helpOverlay.classList.add('hidden');
+    });
+}
+
+if (helpOverlay) {
+    helpOverlay.addEventListener('click', (e) => {
+        if (e.target === helpOverlay) {
+            helpOverlay.classList.add('hidden');
+        }
     });
 }
 
@@ -206,6 +226,12 @@ if (musicVolumeSlider) {
         if (currentMusic) {
             currentMusic.volume = musicVolume; // immediate response to slider
         }
+    });
+}
+
+if (reverbLevelSlider) {
+    reverbLevelSlider.addEventListener('input', (e) => {
+        reverbLevel = parseFloat(e.target.value);
     });
 }
 
@@ -231,7 +257,17 @@ document.querySelectorAll('.speed-btn').forEach(btn => {
 async function loadStories() {
     try {
         const res = await fetch('/api/stories');
-        const stories = await res.json();
+        const data = await res.json();
+        
+        // Handle both old array format (just in case) and new object format
+        const stories = Array.isArray(data) ? data : (data.stories || []);
+        const creatorMode = data.creatorMode !== false; // Default to true if undefined (backward compat)
+
+        if (!creatorMode) {
+            if (newStoryBtn) newStoryBtn.style.display = 'none';
+        } else {
+            if (newStoryBtn) newStoryBtn.style.display = '';
+        }
         
         storiesList.innerHTML = '';
         stories.forEach(story => {
@@ -571,7 +607,58 @@ async function playSequence(data) {
 
     // 3. Show Options (inject selectedOption during replay)
     const optionsToRender = prepareOptionsForReplay(data);
-    showOptions(optionsToRender);
+    
+    if (optionsToRender.length === 0) {
+        showEndScreen();
+    } else {
+        showOptions(optionsToRender);
+    }
+}
+
+async function showEndScreen() {
+    // 1. Fade out game screen content
+    const gameContent = document.querySelector('#game-screen .scene-container');
+    if (gameContent) {
+        gameContent.style.transition = 'opacity 1.5s ease-out';
+        gameContent.style.opacity = '0';
+    }
+    
+    // Wait for fade out
+    await wait(1500);
+
+    // 2. Increase music volume
+    if (currentMusic) {
+        fadeToVolume(currentMusic, 1.0); 
+    }
+    
+    // 3. Prepare "Continuará..." text animation
+    const title = document.querySelector('.epic-title');
+    if (title) {
+        title.innerHTML = ''; // Clear
+        const text = "CONTINUARÁ...";
+        text.split('').forEach((char, index) => {
+            const span = document.createElement('span');
+            span.textContent = char;
+            span.className = 'epic-letter';
+            span.style.animationDelay = `${index * 0.2}s`; // Staggered delay
+            title.appendChild(span);
+        });
+    }
+
+    // 4. Show screen
+    showScreen(endScreen);
+    
+    // Reset game screen opacity for next time
+    if (gameContent) {
+        setTimeout(() => {
+            gameContent.style.opacity = '';
+            gameContent.style.transition = '';
+        }, 100);
+    }
+}
+
+if (endHomeBtn) {
+    endHomeBtn.addEventListener('click', () => returnToHome());
 }
 
 function createReverb(audioContext) {
@@ -614,7 +701,7 @@ async function playAudioWithEffects(audioUrl) {
     
     const convolver = createReverb(ctx);
     const wetGain = ctx.createGain();
-    wetGain.gain.value = 0.3; // 30% reverb
+    wetGain.gain.value = reverbLevel;
 
     // Dry path
     source.connect(ctx.destination);
@@ -625,17 +712,17 @@ async function playAudioWithEffects(audioUrl) {
 
     return new Promise(resolve => {
         audio.onended = () => {
-            ctx.close();
+            if (ctx.state !== 'closed') ctx.close();
             resolve();
         };
         audio.onerror = () => {
             console.error("Audio playback error", audioUrl);
-            ctx.close();
+            if (ctx.state !== 'closed') ctx.close();
             resolve();
         };
         audio.play().then(() => ctx.resume()).catch(e => {
             console.error("Audio play failed:", e);
-            ctx.close();
+            if (ctx.state !== 'closed') ctx.close();
             resolve();
         });
     });
@@ -763,7 +850,7 @@ async function handleOptionClick(option) {
         const currentScene = savedStoryData.scenes[currentSceneIndex];
         
         if (!currentScene.selectedOption) {
-             alert("Este es el final de la historia grabada.");
+             showEndScreen();
              return;
         }
 
@@ -789,8 +876,7 @@ async function handleOptionClick(option) {
                     showScreen(gameScreen);
                 }, 500);
             } else {
-                alert("Fin de la historia grabada.");
-                returnToHome();
+                showEndScreen();
             }
         } else {
             // Incorrect choice
@@ -835,7 +921,7 @@ async function handleCustomAction() {
         const currentScene = savedStoryData.scenes[currentSceneIndex];
         
         if (!currentScene.selectedOption) {
-             alert("Este es el final de la historia grabada.");
+             showEndScreen();
              // Re-enable
              customActionInput.disabled = false;
              customActionBtn.disabled = false;
@@ -857,8 +943,7 @@ async function handleCustomAction() {
                      showScreen(gameScreen);
                  }, 500);
              } else {
-                 alert("Fin de la historia grabada.");
-                 returnToHome();
+                 showEndScreen();
              }
         } else {
             // Incorrect choice

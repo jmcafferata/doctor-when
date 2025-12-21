@@ -51,7 +51,8 @@
       },
       "image": "/stories/1766286451374_Justo_antes_de_la_ba/assets/scene_1766286476338.jpg",
       "selectedOption": "Escribir una última proclama política antes de que comience el estruendo.",
-      "selectedOptionAudio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1_1766286484405.mp3"
+      "selectedOptionAudio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1_1766286484405.mp3",
+      "music": "/stories/1766286451374_Justo_antes_de_la_ba/assets/music_1766286817195_1766286817195.mp3"
     },
     {
       "title": "El Último Manifiesto del Restaurador",
@@ -93,7 +94,203 @@
           }
         ]
       },
-      "image": "/stories/1766286451374_Justo_antes_de_la_ba/assets/scene_1766286606753.jpg"
+      "image": "/stories/1766286451374_Justo_antes_de_la_ba/assets/scene_1766286606753.jpg",
+      "selectedOption": "Montar a caballo y dirigirse personalmente al frente de batalla.",
+      "selectedOptionAudio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766286614555_2_1766286614555.mp3"
+    },
+    {
+      "title": "El Rugido de los Cañones",
+      "scene_text": [
+        "El Restaurador monta su corcel, sintiendo el peso del acero y la mirada expectante de sus Colorados del Monte.",
+        "Frente a él, las llanuras de Caseros se pierden en una bruma de polvo y humo provocada por el avance masivo del Ejército Grande.",
+        "Los gritos de guerra y el estruendo de la artillería brasileña y urquicista comienzan a quebrar el aire de la mañana.",
+        "Rosas desenvaina su sable, sabiendo que cada minuto en el campo de batalla define el futuro de la Confederación Argentina."
+      ],
+      "scene_image_prompt": "A cinematic 19th-century oil painting of Juan Manuel de Rosas, a stern military leader with fair skin and light hair, wearing a high-collared dark blue uniform with brilliant red facings and gold embroidered epaulettes. He is mounted on a dark horse at the edge of a battlefield. In the background, thousands of soldiers in red and blue uniforms clash amidst smoke and cannon fire under a dramatic, cloudy morning sky. The style is reminiscent of classical historical portraiture, emphasizing authority and the tension of the Battle of Caseros.",
+      "scene_music_style": "Epic Orchestral, Tense, Cinematic Strings, 19th Century Military",
+      "scene_music_title": "The Fields of Caseros",
+      "options": [
+        {
+          "text": "Ordenar una carga de caballería para romper el flanco de Urquiza.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766286862985_0_1766286862985.mp3"
+        },
+        {
+          "text": "Fortificar la posición en el Palomar de Caseros para resistir el embate.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766286864204_1_1766286864204.mp3"
+        },
+        {
+          "text": "Enviar un emisario para intentar una última negociación en pleno campo.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766286865274_2_1766286865274.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "El Restaurador monta su corcel, sintiendo el peso del acero y la mirada expectante de sus Colorados del Monte.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286857395_0_1766286857395.mp3"
+          },
+          {
+            "text": "Frente a él, las llanuras de Caseros se pierden en una bruma de polvo y humo provocada por el avance masivo del Ejército Grande.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286858912_1_1766286858912.mp3"
+          },
+          {
+            "text": "Los gritos de guerra y el estruendo de la artillería brasileña y urquicista comienzan a quebrar el aire de la mañana.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286860410_2_1766286860410.mp3"
+          },
+          {
+            "text": "Rosas desenvaina su sable, sabiendo que cada minuto en el campo de batalla define el futuro de la Confederación Argentina.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286861929_3_1766286861929.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766286451374_Justo_antes_de_la_ba/assets/scene_1766286856121.jpg",
+      "selectedOption": "Observar al muchacho con la gorra",
+      "selectedOptionAudio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/selected_option_1766287005999_1766287005999.mp3"
+    },
+    {
+      "title": "El Enigma del Color Punzó",
+      "scene_text": [
+        "Entre el denso humo de los primeros disparos y las carpas del campamento, divisas a un joven recluta asomándose con cautela.",
+        "Lleva una gorra de un rojo federal tan intenso que parece brillar, pero adornada con inscripciones extrañas y el número 47 bordado en el costado.",
+        "Su mirada no refleja el terror de la batalla inminente, sino una extraña certeza que te hiela la sangre.",
+        "En este campo de Caseros, donde el destino de la Confederación se decide, este muchacho parece un heraldo de un futuro incomprensible."
+      ],
+      "scene_image_prompt": "A close-up portrait of a young man with a short beard peeking out from the opening of a blue canvas military tent. He is wearing a bright red cap with white text embroidered on the front and the number '47' on the side. The lighting is dramatic, with sharp shadows across his face. The background shows the texture of the blue tent. The overall aesthetic is a blend of 19th-century historical realism and a mysterious, anachronistic presence.",
+      "scene_music_style": "Eerie Orchestral, Minimalist Suspense, Period Strings",
+      "scene_music_title": "Ecos del Porvenir",
+      "options": [
+        {
+          "text": "Interrogar al muchacho sobre el significado de las inscripciones en su gorra.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287002910_0_1766287002910.mp3"
+        },
+        {
+          "text": "Ignorar la distracción y ordenar la carga de los Colorados del Monte.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287004038_1_1766287004038.mp3"
+        },
+        {
+          "text": "Preguntarle si su presencia es un augurio de victoria para la Santa Federación.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287005129_2_1766287005129.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Entre el denso humo de los primeros disparos y las carpas del campamento, divisas a un joven recluta asomándose con cautela.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286997087_0_1766286997087.mp3"
+          },
+          {
+            "text": "Lleva una gorra de un rojo federal tan intenso que parece brillar, pero adornada con inscripciones extrañas y el número 47 bordado en el costado.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766286998817_1_1766286998817.mp3"
+          },
+          {
+            "text": "Su mirada no refleja el terror de la batalla inminente, sino una extraña certeza que te hiela la sangre.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287000182_2_1766287000182.mp3"
+          },
+          {
+            "text": "En este campo de Caseros, donde el destino de la Confederación se decide, este muchacho parece un heraldo de un futuro incomprensible.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287001759_3_1766287001759.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766286451374_Justo_antes_de_la_ba/assets/scene_1766286995579.jpg",
+      "selectedOption": "Interrogar al muchacho sobre el significado de las inscripciones en su gorra.",
+      "selectedOptionAudio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287002910_0_1766287002910.mp3"
+    },
+    {
+      "title": "El Oráculo de la Gorra Colorada",
+      "scene_text": [
+        "Refrenas tu caballo ante la tienda azul y exiges saber qué significan esas letras extranjeras y el número cuarenta y siete.",
+        "El muchacho toca el borde de su visera roja y murmura que son las palabras de un líder que aún no nace, pero que comparte tu mismo fuego.",
+        "Habla de muros, de soberanía y de un retorno triunfal que suena a blasfemia y a profecía en este campo ensangrentado.",
+        "Mientras el humo de la artillería de Urquiza nubla el horizonte, sientes que este joven no pertenece a este siglo."
+      ],
+      "scene_image_prompt": "Cinematic historical drama style. A split composition showing Juan Manuel de Rosas, a 19th-century Argentine leader with blue eyes and sideburns in a decorated blue and gold military uniform with a red sash. Opposite him, a young man with a slight beard peers out from a blue canvas tent, wearing a modern bright red baseball cap with white text 'TRUMP WAS RIGHT ABOUT EVERYTHING' and the number '47' on the side. The background is a hazy, smoky 1852 battlefield with the atmosphere of an oil painting.",
+      "scene_music_style": "Dark Orchestral, Cinematic Suspense, Period Drama, Low Drone",
+      "scene_music_title": "Anachronistic Prophecy",
+      "options": [
+        {
+          "text": "Ignorar al joven como si fuera un loco y cargar hacia el centro del Ejército Grande.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287092301_0_1766287092301.mp3"
+        },
+        {
+          "text": "Exigirle que revele si Rosas será recordado como el Restaurador o como un tirano.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287093493_1_1766287093493.mp3"
+        },
+        {
+          "text": "Ordenar a tus Colorados del Monte que custodien al muchacho; su conocimiento podría valer más que una victoria.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287094798_2_1766287094798.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Refrenas tu caballo ante la tienda azul y exiges saber qué significan esas letras extranjeras y el número cuarenta y siete.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287086398_0_1766287086398.mp3"
+          },
+          {
+            "text": "El muchacho toca el borde de su visera roja y murmura que son las palabras de un líder que aún no nace, pero que comparte tu mismo fuego.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287088023_1_1766287088023.mp3"
+          },
+          {
+            "text": "Habla de muros, de soberanía y de un retorno triunfal que suena a blasfemia y a profecía en este campo ensangrentado.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287089594_2_1766287089594.mp3"
+          },
+          {
+            "text": "Mientras el humo de la artillería de Urquiza nubla el horizonte, sientes que este joven no pertenece a este siglo.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287091058_3_1766287091058.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766286451374_Justo_antes_de_la_ba/assets/scene_1766287084998.jpg",
+      "selectedOption": "Exigirle que revele si Rosas será recordado como el Restaurador o como un tirano.",
+      "selectedOptionAudio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287093493_1_1766287093493.mp3"
+    },
+    {
+      "title": "Ecos de la Posteridad",
+      "scene_text": [
+        "El joven sonríe con melancolía mientras sostiene un extraño artefacto de bronce y vidrio ante su ojo derecho, observándote con fijeza.",
+        "\"La historia es un lente caprichoso, Excelentísimo,\" murmura mientras el estruendo de los cañones de Urquiza sacude la tierra bajo tus pies.",
+        "Te asegura que serás ambas cosas: un héroe eterno para tu pueblo y un tirano implacable en los libros escolares de los siglos venideros.",
+        "Ajusta su gorra roja y parece capturar tu esencia en ese instante, como si estuviera filmando el fin de una era que no se repetirá."
+      ],
+      "scene_image_prompt": "A young man in a 19th-century Argentine federalist uniform with a bright red cap, looking intently through an anachronistic brass and leather camera lens held to his eye. The background is a chaotic battlefield of 1852 with white gunpowder smoke, distant horses, and canvas tents. The lighting is dramatic and cinematic, focusing on the detail of the lens and the man's concentrated expression, mimicking the pose of a film director but in a historical setting.",
+      "scene_music_style": "Orchestral, Dramatic, Cinematic, Historical Suspense",
+      "scene_music_title": "El Lente de la Historia",
+      "options": [
+        {
+          "text": "Ignorar sus delirios y ordenar la carga inmediata de los Colorados del Monte.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287200684_0_1766287200684.mp3"
+        },
+        {
+          "text": "Arrebatarle el artefacto para ver qué futuro muestra ese cristal.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287201849_1_1766287201849.mp3"
+        },
+        {
+          "text": "Preguntarle por qué ese líder del futuro usa tus mismos colores y proclamas.",
+          "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/option_1766287202989_2_1766287202989.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "El joven sonríe con melancolía mientras sostiene un extraño artefacto de bronce y vidrio ante su ojo derecho, observándote con fijeza.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287194740_0_1766287194740.mp3"
+          },
+          {
+            "text": "\"La historia es un lente caprichoso, Excelentísimo,\" murmura mientras el estruendo de los cañones de Urquiza sacude la tierra bajo tus pies.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287196442_1_1766287196442.mp3"
+          },
+          {
+            "text": "Te asegura que serás ambas cosas: un héroe eterno para tu pueblo y un tirano implacable en los libros escolares de los siglos venideros.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287198011_2_1766287198011.mp3"
+          },
+          {
+            "text": "Ajusta su gorra roja y parece capturar tu esencia en ese instante, como si estuviera filmando el fin de una era que no se repetirá.",
+            "audio": "/stories/1766286451374_Justo_antes_de_la_ba/assets/narrative_part_1766287199557_3_1766287199557.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766286451374_Justo_antes_de_la_ba/assets/scene_1766287193178.jpg"
     }
   ]
 }

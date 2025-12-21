@@ -12,8 +12,9 @@ body {
     font-family: 'Lora', serif;
     background-color: var(--bg-color);
     color: var(--text-color);
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 h1, h2, h3, h4, h5, h6, button, .menu-btn, .option-text, #custom-action-btn {
@@ -22,7 +23,7 @@ h1, h2, h3, h4, h5, h6, button, .menu-btn, .option-text, #custom-action-btn {
 
 #app {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -426,11 +427,10 @@ button:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     padding-top: 60px; /* Space for navbar */
-    padding-bottom: 60px; /* Space for footer */
+    padding-bottom: 100px; /* Space for footer */
     box-sizing: border-box;
-    overflow-y: auto;
 }
 
 .hero-image-wrapper {
@@ -473,7 +473,8 @@ button:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: auto;
+    padding: 15px 0;
     background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
     display: flex;
     justify-content: center;
@@ -486,10 +487,13 @@ button:hover {
     border-radius: 20px;
     padding: 5px 15px;
     display: flex;
+    flex-direction: row; /* Row by default */
     align-items: center;
     gap: 10px;
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255,255,255,0.1);
+    flex-wrap: wrap; /* Allow wrapping on very small screens if needed */
+    justify-content: center;
 }
 
 .speed-controls {
@@ -770,4 +774,119 @@ input[type="range"]::-moz-range-thumb {
         max-width: 100%;
         margin: 0;
     }
+
+    .controls-row {
+        padding: 5px 15px;
+        gap: 10px;
+    }
+    
+    .scene-container {
+        padding-bottom: 80px; /* Less padding needed on desktop */
+    }
+}
+
+/* End Screen */
+#end-screen {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    z-index: 2000;
+}
+
+#end-screen.active {
+    display: flex;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.end-content {
+    text-align: center;
+}
+
+.epic-title {
+    font-family: 'Kameron', serif;
+    font-size: 7vw; /* Reduced to fit */
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    width: 100%;
+    text-align: center;
+}
+
+.epic-letter {
+    opacity: 0;
+    animation: fadeInLetter 2s forwards;
+    display: inline-block;
+    filter: blur(10px);
+}
+
+@keyframes fadeInLetter {
+    0% { opacity: 0; transform: translateY(20px); filter: blur(10px); }
+    100% { opacity: 1; transform: translateY(0); filter: blur(0); text-shadow: 0 0 30px rgba(255, 255, 255, 0.8); }
+}
+
+@media (min-width: 1024px) {
+    .epic-title {
+        font-size: 6rem; /* Cap size on large screens */
+    }
+}
+
+/* Help Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.overlay-content {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+
+.credits {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.9rem;
+    opacity: 0.8;
 }

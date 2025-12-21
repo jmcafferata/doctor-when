@@ -25,11 +25,19 @@ if (!fs.existsSync(STORIES_DIR)) {
     fs.mkdirSync(STORIES_DIR, { recursive: true });
 }
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-// Use the model requested by user
-const model = genAI.getGenerativeModel({ 
-    model: "gemini-3-flash-preview"
-});
+const CREATOR_MODE = !!process.env.GEMINI_API_KEY;
+let genAI;
+let model;
+
+if (CREATOR_MODE) {
+    genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+    // Use the model requested by user
+    model = genAI.getGenerativeModel({ 
+        model: "gemini-3-flash-preview"
+    });
+} else {
+    console.log("Creator Mode disabled: Missing GEMINI_API_KEY");
+}
 
 // Load logo for subliminal integration - REMOVED
 // const logoPath = path.join(__dirname, 'public', 'toxi media logo.jpg');
@@ -431,13 +439,19 @@ app.get('/api/stories', async (req, res) => {
                 console.error(`Error reading story ${dir}:`, e);
             }
         }
-        res.json(stories);
+        res.json({
+            stories: stories.sort((a, b) => new Date(b.date) - new Date(a.date)),
+            creatorMode: CREATOR_MODE
+        });
     } catch (error) {
         res.status(500).json({ error: 'Failed to list stories' });
     }
 });
 
 app.post('/api/start', async (req, res) => {
+    if (!CREATOR_MODE) {
+        return res.status(403).json({ error: "Creator mode is disabled on this server." });
+    }
     try {
         const { setting, images } = req.body; // Expect 'images' array
         const storyId = `${Date.now()}_${setting.substring(0, 20).replace(/[^a-z0-9]/gi, '_')}`;
@@ -483,7 +497,7 @@ app.post('/api/start', async (req, res) => {
                     });
                 }
                 
-                prompt += "\n(Use the attached images as the visual context for the first scene. IMPORTANT: Generate a 'scene_image_prompt' that describes these images in detail, capturing their style, characters, and setting, so that future generated images will look consistent with them. Make the prompt detailed and high quality.)";
+                prompt += "\n(Use the attached images as the visual context for the first scene. IMPORTANT: Generate a 'scene_image_prompt' that describes these images in detail, capturing their style, characters, and setting, BUT ADAPTED TO THE STORY. The image prompt should reflect the current scene and events while maintaining the visual style and character appearance of the uploaded images. Make the prompt detailed and high quality.)";
                 console.log(`[Gemini Prompt /api/start] ${images.length} images attached`);
             } catch (e) {
                 console.error("Error processing uploaded images:", e);
@@ -573,6 +587,9 @@ app.post('/api/start', async (req, res) => {
 });
 
 app.post('/api/next', async (req, res) => {
+    if (!CREATOR_MODE) {
+        return res.status(403).json({ error: "Creator mode is disabled on this server." });
+    }
     try {
         const { history, choice, storyId, images } = req.body; // Expect 'images' array
         
@@ -627,7 +644,7 @@ app.post('/api/next', async (req, res) => {
                     });
                 }
                 
-                parts.push({ text: "\n(Use the attached images as visual context for this new scene. IMPORTANT: Generate a 'scene_image_prompt' that describes these images in detail so the visual style is maintained.)" });
+                parts.push({ text: "\n(Use the attached images as visual context for this new scene. IMPORTANT: Generate a 'scene_image_prompt' that describes these images in detail, BUT ADAPTED TO THE STORY. The image prompt should reflect the current scene and events while maintaining the visual style and character appearance of the uploaded images.)" });
                 
                 console.log(`[Gemini Prompt /api/next] ${images.length} images attached`);
             } catch (e) {
@@ -744,6 +761,9 @@ app.post('/api/next', async (req, res) => {
 });
 
 app.post('/api/music', async (req, res) => {
+    if (!CREATOR_MODE) {
+        return res.status(403).json({ error: "Creator mode is disabled on this server." });
+    }
     try {
         const { style, title, storyId } = req.body;
 
@@ -871,6 +891,10 @@ app.post('/generate-image', async (req, res) => {
     }
 });
 
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
-});
+if (require.main === module) {
+    app.listen(port, () => {
+        console.log(`Server running at http://localhost:${port}`);
+    });
+}
+
+module.exports = app;

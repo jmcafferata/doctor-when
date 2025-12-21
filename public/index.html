@@ -65,6 +65,14 @@
             </div>
         </div>
 
+        <!-- End Screen -->
+        <div id="end-screen" class="screen">
+            <div class="end-content">
+                <h1 class="epic-title">CONTINUARÁ...</h1>
+                <button id="end-home-btn" class="menu-btn">Volver al Inicio</button>
+            </div>
+        </div>
+
         <!-- Game Screen -->
         <div id="game-screen" class="screen">
             <div class="scene-container">
@@ -104,6 +112,8 @@
                     <input type="range" id="voice-volume" min="0" max="1" step="0.05" value="0.8">
                     <label class="slider-label" for="music-volume">Música</label>
                     <input type="range" id="music-volume" min="0" max="1" step="0.05" value="0.5">
+                    <label class="slider-label" for="reverb-level">Reverb</label>
+                    <input type="range" id="reverb-level" min="0" max="1" step="0.05" value="0.3">
                     
                     <div class="separator" style="width: 1px; height: 20px; background: rgba(255,255,255,0.3); margin: 0 10px;"></div>
                     
@@ -115,6 +125,20 @@
                     </div>
                 </div>
             </footer>
+        </div>
+
+        <!-- Help Overlay -->
+        <div id="help-overlay" class="overlay hidden">
+            <div class="overlay-content">
+                <button id="close-help-btn" class="close-btn">&times;</button>
+                <h2>Instrucciones</h2>
+                <p>¡Bienvenido a Doctor When!</p>
+                <p>Crea tu propia aventura generada por IA o reproduce historias existentes.</p>
+                <p>Usa la configuración para ajustar el volumen.</p>
+                <div class="credits">
+                    <p>Creado por Juan Manuel Cafferata y Nacho Michalowicz</p>
+                </div>
+            </div>
         </div>
     </div>
 
