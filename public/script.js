@@ -863,6 +863,12 @@ async function handleOptionClick(option) {
         if (currentScene.selectedOption === option.text) {
             // Correct choice
             stopCurrentAudio(); // Stop audio only on success
+            
+            // Increase volume to 0.4
+            if (currentMusic) {
+                fadeToVolume(currentMusic, 0.4);
+            }
+
             if (card) card.classList.add('success');
             playFeedbackSound('success');
 
@@ -870,11 +876,38 @@ async function handleOptionClick(option) {
 
             currentSceneIndex++;
             if (currentSceneIndex < savedStoryData.scenes.length) {
-                showScreen(loadingScreen);
-                setTimeout(() => {
-                    updateGameScreen(savedStoryData.scenes[currentSceneIndex]);
-                    showScreen(gameScreen);
-                }, 500);
+                // Fade out current screen
+                const activeScreen = document.querySelector('.screen.active');
+                if (activeScreen) {
+                    activeScreen.style.opacity = '0';
+                    await wait(500);
+                    activeScreen.classList.remove('active');
+                    activeScreen.style.opacity = '';
+                }
+
+                // Fade in loading screen
+                loadingScreen.style.opacity = '0';
+                loadingScreen.classList.add('active');
+                // Force reflow to ensure transition happens
+                void loadingScreen.offsetWidth;
+                loadingScreen.style.opacity = '1';
+                
+                // Wait for loading screen transition and effect
+                await wait(2000);
+                
+                updateGameScreen(savedStoryData.scenes[currentSceneIndex]);
+                
+                // Fade out loading screen
+                loadingScreen.style.opacity = '0';
+                await wait(500);
+                loadingScreen.classList.remove('active');
+                loadingScreen.style.opacity = '';
+
+                // Fade in game screen
+                gameScreen.style.opacity = '0';
+                gameScreen.classList.add('active');
+                void gameScreen.offsetWidth;
+                gameScreen.style.opacity = '1';
             } else {
                 showEndScreen();
             }
