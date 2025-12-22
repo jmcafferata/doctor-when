@@ -54,30 +54,8 @@ function disableCreatorMode() {
     console.log('Creator Mode disabled');
 }
 
-// Route to enable creator mode at runtime (useful for quick toggles)
-app.get('/crear', (req, res) => {
-    // Only enable if an API key is configured on the server
-    if (!process.env.GEMINI_API_KEY) {
-        // Informational response; can't enable full creator mode without key
-        res.status(400).send('Creator mode requires GEMINI_API_KEY to be set in environment variables on the server.');
-        return;
-    }
-
-    const ok = enableCreatorMode();
-    if (ok) {
-        res.cookie && res.cookie('creator_mode', '1', { maxAge: 30 * 24 * 60 * 60 * 1000 });
-        res.redirect('/');
-    } else {
-        res.status(500).send('Failed to enable creator mode. Check server logs.');
-    }
-});
-
-// Optional route to disable creator mode
-app.get('/crear/disable', (req, res) => {
-    disableCreatorMode();
-    res.clearCookie && res.clearCookie('creator_mode');
-    res.redirect('/');
-});
+// Note: '/crear' runtime endpoints removed — creator mode is controlled
+// by the presence of `GEMINI_API_KEY` in environment variables.
 
 if (CREATOR_MODE) {
     genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -109,13 +87,14 @@ You are an AI Game Master for a visual novel style game.
 Your goal is to generate immersive story segments and choices.
 You must output ONLY valid JSON.
 The story and options MUST be in Spanish.
+Include specific character and setting details in the scene descriptions so that the image generator can always generate the same characters and settings.
 Adapt the tone and language and content according to the initial prompt/setting provided by the user. Be educational and descriptive, but concise.
 The JSON structure must be:
 {
   "title": "A creative title for the story (in Spanish)...",
   "scene_text": ["Segment 1 of the story...", "Segment 2...", "Segment 3..."],
-  "scene_image_prompt": "A detailed visual description of the scene for an image generator (in English)...",
-  "scene_music_style": "Musical style tags (e.g. Dark Ambient, Orchestral, Cyberpunk) (in English)...",
+  "scene_image_prompt": "A detailed visual description of the scene for an image generator (in English) that should include as many details relataed to the story and characters as necessary. Every image generation is a one shot, so it wont have previous context, you have to give it. ...",
+  "scene_music_style": "Musical style tags (e.g. Dark Ambient, Orchestral, Cyberpunk) (in English and very specific and creative)...",
   "scene_music_title": "A short title for the music track...",
   "options": [
     { "text": "Option 1 action (in Spanish)" },
@@ -124,7 +103,7 @@ The JSON structure must be:
   ]
 }
 Split the scene_text into 2-4 short, dramatic sentences or phrases for pacing.
-Keep descriptions concise but evocative. Image prompts should be descriptive and suitable for a generative AI (keep image prompts in English for better results).
+Keep descriptions concise but evocative. Image prompts should be descriptive and suitable for a generative AI (keep image prompts in English for better results and be consistent with the story and character descriptions from before).
 `;
 
 // --- Music helpers (Suno) -------------------------------------------------
@@ -181,14 +160,24 @@ async function pollMusicTask(taskId, maxAttempts = 5) {
                 }
             );
 
-            const data = statusResponse.data.data;
-            if (data.status === 'SUCCESS' || data.status === 'FIRST_SUCCESS') {
-                if (data.response && data.response.sunoData && data.response.sunoData.length > 0) {
-                    return { status: 'SUCCESS', audioUrl: data.response.sunoData[0].audioUrl };
+            const data = statusResponse.data && (statusResponse.data.data || statusResponse.data);
+            // Log the raw status for debugging
+            console.log(`[Suno Poll] task=${taskId} attempt=${attempts + 1}/${maxAttempts} status=${data && data.status}`);
+
+            if (data && (data.status === 'SUCCESS' || data.status === 'FIRST_SUCCESS')) {
+                // Try to find an audio URL in the typical fields
+                const sunoData = data.response && data.response.sunoData ? data.response.sunoData : (data.records || null);
+                if (sunoData && sunoData.length > 0) {
+                    const audioUrl = sunoData[0].audioUrl || sunoData[0].url || sunoData[0].downloadUrl || null;
+                    if (audioUrl) {
+                        return { status: 'SUCCESS', audioUrl };
+                    }
                 }
+                // If status is success but we couldn't extract a URL, return success without url so caller can investigate
+                return { status: 'SUCCESS', audioUrl: null, raw: data };
             }
-            if (data.status === 'FAILED' || data.status === 'ERROR') {
-                return { status: 'FAILED' };
+            if (data && (data.status === 'FAILED' || data.status === 'ERROR')) {
+                return { status: 'FAILED', raw: data };
             }
         } catch (err) {
             console.error('Error polling music task:', err.message);
@@ -854,7 +843,9 @@ app.post('/api/music', async (req, res) => {
 
         // 3) If there is an existing taskId, poll it instead of creating a new one
         if (status.taskId) {
-            const result = await pollMusicTask(status.taskId, 5);
+            // Increase attempts to give the music task more time to finalize on the provider side.
+            // Client already retries long-term; here we try a longer poll to reduce round-trips.
+            const result = await pollMusicTask(status.taskId, 30);
             if (result.status === 'SUCCESS' && result.audioUrl) {
                 try {
                     const musicBuffer = (await axios.get(result.audioUrl, { responseType: 'arraybuffer' })).data;
@@ -871,7 +862,12 @@ app.post('/api/music', async (req, res) => {
 
             if (result.status === 'FAILED') {
                 musicInFlight.delete(storyId);
-                return res.status(500).json({ error: 'Music generation failed. Please retry.' });
+                return res.status(500).json({ error: 'Music generation failed. Please retry.', raw: result.raw || null });
+            }
+
+            // If we received SUCCESS but no audioUrl, include raw info for debugging
+            if (result.status === 'SUCCESS' && !result.audioUrl) {
+                return res.status(202).json({ pending: true, taskId: status.taskId, info: result.raw || null });
             }
 
             return res.json({ pending: true, taskId: status.taskId });
@@ -898,6 +894,24 @@ app.post('/api/music', async (req, res) => {
             musicInFlight.delete(req.body.storyId);
         }
         res.status(500).json({ error: 'Failed to generate music' });
+    }
+});
+
+// New helper endpoint to inspect suno task status directly for debugging
+app.get('/api/music/status', async (req, res) => {
+    const taskId = req.query.taskId;
+    if (!taskId) return res.status(400).json({ error: 'taskId is required' });
+    try {
+        const statusResponse = await axios.get(
+            `https://api.sunoapi.org/api/v1/generate/record-info?taskId=${taskId}`,
+            {
+                headers: { 'Authorization': `Bearer ${process.env.SUNO_API_KEY}` }
+            }
+        );
+        return res.json({ raw: statusResponse.data });
+    } catch (e) {
+        console.error('Error fetching music status:', e.message);
+        return res.status(500).json({ error: 'Failed to fetch task status' });
     }
 });
 

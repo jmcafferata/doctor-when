@@ -1,0 +1,144 @@
+{
+  "id": "1766423869318_invasiones_inglesas_",
+  "title": "El Fuego de la Defensa",
+  "setting": "invasiones inglesas en buenos aires. soy una madre de un soldado enfermo argentino.",
+  "createdAt": "2025-12-22T17:18:27.543Z",
+  "scenes": [
+    {
+      "title": "El Fuego de la Defensa",
+      "scene_text": [
+        "Buenos Aires, 1806. El eco de las botas británicas resuena sobre el empedrado, marcando la caída inminente de la ciudad.",
+        "En la penumbra de nuestra humilde casa, mi hijo Mateo lucha contra una fiebre implacable que le impide unirse a las milicias.",
+        "El olor a pólvora y humedad se cuela por las rendijas mientras los invasores de casacas rojas patrullan nuestra calle."
+      ],
+      "scene_image_prompt": "A dimly lit 19th-century colonial room in Buenos Aires with thick white plaster walls. A young sick soldier lies on a rustic wooden bed, sweating and pale, covered in a wool blanket. A concerned mother in a traditional colonial dress stands by him. Through a small window, the blurry red uniforms of British soldiers are visible in the street. Cinematic lighting, historical realism, oil painting style.",
+      "scene_music_style": "Orchestral, Tense, Period Drama, Melancholic Strings",
+      "scene_music_title": "Susurros de Invasión",
+      "options": [
+        {
+          "text": "Humedecer un paño con agua fresca para calmar la fiebre de Mateo y mantenerlo en silencio.",
+          "audio": "/stories/1766423869318_invasiones_inglesas_/assets/option_0_1766423901298.mp3"
+        },
+        {
+          "text": "Esconder rápidamente su uniforme de miliciano y su fusil bajo las tablas del suelo.",
+          "audio": "/stories/1766423869318_invasiones_inglesas_/assets/option_1_1766423906390.mp3"
+        },
+        {
+          "text": "Atisbar por la ventana para evaluar la posición de los soldados enemigos en la esquina.",
+          "audio": "/stories/1766423869318_invasiones_inglesas_/assets/option_2_1766423907543.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Buenos Aires, 1806. El eco de las botas británicas resuena sobre el empedrado, marcando la caída inminente de la ciudad.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766423896460_0_1766423896460.mp3"
+          },
+          {
+            "text": "En la penumbra de nuestra humilde casa, mi hijo Mateo lucha contra una fiebre implacable que le impide unirse a las milicias.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766423898063_1_1766423898063.mp3"
+          },
+          {
+            "text": "El olor a pólvora y humedad se cuela por las rendijas mientras los invasores de casacas rojas patrullan nuestra calle.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766423899650_2_1766423899650.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766423869318_invasiones_inglesas_/assets/scene_1766423894870.jpg",
+      "selectedOption": "Decidir tomar el lugar de Mateo",
+      "selectedOptionAudio": "/stories/1766423869318_invasiones_inglesas_/assets/selected_option_1766423992440_1766423992440.mp3",
+      "music": "/stories/1766423869318_invasiones_inglesas_/assets/music_1766424213127_1766424213127.mp3"
+    },
+    {
+      "title": "El Sacrificio de una Madre",
+      "scene_text": [
+        "Me ajusto el pesado uniforme de Mateo, ocultando mi cabello bajo el tosco gorro de miliciano.",
+        "El fusil pesa en mis manos, un frío recordatorio de que hoy no soy solo una madre, sino un soldado de la resistencia.",
+        "Beso la frente ardiente de mi hijo antes de salir a las calles empedradas, donde el destino de Buenos Aires se decide entre bayonetas."
+      ],
+      "scene_image_prompt": "A courageous middle-aged woman in 1806 Buenos Aires militia uniform, oversized coat, holding an old flintlock musket. Dimly lit colonial interior, a sick young man in a bed in the background. Cinematic lighting, historical realism, dramatic atmosphere.",
+      "scene_music_style": "Dramatic Orchestral, Tense Strings, Historical, Solemn",
+      "scene_music_title": "El Honor de la Sangre",
+      "options": [
+        {
+          "text": "Buscar al destacamento de Santiago de Liniers para unirse a la reconquista",
+          "audio": "/stories/1766423869318_invasiones_inglesas_/assets/option_1766423989152_0_1766423989152.mp3"
+        },
+        {
+          "text": "Subir a la azotea para preparar una emboscada con piedras y agua hirviendo",
+          "audio": "/stories/1766423869318_invasiones_inglesas_/assets/option_1766423990287_1_1766423990287.mp3"
+        },
+        {
+          "text": "Reunirse con otras mujeres del barrio para organizar suministros y defensa",
+          "audio": "/stories/1766423869318_invasiones_inglesas_/assets/option_1766423991534_2_1766423991534.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Me ajusto el pesado uniforme de Mateo, ocultando mi cabello bajo el tosco gorro de miliciano.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766423984678_0_1766423984678.mp3"
+          },
+          {
+            "text": "El fusil pesa en mis manos, un frío recordatorio de que hoy no soy solo una madre, sino un soldado de la resistencia.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766423986275_1_1766423986275.mp3"
+          },
+          {
+            "text": "Beso la frente ardiente de mi hijo antes de salir a las calles empedradas, donde el destino de Buenos Aires se decide entre bayonetas.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766423987866_2_1766423987866.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766423869318_invasiones_inglesas_/assets/scene_1766423983414.jpg",
+      "selectedOption": "Subir a la azotea para preparar una emboscada con piedras y agua hirviendo",
+      "selectedOptionAudio": "/stories/1766423869318_invasiones_inglesas_/assets/option_1766423990287_1_1766423990287.mp3"
+    },
+    {
+      "title": "Fuego y Piedra sobre el Empedrado",
+      "scene_text": [
+        "Arrastro los pesados calderos hasta el borde de la azotea, sintiendo el calor del fuego lamiendo el aire húmedo.",
+        "Abajo, el rítmico marchar de las casacas rojas rompe el silencio, acercándose peligrosamente a nuestra posición.",
+        "Mis manos tiemblan, pero la imagen de Mateo enfermo me da la fuerza para sostener el balde de agua hirviendo.",
+        "Es el momento: el enemigo está justo debajo y el grito de libertad aguarda en mi garganta."
+      ],
+      "scene_image_prompt": "A woman in 19th-century colonial militia uniform standing on a flat Spanish-style rooftop in Buenos Aires. She is tilting a heavy iron pot of boiling water over the edge. Below, British Redcoat soldiers are marching on cobblestone streets. Cinematic lighting, steam rising, historical atmosphere, 1806 period.",
+      "scene_music_style": "Dramatic Orchestral, Tense Percussion, Period Authentic",
+      "scene_music_title": "El Clamor de la Azotea",
+      "options": [
+        {
+          "text": "Verter el agua hirviendo sobre la columna británica",
+          "audio": "/stories/1766423869318_invasiones_inglesas_/assets/option_1766424116091_0_1766424116091.mp3"
+        },
+        {
+          "text": "Lanzar piedras pesadas para desorientar a los oficiales",
+          "audio": "/stories/1766423869318_invasiones_inglesas_/assets/option_1766424117134_1_1766424117134.mp3"
+        },
+        {
+          "text": "Esperar a que se acerquen más para maximizar el impacto",
+          "audio": "/stories/1766423869318_invasiones_inglesas_/assets/option_1766424118152_2_1766424118152.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Arrastro los pesados calderos hasta el borde de la azotea, sintiendo el calor del fuego lamiendo el aire húmedo.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766424110579_0_1766424110579.mp3"
+          },
+          {
+            "text": "Abajo, el rítmico marchar de las casacas rojas rompe el silencio, acercándose peligrosamente a nuestra posición.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766424112073_1_1766424112073.mp3"
+          },
+          {
+            "text": "Mis manos tiemblan, pero la imagen de Mateo enfermo me da la fuerza para sostener el balde de agua hirviendo.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766424113515_2_1766424113515.mp3"
+          },
+          {
+            "text": "Es el momento: el enemigo está justo debajo y el grito de libertad aguarda en mi garganta.",
+            "audio": "/stories/1766423869318_invasiones_inglesas_/assets/narrative_part_1766424114933_3_1766424114933.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766423869318_invasiones_inglesas_/assets/scene_1766424109136.jpg"
+    }
+  ]
+}

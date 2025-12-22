@@ -1,0 +1,281 @@
+{
+  "id": "1766421238793_estoy_en_la_campa_a_",
+  "title": "Cenizas en la Pampa",
+  "setting": "estoy en la campaña del desierto de julio argentino roca. hoy, mi  orden es saquear y quemar una aldea aborigen.",
+  "createdAt": "2025-12-22T16:34:31.252Z",
+  "scenes": [
+    {
+      "title": "Cenizas en la Pampa",
+      "scene_text": [
+        "El sol de mediodía castiga la inmensidad del desierto mientras el viento arrastra el olor a pólvora y cuero viejo.",
+        "Frente a ti, los toldos de cuero de una comunidad mapuche se levantan en el horizonte, ignorantes de tu presencia.",
+        "La orden del General Roca resuena en tu mente: borrar cualquier rastro del asentamiento para asegurar el avance del ejército nacional."
+      ],
+      "scene_image_prompt": "Cinematic wide shot of a 19th-century Argentine cavalry officer on a horse, looking down from a dusty hill at a small Mapuche village (toldería) in the vast dry pampa. Golden hour lighting, realistic historical oil painting style, dust particles in the air.",
+      "scene_music_style": "Dramatic Orchestral, Somber Percussion, Traditional South American Flutes",
+      "scene_music_title": "Ecos de la Frontera",
+      "options": [
+        {
+          "text": "Desenvainar el sable y ordenar la carga inmediata hacia la aldea.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_0_1766421268932.mp3"
+        },
+        {
+          "text": "Pedir a los exploradores que identifiquen si hay presencia de civiles antes de actuar.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1_1766421270144.mp3"
+        },
+        {
+          "text": "Revisar los suministros de fuego y prepararse para una destrucción sistemática.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_2_1766421271252.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "El sol de mediodía castiga la inmensidad del desierto mientras el viento arrastra el olor a pólvora y cuero viejo.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766421264436_0_1766421264436.mp3"
+          },
+          {
+            "text": "Frente a ti, los toldos de cuero de una comunidad mapuche se levantan en el horizonte, ignorantes de tu presencia.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766421266139_1_1766421266139.mp3"
+          },
+          {
+            "text": "La orden del General Roca resuena en tu mente: borrar cualquier rastro del asentamiento para asegurar el avance del ejército nacional.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766421267830_2_1766421267830.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766421238793_estoy_en_la_campa_a_/assets/scene_1766421261515.jpg",
+      "music": "/stories/1766421238793_estoy_en_la_campa_a_/assets/music_1766421996855_1766421996855.mp3",
+      "selectedOption": "Preguntarme si debería cumplir las órdenes",
+      "selectedOptionAudio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/selected_option_1766422274188_1766422274188.mp3"
+    },
+    {
+      "title": "Dilema en la Pampa",
+      "scene_text": [
+        "El humo de las hogueras lejanas se mezcla con el polvo asfixiante de la llanura pampeana.",
+        "Tus manos tiemblan sobre el frío metal del fusil Remington mientras observas las tolderías en el horizonte.",
+        "El sargento nota tu vacilación y te lanza una mirada severa, exigiendo obediencia inmediata.",
+        "La moral y el deber chocan violentamente en tu pecho bajo el sol implacable."
+      ],
+      "scene_image_prompt": "A 19th-century Argentine soldier in historical military uniform, standing in a dry, dusty desert landscape, holding a Remington rifle. In the distance, a small indigenous village of hides and sticks (toldería) is visible. Dramatic lighting, cinematic historical drama style, wide shot.",
+      "scene_music_style": "Dramatic Orchestral, Melancholic Strings, Somber, Historical Argentine Folk Influences",
+      "scene_music_title": "Ecos de la Pampa",
+      "options": [
+        {
+          "text": "Avanzar con la unidad y cumplir las órdenes por temor a las consecuencias.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422270906_0_1766422270906.mp3"
+        },
+        {
+          "text": "Cuestionar al sargento sobre la necesidad de destruir el asentamiento.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422272095_1_1766422272095.mp3"
+        },
+        {
+          "text": "Arrojar el arma y negarte a participar en la destrucción.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422273218_2_1766422273218.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "El humo de las hogueras lejanas se mezcla con el polvo asfixiante de la llanura pampeana.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422262015_0_1766422262015.mp3"
+          },
+          {
+            "text": "Tus manos tiemblan sobre el frío metal del fusil Remington mientras observas las tolderías en el horizonte.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422263513_1_1766422263513.mp3"
+          },
+          {
+            "text": "El sargento nota tu vacilación y te lanza una mirada severa, exigiendo obediencia inmediata.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422268466_2_1766422268466.mp3"
+          },
+          {
+            "text": "La moral y el deber chocan violentamente en tu pecho bajo el sol implacable.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422269758_3_1766422269758.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766421238793_estoy_en_la_campa_a_/assets/scene_1766422260765.jpg",
+      "selectedOption": "Cuestionar al sargento sobre la necesidad de destruir el asentamiento.",
+      "selectedOptionAudio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422272095_1_1766422272095.mp3"
+    },
+    {
+      "title": "Dilema bajo el Sol de la Pampa",
+      "scene_text": [
+        "El sargento se detiene en seco, su mirada es fría y cargada de un desprecio autoritario ante tu vacilación.",
+        "A lo lejos, el humo negro de las primeras chozas incendiadas comienza a manchar el cielo azul del desierto.",
+        "—No estamos aquí para pensar, soldado, sino para traer el progreso a sangre y fuego —escupe con dureza mientras golpea su sable."
+      ],
+      "scene_image_prompt": "A gritty, cinematic close-up of a 19th-century Argentine sergeant with a thick mustache and a weathered face, wearing a dusty military uniform. In the blurred background, a small indigenous village in the Argentine Pampa is starting to burn under a bright, harsh sun. Realistic style, historical photography aesthetic.",
+      "scene_music_style": "Cinematic Tension, Low Orchestral Strings, Somber, Percussive",
+      "scene_music_title": "The Weight of the Sword",
+      "options": [
+        {
+          "text": "Bajar la cabeza y acatar la orden para evitar ser procesado por insubordinación.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422567707_0_1766422567707.mp3"
+        },
+        {
+          "text": "Intentar advertir a los habitantes de la periferia para que huyan antes del ataque total.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422568917_1_1766422568917.mp3"
+        },
+        {
+          "text": "Insistir en que la violencia contra civiles es innecesaria, arriesgando el arresto.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422570127_2_1766422570127.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "El sargento se detiene en seco, su mirada es fría y cargada de un desprecio autoritario ante tu vacilación.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422563100_0_1766422563100.mp3"
+          },
+          {
+            "text": "A lo lejos, el humo negro de las primeras chozas incendiadas comienza a manchar el cielo azul del desierto.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422564589_1_1766422564589.mp3"
+          },
+          {
+            "text": "—No estamos aquí para pensar, soldado, sino para traer el progreso a sangre y fuego —escupe con dureza mientras golpea su sable.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422566456_2_1766422566456.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766421238793_estoy_en_la_campa_a_/assets/scene_1766422561675.jpg",
+      "selectedOption": "Insistir en que la violencia contra civiles es innecesaria, arriesgando el arresto.",
+      "selectedOptionAudio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422570127_2_1766422570127.mp3"
+    },
+    {
+      "title": "El Precio de la Conciencia",
+      "scene_text": [
+        "El sargento se acerca a pocos centímetros de tu rostro, su aliento huele a tabaco y rabia contenida.",
+        "Con un gesto brusco, ordena a dos soldados que te despojen de tu fusil Remington ante la mirada atónita de la tropa.",
+        "Te arrastran hacia la retaguardia mientras las primeras llamas lamen los toldos de cuero, marcando el inicio de la desolación."
+      ],
+      "scene_image_prompt": "A 19th-century Argentine soldier being disarmed by two other soldiers in a dusty Patagonian landscape. In the background, columns of black smoke rise from a burning indigenous village. Realistic oil painting style, dramatic lighting, gritty textures.",
+      "scene_music_style": "Tense Orchestral, Melancholic Strings, Period Drama, Somber",
+      "scene_music_title": "Deshonor en la Pampa",
+      "options": [
+        {
+          "text": "Aceptar el castigo en silencio, manteniendo la mirada firme ante el sargento.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422650145_0_1766422650145.mp3"
+        },
+        {
+          "text": "Intentar hablar con los soldados que te custodian para buscar aliados entre la tropa.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422651268_1_1766422651268.mp3"
+        },
+        {
+          "text": "Esperar a que caiga la noche para intentar escapar y advertir a otros asentamientos.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766422652466_2_1766422652466.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "El sargento se acerca a pocos centímetros de tu rostro, su aliento huele a tabaco y rabia contenida.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422645951_0_1766422645951.mp3"
+          },
+          {
+            "text": "Con un gesto brusco, ordena a dos soldados que te despojen de tu fusil Remington ante la mirada atónita de la tropa.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422647449_1_1766422647449.mp3"
+          },
+          {
+            "text": "Te arrastran hacia la retaguardia mientras las primeras llamas lamen los toldos de cuero, marcando el inicio de la desolación.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766422648987_2_1766422648987.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766421238793_estoy_en_la_campa_a_/assets/scene_1766422644612.jpg",
+      "selectedOption": "Sacarme la ropa",
+      "selectedOptionAudio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/selected_option_1766423028196_1766423028196.mp3"
+    },
+    {
+      "title": "El Deshonor de la Carne",
+      "scene_text": [
+        "El frío del desierto muerde tu piel expuesta mientras dejas caer tu uniforme manchado de polvo al suelo.",
+        "El sargento se queda petrificado, su rostro alternando violentamente entre la furia y la confusión más absoluta.",
+        "A tu alrededor, los otros soldados bajan sus fusiles Remington, murmurando entre dientes ante tu acto de locura o desesperación."
+      ],
+      "scene_image_prompt": "A 19th-century Argentine soldier standing defiant and shirtless in a dusty, dry pampa landscape. His military jacket and gear lie on the ground. A stern sergeant with a thick mustache and a military kepi stares in shock. In the background, other soldiers and horses are visible under a harsh, pale sun. Hyper-realistic historical style.",
+      "scene_music_style": "Tense Orchestral, Low Strings, Minimalist, Somber",
+      "scene_music_title": "The Silence of the Desert",
+      "options": [
+        {
+          "text": "Declarar que prefieres la desnudez antes que manchar el uniforme con sangre inocente.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766423024959_0_1766423024959.mp3"
+        },
+        {
+          "text": "Mantener el silencio absoluto, desafiando su autoridad con tu vulnerabilidad.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766423026152_1_1766423026152.mp3"
+        },
+        {
+          "text": "Caminar hacia la aldea desarmado y desnudo, actuando como un escudo humano.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766423027342_2_1766423027342.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "El frío del desierto muerde tu piel expuesta mientras dejas caer tu uniforme manchado de polvo al suelo.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766423020643_0_1766423020643.mp3"
+          },
+          {
+            "text": "El sargento se queda petrificado, su rostro alternando violentamente entre la furia y la confusión más absoluta.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766423022092_1_1766423022092.mp3"
+          },
+          {
+            "text": "A tu alrededor, los otros soldados bajan sus fusiles Remington, murmurando entre dientes ante tu acto de locura o desesperación.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766423023682_2_1766423023682.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766421238793_estoy_en_la_campa_a_/assets/scene_1766423019070.jpg",
+      "selectedOption": "Besar al sargento",
+      "selectedOptionAudio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/selected_option_1766423122695_1766423122695.mp3"
+    },
+    {
+      "title": "Un Desafío Inesperado",
+      "scene_text": [
+        "El aire se congela bajo el sol abrasador de la pampa cuando tus labios encuentran los del curtido oficial.",
+        "El silencio que sigue es absoluto; los demás soldados detienen su avance, petrificados ante semejante acto de insubordinación.",
+        "El sargento retrocede tambaleándose, su rostro transformándose de la sorpresa a una furia volcánica que apenas puede contener.",
+        "La disciplina militar se ha quebrado de la forma más extraña posible, y el destino de la aldea ahora pende de un hilo de pura tensión."
+      ],
+      "scene_image_prompt": "Cinematic shot of a tense encounter between two soldiers in 19th-century Argentine military uniforms. Dusty pampa landscape background with dry grass and a distant indigenous village. Intense facial expressions, historical realism, warm sun flares, film grain.",
+      "scene_music_style": "Tense Orchestral, Minimalist, Traditional Argentine Guitar, High Stakes",
+      "scene_music_title": "Silencio de Pólvora",
+      "options": [
+        {
+          "text": "Aprovechar su confusión para intentar huir hacia el horizonte.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766423119762_0_1766423119762.mp3"
+        },
+        {
+          "text": "Soportar el castigo físico inminente sin bajar la mirada.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766423120820_1_1766423120820.mp3"
+        },
+        {
+          "text": "Gritar que tu amor por la humanidad es mayor que sus órdenes.",
+          "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/option_1766423121831_2_1766423121831.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "El aire se congela bajo el sol abrasador de la pampa cuando tus labios encuentran los del curtido oficial.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766423112947_0_1766423112947.mp3"
+          },
+          {
+            "text": "El silencio que sigue es absoluto; los demás soldados detienen su avance, petrificados ante semejante acto de insubordinación.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766423115288_1_1766423115288.mp3"
+          },
+          {
+            "text": "El sargento retrocede tambaleándose, su rostro transformándose de la sorpresa a una furia volcánica que apenas puede contener.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766423117060_2_1766423117060.mp3"
+          },
+          {
+            "text": "La disciplina militar se ha quebrado de la forma más extraña posible, y el destino de la aldea ahora pende de un hilo de pura tensión.",
+            "audio": "/stories/1766421238793_estoy_en_la_campa_a_/assets/narrative_part_1766423118742_3_1766423118742.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766421238793_estoy_en_la_campa_a_/assets/scene_1766423111622.jpg"
+    }
+  ]
+}

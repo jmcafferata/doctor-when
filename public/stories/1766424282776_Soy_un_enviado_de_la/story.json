@@ -1,0 +1,55 @@
+{
+  "id": "1766424282776_Soy_un_enviado_de_la",
+  "title": "El Secreto del Átomo en la Patagonia",
+  "setting": "Soy un enviado de la ucr yendo a investigar los avances de ronald richter en la isla huemul",
+  "createdAt": "2025-12-22T17:25:18.732Z",
+  "scenes": [
+    {
+      "title": "El Secreto del Átomo en la Patagonia",
+      "scene_text": [
+        "Las gélidas aguas del lago Nahuel Huapi golpean el casco de la lancha mientras te aproximas a la misteriosa Isla Huemul.",
+        "Como enviado de la UCR, tu misión es clara: auditar los astronómicos gastos y los supuestos avances científicos de Ronald Richter.",
+        "En el horizonte, las moles de hormigón del laboratorio emergen entre la bruma como un búnker inexpugnable.",
+        "El aire huele a ozono y a secretos militares; el destino de la energía atómica argentina está a punto de revelarse."
+      ],
+      "scene_image_prompt": "A 1950s vintage style cinematic shot of a small motorboat approaching a rugged island in a vast lake. Massive grey concrete brutalist laboratories are visible through the mist. Snow-capped Andes mountains in the background under a cloudy, dramatic sky. Noir atmosphere.",
+      "scene_music_style": "Dark Orchestral, Mystery, 1950s Noir, Suspenseful",
+      "scene_music_title": "The Fog of Huemul",
+      "options": [
+        {
+          "text": "Presentar tus credenciales oficiales ante la guardia militar en el muelle.",
+          "audio": "/stories/1766424282776_Soy_un_enviado_de_la/assets/option_0_1766424316356.mp3"
+        },
+        {
+          "text": "Observar discretamente las instalaciones desde la orilla antes de entrar.",
+          "audio": "/stories/1766424282776_Soy_un_enviado_de_la/assets/option_1_1766424317521.mp3"
+        },
+        {
+          "text": "Interrogar al motorista sobre los extraños ruidos y luces reportados en la isla.",
+          "audio": "/stories/1766424282776_Soy_un_enviado_de_la/assets/option_2_1766424318731.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Las gélidas aguas del lago Nahuel Huapi golpean el casco de la lancha mientras te aproximas a la misteriosa Isla Huemul.",
+            "audio": "/stories/1766424282776_Soy_un_enviado_de_la/assets/narrative_part_1766424310315_0_1766424310315.mp3"
+          },
+          {
+            "text": "Como enviado de la UCR, tu misión es clara: auditar los astronómicos gastos y los supuestos avances científicos de Ronald Richter.",
+            "audio": "/stories/1766424282776_Soy_un_enviado_de_la/assets/narrative_part_1766424311940_1_1766424311940.mp3"
+          },
+          {
+            "text": "En el horizonte, las moles de hormigón del laboratorio emergen entre la bruma como un búnker inexpugnable.",
+            "audio": "/stories/1766424282776_Soy_un_enviado_de_la/assets/narrative_part_1766424313519_2_1766424313519.mp3"
+          },
+          {
+            "text": "El aire huele a ozono y a secretos militares; el destino de la energía atómica argentina está a punto de revelarse.",
+            "audio": "/stories/1766424282776_Soy_un_enviado_de_la/assets/narrative_part_1766424315163_3_1766424315163.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766424282776_Soy_un_enviado_de_la/assets/scene_1766424308663.jpg"
+    }
+  ]
+}
