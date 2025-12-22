@@ -25,9 +25,59 @@ if (!fs.existsSync(STORIES_DIR)) {
     fs.mkdirSync(STORIES_DIR, { recursive: true });
 }
 
-const CREATOR_MODE = !!process.env.GEMINI_API_KEY;
+let CREATOR_MODE = !!process.env.GEMINI_API_KEY;
 let genAI;
 let model;
+
+// Helper to initialize or teardown creator-mode related objects
+function enableCreatorMode() {
+    if (!process.env.GEMINI_API_KEY) {
+        console.warn('Cannot enable creator mode: GEMINI_API_KEY missing');
+        return false;
+    }
+    try {
+        genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+        model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
+        CREATOR_MODE = true;
+        console.log('Creator Mode enabled');
+        return true;
+    } catch (e) {
+        console.error('Failed to initialize GenAI:', e.message);
+        return false;
+    }
+}
+
+function disableCreatorMode() {
+    CREATOR_MODE = false;
+    genAI = null;
+    model = null;
+    console.log('Creator Mode disabled');
+}
+
+// Route to enable creator mode at runtime (useful for quick toggles)
+app.get('/crear', (req, res) => {
+    // Only enable if an API key is configured on the server
+    if (!process.env.GEMINI_API_KEY) {
+        // Informational response; can't enable full creator mode without key
+        res.status(400).send('Creator mode requires GEMINI_API_KEY to be set in environment variables on the server.');
+        return;
+    }
+
+    const ok = enableCreatorMode();
+    if (ok) {
+        res.cookie && res.cookie('creator_mode', '1', { maxAge: 30 * 24 * 60 * 60 * 1000 });
+        res.redirect('/');
+    } else {
+        res.status(500).send('Failed to enable creator mode. Check server logs.');
+    }
+});
+
+// Optional route to disable creator mode
+app.get('/crear/disable', (req, res) => {
+    disableCreatorMode();
+    res.clearCookie && res.clearCookie('creator_mode');
+    res.redirect('/');
+});
 
 if (CREATOR_MODE) {
     genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
