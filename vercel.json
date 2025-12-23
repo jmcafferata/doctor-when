@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "server.js"
     }
-  ]
+  ],
+  "functions": {
+    "server.js": {
+      "excludeFiles": "{public/**,*.md,*.txt,test/**,tests/**,.git/**}"
+    }
+  }
 }
