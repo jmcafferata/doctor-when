@@ -546,7 +546,9 @@ function updateGameScreen(data) {
 // Helper to play music
 function playMusic(musicPath) {
     // Resolve to absolute src string
-    const musicSrc = musicPath.startsWith('/') ? musicPath : `data:audio/mpeg;base64,${musicPath}`;
+    const musicSrc = (musicPath.startsWith('/') || musicPath.startsWith('http')) 
+        ? musicPath 
+        : `data:audio/mpeg;base64,${musicPath}`;
 
     // If we're already playing this track, do not restart—just glide to the desired volume
     if (currentMusic && currentMusicSrc === musicSrc && !currentMusic.paused) {

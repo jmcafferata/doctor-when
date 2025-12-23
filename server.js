@@ -48,6 +48,12 @@ app.use(cors());
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(express.static('public'));
 
+// Serve stories directory explicitly for Vercel ephemeral storage or local fallback
+// On Vercel, STORIES_DIR is /tmp/stories which is not served by default.
+// Locally, STORIES_DIR is public/stories which is already served by express.static('public'),
+// but adding this route makes it explicit and consistent.
+app.use('/stories', express.static(STORIES_DIR));
+
 // Detect if running in Vercel serverless (read-only filesystem)
 const IS_VERCEL = process.env.VERCEL === '1';
 
