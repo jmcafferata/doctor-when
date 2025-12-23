@@ -16,6 +16,7 @@ const DEFAULT_CREDENTIALS_PATH = path.join(__dirname, 'credentials.json');
 
 // Database & Blob Config
 const USE_DB = !!process.env.POSTGRES_URL;
+const USE_BLOB = !!process.env.BLOB_READ_WRITE_TOKEN;
 
 async function initDB() {
     if (!USE_DB) return;
@@ -393,7 +394,7 @@ async function generateSpeech(text, retries = 3) {
 async function saveAsset(storyId, buffer, extension, type) {
     const filename = `${type}_${Date.now()}.${extension}`;
     
-    if (USE_DB) {
+    if (USE_BLOB) {
         const blob = await put(`stories/${storyId}/${filename}`, buffer, { access: 'public' });
         return blob.url;
     } else {
