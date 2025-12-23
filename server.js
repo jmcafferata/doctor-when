@@ -19,10 +19,19 @@ app.use(cors());
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(express.static('public'));
 
-// Ensure stories directory exists
-const STORIES_DIR = path.join(__dirname, 'public', 'stories');
-if (!fs.existsSync(STORIES_DIR)) {
-    fs.mkdirSync(STORIES_DIR, { recursive: true });
+// Detect if running in Vercel serverless (read-only filesystem)
+const IS_VERCEL = process.env.VERCEL === '1';
+
+// Stories directory path - use /tmp for Vercel, public/stories for local
+const STORIES_DIR = IS_VERCEL 
+    ? path.join('/tmp', 'stories')
+    : path.join(__dirname, 'public', 'stories');
+
+// Helper to ensure directory exists (only called when writing)
+function ensureDir(dirPath) {
+    if (!fs.existsSync(dirPath)) {
+        fs.mkdirSync(dirPath, { recursive: true });
+    }
 }
 
 let CREATOR_MODE = !!process.env.GEMINI_API_KEY;
@@ -334,7 +343,9 @@ async function generateSpeech(text, retries = 3) {
 // Helper to save assets
 async function saveAsset(storyId, buffer, extension, type) {
     const filename = `${type}_${Date.now()}.${extension}`;
-    const filepath = path.join(STORIES_DIR, storyId, 'assets', filename);
+    const assetsDir = path.join(STORIES_DIR, storyId, 'assets');
+    ensureDir(assetsDir);
+    const filepath = path.join(assetsDir, filename);
     await fs.promises.writeFile(filepath, buffer);
     return `/stories/${storyId}/assets/${filename}`;
 }
@@ -453,7 +464,9 @@ async function generateNarrativeParts(textSegments, storyId) {
 
 // Helper to save story state
 async function saveStoryState(storyId, storyData) {
-    const filepath = path.join(STORIES_DIR, storyId, 'story.json');
+    const storyDir = path.join(STORIES_DIR, storyId);
+    ensureDir(storyDir);
+    const filepath = path.join(storyDir, 'story.json');
     await fs.promises.writeFile(filepath, JSON.stringify(storyData, null, 2));
 }
 
@@ -850,6 +863,8 @@ app.post('/api/music', async (req, res) => {
                 try {
                     const musicBuffer = (await axios.get(result.audioUrl, { responseType: 'arraybuffer' })).data;
                     const musicPath = await saveMusicAndUpdateStory(storyId, musicBuffer, `music_${Date.now()}`);
+                    const statusDir = path.join(STORIES_DIR, storyId);
+                    ensureDir(statusDir);
                     await fs.promises.writeFile(statusPath, JSON.stringify({ taskId: status.taskId, musicPath }, null, 2));
                     musicInFlight.delete(storyId);
                     return res.json({ music: musicPath });
@@ -886,6 +901,8 @@ app.post('/api/music', async (req, res) => {
         }
 
         musicInFlight.set(storyId, taskId);
+        const statusDir = path.join(STORIES_DIR, storyId);
+        ensureDir(statusDir);
         await fs.promises.writeFile(statusPath, JSON.stringify({ taskId }, null, 2));
         return res.json({ pending: true, taskId });
     } catch (error) {
