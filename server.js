@@ -972,10 +972,12 @@ app.post('/generate-image', async (req, res) => {
     }
 });
 
+// For local development
 if (require.main === module) {
     app.listen(port, () => {
         console.log(`Server running at http://localhost:${port}`);
     });
 }
 
+// For Vercel serverless
 module.exports = app;
