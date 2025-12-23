@@ -1,0 +1,154 @@
+{
+  "id": "1766528690480_soy_peron_conociendo",
+  "title": "El Encuentro en el Luna Park",
+  "setting": "soy peron conociendo a evita",
+  "createdAt": "2025-12-23T22:25:25.591Z",
+  "scenes": [
+    {
+      "title": "El Encuentro en el Luna Park",
+      "scene_text": [
+        "Es el 22 de enero de 1944. El Estadio Luna Park de Buenos Aires está colmado para el festival solidario por las víctimas del terremoto de San Juan.",
+        "Como Coronel y Secretario de Trabajo, me encuentro en la primera fila, rodeado del murmullo de la multitud y el eco de los discursos.",
+        "De pronto, una joven actriz de mirada intensa y porte decidido se acerca a mi asiento con una determinación que destaca entre los presentes.",
+        "Es Eva Duarte, y el destino de la nación está a punto de dar un giro histórico en este breve instante."
+      ],
+      "scene_image_prompt": "A cinematic and historical scene in 1944 inside the Luna Park stadium, Buenos Aires. Colonel Juan Domingo Perón, a man in his late 40s with dark hair and a formal olive green Argentine military uniform, is seated in the front row. Eva Duarte, a 24-year-old woman with blonde hair in 1940s waves and an elegant dark evening dress, approaches him. The background is a crowded gala with vintage microphones, warm stage lighting, and a soft focus on the audience. Realistic, historical oil painting style with dramatic lighting.",
+      "scene_music_style": "Nostalgic 1940s Argentine Tango, soft violins, melancholic piano, orchestral ballroom",
+      "scene_music_title": "Ecos del Destino",
+      "options": [
+        {
+          "text": "Recibirla con respeto y escuchar su propuesta para organizar a los artistas en las tareas de socorro.",
+          "audio": "/stories/1766528690480_soy_peron_conociendo/assets/option_0_1766528723079.mp3"
+        },
+        {
+          "text": "Ignorar su acercamiento y pedir a los guardias que mantengan el protocolo militar estrictamente.",
+          "audio": "/stories/1766528690480_soy_peron_conociendo/assets/option_1_1766528724333.mp3"
+        },
+        {
+          "text": "Abandonar el estadio de inmediato para evitar que mi imagen pública se asocie con el mundo del espectáculo.",
+          "audio": "/stories/1766528690480_soy_peron_conociendo/assets/option_2_1766528725590.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Es el 22 de enero de 1944. El Estadio Luna Park de Buenos Aires está colmado para el festival solidario por las víctimas del terremoto de San Juan.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528717004_0_1766528717004.mp3"
+          },
+          {
+            "text": "Como Coronel y Secretario de Trabajo, me encuentro en la primera fila, rodeado del murmullo de la multitud y el eco de los discursos.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528718710_1_1766528718710.mp3"
+          },
+          {
+            "text": "De pronto, una joven actriz de mirada intensa y porte decidido se acerca a mi asiento con una determinación que destaca entre los presentes.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528720324_2_1766528720324.mp3"
+          },
+          {
+            "text": "Es Eva Duarte, y el destino de la nación está a punto de dar un giro histórico en este breve instante.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528721784_3_1766528721784.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766528690480_soy_peron_conociendo/assets/scene_1766528715101.jpg",
+      "selectedOption": "Abandonar el estadio de inmediato para evitar que mi imagen pública se asocie con el mundo del espectáculo.",
+      "selectedOptionAudio": "/stories/1766528690480_soy_peron_conociendo/assets/option_2_1766528725590.mp3",
+      "music": "/stories/1766528690480_soy_peron_conociendo/assets/music_1766529413541_1766529413542.mp3"
+    },
+    {
+      "title": "El Encuentro Inevitable",
+      "scene_text": [
+        "Intento alejarme de las luces del Luna Park, buscando la sobriedad de la noche porteña para proteger mi carrera militar.",
+        "Pero antes de llegar a mi vehículo, una figura elegante se interpone en mi camino bajo las marquesinas de la calle Corrientes.",
+        "Es Eva Duarte; su mirada arde con una convicción que detiene mi paso y desafía mi prudencia.",
+        "El destino parece reclamar su lugar, obligándome a elegir entre la fría estrategia política o la pasión de una causa compartida."
+      ],
+      "scene_image_prompt": "Cinematic shot, night time in 1944 Buenos Aires. Juan Domingo Perón, a middle-aged Colonel in a sharp dark olive military uniform, stands near the Art Deco exit of Luna Park. He is facing Eva Duarte, a young woman with a 1940s blonde updo and a sophisticated dark evening dress. The background shows the glowing lights of Avenida Corrientes and vintage black cars. The atmosphere is misty and dramatic, capturing a tense historical moment. High detail, realistic style.",
+      "scene_music_style": "Dramatic Tango Orchestral, Suspenseful, 1940s Film Noir, melancholic violin and bandoneon",
+      "scene_music_title": "Sombras en Corrientes",
+      "options": [
+        {
+          "text": "Escuchar sus palabras sobre la urgencia de organizar la ayuda para los damnificados de San Juan.",
+          "audio": "/stories/1766528690480_soy_peron_conociendo/assets/option_1766528807030_0_1766528807030.mp3"
+        },
+        {
+          "text": "Llamar a mis subordinados para que la aparten del camino y poder retirarme en silencio.",
+          "audio": "/stories/1766528690480_soy_peron_conociendo/assets/option_1766528808473_1_1766528808473.mp3"
+        },
+        {
+          "text": "Negar mi identidad y fingir que soy otro oficial para evitar cualquier vínculo con ella.",
+          "audio": "/stories/1766528690480_soy_peron_conociendo/assets/option_1766528809715_2_1766528809715.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Intento alejarme de las luces del Luna Park, buscando la sobriedad de la noche porteña para proteger mi carrera militar.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528801203_0_1766528801203.mp3"
+          },
+          {
+            "text": "Pero antes de llegar a mi vehículo, una figura elegante se interpone en mi camino bajo las marquesinas de la calle Corrientes.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528802721_1_1766528802721.mp3"
+          },
+          {
+            "text": "Es Eva Duarte; su mirada arde con una convicción que detiene mi paso y desafía mi prudencia.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528804142_2_1766528804142.mp3"
+          },
+          {
+            "text": "El destino parece reclamar su lugar, obligándome a elegir entre la fría estrategia política o la pasión de una causa compartida.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528805756_3_1766528805756.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766528690480_soy_peron_conociendo/assets/scene_1766528799789.jpg",
+      "selectedOption": "Llamar a mis subordinados para que la aparten del camino y poder retirarme en silencio.",
+      "selectedOptionAudio": "/stories/1766528690480_soy_peron_conociendo/assets/option_1766528808473_1_1766528808473.mp3"
+    },
+    {
+      "title": "La Fuerza de una Voz",
+      "scene_text": [
+        "Mis subordinados intentan apartarla, pero Eva no retrocede ni un milímetro.",
+        "Con una voz que corta el aire frío de la noche, ignora a los soldados y se dirige directamente a mi conciencia.",
+        "Habla de la tragedia en San Juan, del dolor de los huérfanos y de la necesidad de una justicia que no solo sea caridad.",
+        "Su presencia es tan arrolladora que mis propios hombres titubean, cautivados por su convicción inquebrantable."
+      ],
+      "scene_image_prompt": "A cinematic shot outside the Luna Park stadium in Buenos Aires, 1944 at night. Juan Domingo Perón, a tall Colonel in a sharp 1940s Argentine military uniform, looks on with a mix of surprise and admiration. Eva Duarte, a young woman with blonde hair in elegant 1940s waves and a sophisticated black evening dress, stands her ground against two military subordinates who are trying to hold her back. The background features vintage cars and the Art Deco architecture of the stadium with glowing signs. Dramatic lighting from street lamps creates deep shadows and highlights Eva's intense, passionate expression.",
+      "scene_music_style": "Dramatic Tango, Orchestral Noir, Tense Violin Solos, 1940s Period Atmosphere",
+      "scene_music_title": "El Duelo de Voluntades",
+      "options": [
+        {
+          "text": "Detener a mis subordinados y permitir que Eva exponga sus ideas sobre la ayuda social.",
+          "audio": "/stories/1766528690480_soy_peron_conociendo/assets/option_1766528882650_0_1766528882650.mp3"
+        },
+        {
+          "text": "Ignorar su apasionado discurso y subir al vehículo oficial cerrando la puerta con fuerza.",
+          "audio": "/stories/1766528690480_soy_peron_conociendo/assets/option_1766528883902_1_1766528883902.mp3"
+        },
+        {
+          "text": "Ordenar a la policía local que la escolte lejos del estadio para evitar más disturbios.",
+          "audio": "/stories/1766528690480_soy_peron_conociendo/assets/option_1766528885106_2_1766528885106.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Mis subordinados intentan apartarla, pero Eva no retrocede ni un milímetro.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528876878_0_1766528876878.mp3"
+          },
+          {
+            "text": "Con una voz que corta el aire frío de la noche, ignora a los soldados y se dirige directamente a mi conciencia.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528878439_1_1766528878439.mp3"
+          },
+          {
+            "text": "Habla de la tragedia en San Juan, del dolor de los huérfanos y de la necesidad de una justicia que no solo sea caridad.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528879897_2_1766528879897.mp3"
+          },
+          {
+            "text": "Su presencia es tan arrolladora que mis propios hombres titubean, cautivados por su convicción inquebrantable.",
+            "audio": "/stories/1766528690480_soy_peron_conociendo/assets/narrative_part_1766528881380_3_1766528881380.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766528690480_soy_peron_conociendo/assets/scene_1766528875590.jpg"
+    }
+  ]
+}

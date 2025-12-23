@@ -1,0 +1,51 @@
+{
+  "id": "1766526229812_soy_peron__yendo_a_v",
+  "title": "El Secreto de la Isla Huemul",
+  "setting": "soy peron, yendo a ver que tal anda richter",
+  "createdAt": "2025-12-23T21:44:26.106Z",
+  "scenes": [
+    {
+      "title": "El Secreto de la Isla Huemul",
+      "scene_text": [
+        "Las gélidas aguas del Nahuel Huapi susurran promesas de grandeza mientras desembarcamos en la remota isla.",
+        "El Dr. Ronald Richter me espera frente a su búnker de hormigón, con la mirada encendida por un fervor casi místico.",
+        "Aquí, en el corazón de la Patagonia, se gesta el futuro de la energía atómica para la Nueva Argentina."
+      ],
+      "scene_image_prompt": "Cinematic historical illustration. 1950s era. Juan Domingo Perón, a man in a formal dark military overcoat and officer cap, stands on a rustic wooden pier at Isla Huemul. In front of him stands Ronald Richter, an eccentric scientist with wild, messy hair and a white lab coat over a suit, gesturing towards a massive, brutalist concrete laboratory building. The background features deep blue lake water and the towering, snow-covered peaks of the Andes mountains under a crisp blue sky. High detail, period-accurate clothing, dramatic lighting.",
+      "scene_music_style": "Dramatic Orchestral, 1950s Period Drama, Tense Strings, Hopeful Brass, Cinematic History",
+      "scene_music_title": "Patagonia Atómica",
+      "options": [
+        {
+          "text": "Preguntar a Richter sobre los avances técnicos en el proceso de fusión termonuclear controlada.",
+          "audio": "/stories/1766526229812_soy_peron__yendo_a_v/assets/option_0_1766526263459.mp3"
+        },
+        {
+          "text": "Exigir resultados inmediatos para la fabricación de bombas de fisión similares a las de Hiroshima.",
+          "audio": "/stories/1766526229812_soy_peron__yendo_a_v/assets/option_1_1766526264704.mp3"
+        },
+        {
+          "text": "Ordenar la cancelación del proyecto inmediatamente por considerar que la energía nuclear es una pseudociencia.",
+          "audio": "/stories/1766526229812_soy_peron__yendo_a_v/assets/option_2_1766526266105.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Las gélidas aguas del Nahuel Huapi susurran promesas de grandeza mientras desembarcamos en la remota isla.",
+            "audio": "/stories/1766526229812_soy_peron__yendo_a_v/assets/narrative_part_1766526258657_0_1766526258657.mp3"
+          },
+          {
+            "text": "El Dr. Ronald Richter me espera frente a su búnker de hormigón, con la mirada encendida por un fervor casi místico.",
+            "audio": "/stories/1766526229812_soy_peron__yendo_a_v/assets/narrative_part_1766526260686_1_1766526260686.mp3"
+          },
+          {
+            "text": "Aquí, en el corazón de la Patagonia, se gesta el futuro de la energía atómica para la Nueva Argentina.",
+            "audio": "/stories/1766526229812_soy_peron__yendo_a_v/assets/narrative_part_1766526262106_2_1766526262106.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766526229812_soy_peron__yendo_a_v/assets/scene_1766526255687.jpg",
+      "music": "/stories/1766526229812_soy_peron__yendo_a_v/assets/music_1766526785729_1766526785729.mp3"
+    }
+  ]
+}

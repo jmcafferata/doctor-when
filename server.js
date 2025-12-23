@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const { GoogleAuth } = require('google-auth-library');
+const { sql } = require('@vercel/postgres');
+const { put } = require('@vercel/blob');
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
@@ -11,6 +13,33 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 const DEFAULT_CREDENTIALS_PATH = path.join(__dirname, 'credentials.json');
+
+// Database & Blob Config
+const USE_DB = !!process.env.POSTGRES_URL;
+
+async function initDB() {
+    if (!USE_DB) return;
+    try {
+        await sql`
+            CREATE TABLE IF NOT EXISTS stories (
+                id TEXT PRIMARY KEY,
+                data JSONB,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            );
+        `;
+        await sql`
+            CREATE TABLE IF NOT EXISTS music_status (
+                story_id TEXT PRIMARY KEY,
+                status JSONB,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            );
+        `;
+        console.log('Database initialized');
+    } catch (e) {
+        console.error('Failed to init DB:', e);
+    }
+}
+initDB();
 
 // Simple in-memory guard to avoid starting duplicate music tasks per story
 const musicInFlight = new Map();
@@ -92,8 +121,8 @@ if (CREATOR_MODE) {
 // }
 
 const SYSTEM_PROMPT = `
-You are an AI Game Master for a visual novel style game. 
-Your goal is to generate immersive story segments and choices.
+You are an AI Game Master for an educational visual novel style game. 
+Your goal is to generate immersive story segments and choices with one correct answer and two incorrect answers.
 You must output ONLY valid JSON.
 The story and options MUST be in Spanish.
 Include specific character and setting details in the scene descriptions so that the image generator can always generate the same characters and settings.
@@ -106,9 +135,9 @@ The JSON structure must be:
   "scene_music_style": "Musical style tags (e.g. Dark Ambient, Orchestral, Cyberpunk) (in English and very specific and creative)...",
   "scene_music_title": "A short title for the music track...",
   "options": [
-    { "text": "Option 1 action (in Spanish)" },
-    { "text": "Option 2 action (in Spanish)" },
-    { "text": "Option 3 action (in Spanish)" }
+    { "text": "Correct Option 1 action (in Spanish)" },
+    { "text": "Incorrect Option 2 action (in Spanish)" },
+    { "text": "incorrect + ridiculous Option 3 action (in Spanish)" }
   ]
 }
 Split the scene_text into 2-4 short, dramatic sentences or phrases for pacing.
@@ -203,11 +232,23 @@ function getMusicStatusPath(storyId) {
 
 async function getExistingMusicPath(storyId) {
     try {
-        const storyPath = path.join(STORIES_DIR, storyId, 'story.json');
-        if (!fs.existsSync(storyPath)) return null;
-        const data = JSON.parse(await fs.promises.readFile(storyPath, 'utf8'));
-        const firstSceneWithMusic = (data.scenes || []).find(s => s.music);
+        let storyData = null;
+        if (USE_DB) {
+            const { rows } = await sql`SELECT data FROM stories WHERE id = ${storyId}`;
+            if (rows.length > 0) storyData = rows[0].data;
+        } else {
+            const storyPath = path.join(STORIES_DIR, storyId, 'story.json');
+            if (fs.existsSync(storyPath)) {
+                storyData = JSON.parse(await fs.promises.readFile(storyPath, 'utf8'));
+            }
+        }
+        
+        if (!storyData) return null;
+        const firstSceneWithMusic = (storyData.scenes || []).find(s => s.music);
         if (!firstSceneWithMusic || !firstSceneWithMusic.music) return null;
+        
+        if (USE_DB) return firstSceneWithMusic.music;
+
         const absolute = path.join(__dirname, 'public', firstSceneWithMusic.music);
         return fs.existsSync(absolute) ? firstSceneWithMusic.music : null;
     } catch (e) {
@@ -220,21 +261,23 @@ async function saveMusicAndUpdateStory(storyId, musicBuffer, musicLabel) {
     const musicPath = await saveAsset(storyId, musicBuffer, 'mp3', musicLabel);
 
     // Persist on story.json so future requests short-circuit
-    const storyPath = path.join(STORIES_DIR, storyId, 'story.json');
-    if (fs.existsSync(storyPath)) {
-        try {
-            const storyData = JSON.parse(await fs.promises.readFile(storyPath, 'utf8'));
-            if (storyData.scenes && storyData.scenes.length > 0) {
-                if (!storyData.scenes[0].music) {
-                    storyData.scenes[0].music = musicPath;
-                    await saveStoryState(storyId, storyData);
-                }
-            }
-        } catch (e) {
-            console.error('Error updating story music:', e.message);
+    let storyData = null;
+    if (USE_DB) {
+        const { rows } = await sql`SELECT data FROM stories WHERE id = ${storyId}`;
+        if (rows.length > 0) storyData = rows[0].data;
+    } else {
+        const storyPath = path.join(STORIES_DIR, storyId, 'story.json');
+        if (fs.existsSync(storyPath)) {
+            storyData = JSON.parse(await fs.promises.readFile(storyPath, 'utf8'));
         }
     }
 
+    if (storyData && storyData.scenes && storyData.scenes.length > 0) {
+        if (!storyData.scenes[0].music) {
+            storyData.scenes[0].music = musicPath;
+            await saveStoryState(storyId, storyData);
+        }
+    }
     return musicPath;
 }
 
@@ -343,11 +386,17 @@ async function generateSpeech(text, retries = 3) {
 // Helper to save assets
 async function saveAsset(storyId, buffer, extension, type) {
     const filename = `${type}_${Date.now()}.${extension}`;
-    const assetsDir = path.join(STORIES_DIR, storyId, 'assets');
-    ensureDir(assetsDir);
-    const filepath = path.join(assetsDir, filename);
-    await fs.promises.writeFile(filepath, buffer);
-    return `/stories/${storyId}/assets/${filename}`;
+    
+    if (USE_DB) {
+        const blob = await put(`stories/${storyId}/${filename}`, buffer, { access: 'public' });
+        return blob.url;
+    } else {
+        const assetsDir = path.join(STORIES_DIR, storyId, 'assets');
+        ensureDir(assetsDir);
+        const filepath = path.join(assetsDir, filename);
+        await fs.promises.writeFile(filepath, buffer);
+        return `/stories/${storyId}/assets/${filename}`;
+    }
 }
 
 // Fetch OAuth token from service account for server-side Imagen calls
@@ -464,38 +513,64 @@ async function generateNarrativeParts(textSegments, storyId) {
 
 // Helper to save story state
 async function saveStoryState(storyId, storyData) {
-    const storyDir = path.join(STORIES_DIR, storyId);
-    ensureDir(storyDir);
-    const filepath = path.join(storyDir, 'story.json');
-    await fs.promises.writeFile(filepath, JSON.stringify(storyData, null, 2));
+    if (USE_DB) {
+        await sql`
+            INSERT INTO stories (id, data)
+            VALUES (${storyId}, ${storyData})
+            ON CONFLICT (id) DO UPDATE SET data = ${storyData};
+        `;
+    } else {
+        const storyDir = path.join(STORIES_DIR, storyId);
+        ensureDir(storyDir);
+        const filepath = path.join(storyDir, 'story.json');
+        await fs.promises.writeFile(filepath, JSON.stringify(storyData, null, 2));
+    }
 }
 
 app.get('/api/stories', async (req, res) => {
     try {
-        const dirs = await fs.promises.readdir(STORIES_DIR);
-        const stories = [];
-        for (const dir of dirs) {
-            try {
-                const storyPath = path.join(STORIES_DIR, dir, 'story.json');
-                if (fs.existsSync(storyPath)) {
-                    const data = JSON.parse(await fs.promises.readFile(storyPath, 'utf8'));
-                    stories.push({
-                        id: dir,
-                        title: data.title || data.setting || "Untitled Story",
-                        date: data.createdAt,
-                        scenes: data.scenes.length,
-                        image: data.scenes && data.scenes.length > 0 ? data.scenes[0].image : null
-                    });
+        let stories = [];
+        if (USE_DB) {
+            const { rows } = await sql`SELECT * FROM stories ORDER BY created_at DESC`;
+            stories = rows.map(row => {
+                const data = row.data;
+                return {
+                    id: row.id,
+                    title: data.title || data.setting || "Untitled Story",
+                    date: data.createdAt,
+                    scenes: data.scenes ? data.scenes.length : 0,
+                    image: data.scenes && data.scenes.length > 0 ? data.scenes[0].image : null
+                };
+            });
+        } else {
+            if (fs.existsSync(STORIES_DIR)) {
+                const dirs = await fs.promises.readdir(STORIES_DIR);
+                for (const dir of dirs) {
+                    try {
+                        const storyPath = path.join(STORIES_DIR, dir, 'story.json');
+                        if (fs.existsSync(storyPath)) {
+                            const data = JSON.parse(await fs.promises.readFile(storyPath, 'utf8'));
+                            stories.push({
+                                id: dir,
+                                title: data.title || data.setting || "Untitled Story",
+                                date: data.createdAt,
+                                scenes: data.scenes ? data.scenes.length : 0,
+                                image: data.scenes && data.scenes.length > 0 ? data.scenes[0].image : null
+                            });
+                        }
+                    } catch (e) {
+                        console.error(`Error reading story ${dir}:`, e);
+                    }
                 }
-            } catch (e) {
-                console.error(`Error reading story ${dir}:`, e);
+                stories.sort((a, b) => new Date(b.date) - new Date(a.date));
             }
         }
         res.json({
-            stories: stories.sort((a, b) => new Date(b.date) - new Date(a.date)),
+            stories: stories,
             creatorMode: CREATOR_MODE
         });
     } catch (error) {
+        console.error("Error fetching stories:", error);
         res.status(500).json({ error: 'Failed to list stories' });
     }
 });
@@ -646,10 +721,17 @@ app.post('/api/next', async (req, res) => {
         const { history, choice, storyId, images } = req.body; // Expect 'images' array
         
         // Load existing story to append
-        const storyPath = path.join(STORIES_DIR, storyId, 'story.json');
         let storyData = {};
-        if (fs.existsSync(storyPath)) {
-            storyData = JSON.parse(await fs.promises.readFile(storyPath, 'utf8'));
+        if (USE_DB) {
+            const { rows } = await sql`SELECT data FROM stories WHERE id = ${storyId}`;
+            if (rows.length > 0) {
+                storyData = rows[0].data;
+            }
+        } else {
+            const storyPath = path.join(STORIES_DIR, storyId, 'story.json');
+            if (fs.existsSync(storyPath)) {
+                storyData = JSON.parse(await fs.promises.readFile(storyPath, 'utf8'));
+            }
         }
 
         // Limit history to last 6 turns to avoid token limits
@@ -836,18 +918,25 @@ app.post('/api/music', async (req, res) => {
         }
 
         // 2) Read status (taskId / cached music)
-        const statusPath = getMusicStatusPath(storyId);
         let status = {};
-        if (fs.existsSync(statusPath)) {
-            try {
-                status = JSON.parse(await fs.promises.readFile(statusPath, 'utf8'));
-            } catch (e) {
-                console.error('Error reading music status:', e.message);
+        if (USE_DB) {
+            const { rows } = await sql`SELECT status FROM music_status WHERE story_id = ${storyId}`;
+            if (rows.length > 0) status = rows[0].status;
+        } else {
+            const statusPath = getMusicStatusPath(storyId);
+            if (fs.existsSync(statusPath)) {
+                try {
+                    status = JSON.parse(await fs.promises.readFile(statusPath, 'utf8'));
+                } catch (e) {
+                    console.error('Error reading music status:', e.message);
+                }
             }
         }
 
         // If we already saved music, return it
         if (status.musicPath) {
+            if (USE_DB) return res.json({ music: status.musicPath });
+
             const abs = path.join(__dirname, 'public', status.musicPath);
             if (fs.existsSync(abs)) {
                 return res.json({ music: status.musicPath });
@@ -863,9 +952,20 @@ app.post('/api/music', async (req, res) => {
                 try {
                     const musicBuffer = (await axios.get(result.audioUrl, { responseType: 'arraybuffer' })).data;
                     const musicPath = await saveMusicAndUpdateStory(storyId, musicBuffer, `music_${Date.now()}`);
-                    const statusDir = path.join(STORIES_DIR, storyId);
-                    ensureDir(statusDir);
-                    await fs.promises.writeFile(statusPath, JSON.stringify({ taskId: status.taskId, musicPath }, null, 2));
+                    
+                    if (USE_DB) {
+                        const newStatus = { taskId: status.taskId, musicPath };
+                        await sql`
+                            INSERT INTO music_status (story_id, status)
+                            VALUES (${storyId}, ${newStatus})
+                            ON CONFLICT (story_id) DO UPDATE SET status = ${newStatus};
+                        `;
+                    } else {
+                        const statusPath = getMusicStatusPath(storyId);
+                        const statusDir = path.join(STORIES_DIR, storyId);
+                        ensureDir(statusDir);
+                        await fs.promises.writeFile(statusPath, JSON.stringify({ taskId: status.taskId, musicPath }, null, 2));
+                    }
                     musicInFlight.delete(storyId);
                     return res.json({ music: musicPath });
                 } catch (e) {
@@ -901,9 +1001,20 @@ app.post('/api/music', async (req, res) => {
         }
 
         musicInFlight.set(storyId, taskId);
-        const statusDir = path.join(STORIES_DIR, storyId);
-        ensureDir(statusDir);
-        await fs.promises.writeFile(statusPath, JSON.stringify({ taskId }, null, 2));
+        
+        if (USE_DB) {
+            const newStatus = { taskId };
+            await sql`
+                INSERT INTO music_status (story_id, status)
+                VALUES (${storyId}, ${newStatus})
+                ON CONFLICT (story_id) DO UPDATE SET status = ${newStatus};
+            `;
+        } else {
+            const statusPath = getMusicStatusPath(storyId);
+            const statusDir = path.join(STORIES_DIR, storyId);
+            ensureDir(statusDir);
+            await fs.promises.writeFile(statusPath, JSON.stringify({ taskId }, null, 2));
+        }
         return res.json({ pending: true, taskId });
     } catch (error) {
         console.error('Error generating music:', error);

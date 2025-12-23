@@ -36,6 +36,104 @@ const gameImagePreview = document.getElementById('game-image-preview');
 const gamePreviewImg = document.getElementById('game-preview-img');
 const gameRemoveImgBtn = document.getElementById('game-remove-img-btn');
 
+// Creator mode state (session-scoped)
+let creatorModeAvailable = false;
+let creatorModeEnabled = sessionStorage.getItem('creatorModeEnabled') === 'true';
+
+function isCreatorModeActive() {
+    return creatorModeAvailable && creatorModeEnabled;
+}
+
+function persistCreatorMode() {
+    sessionStorage.setItem('creatorModeEnabled', creatorModeEnabled ? 'true' : 'false');
+}
+
+function applyCreatorModeState() {
+    const active = isCreatorModeActive();
+    if (newStoryBtn) newStoryBtn.style.display = active ? '' : 'none';
+    if (!active && startScreen.classList.contains('active')) {
+        returnToHome();
+    }
+    updateCustomInputVisibility();
+}
+
+function syncCreatorModeAvailability(serverFlag) {
+    creatorModeAvailable = !!serverFlag;
+    const stored = sessionStorage.getItem('creatorModeEnabled');
+    if (stored === null) {
+        creatorModeEnabled = creatorModeAvailable;
+        persistCreatorMode();
+    } else {
+        creatorModeEnabled = stored === 'true';
+    }
+    applyCreatorModeState();
+}
+
+function updateCustomInputVisibility(forceVisible = false) {
+    if (!customInputContainer) return;
+
+    // Replay mode hides custom input regardless of creator mode
+    if (isReplayMode() && !isCreatorModeActive()) {
+        customInputContainer.style.display = 'none';
+        customInputContainer.classList.remove('visible');
+        return;
+    }
+
+    if (isCreatorModeActive()) {
+        // Kill any inline display:none from the HTML
+        customInputContainer.style.display = 'flex';
+        // Make it visible whenever creator mode is active (forceVisible ensures immediate fade-in)
+        customInputContainer.classList.add('visible');
+        if (forceVisible) {
+            // Trigger a reflow to restart the transition if needed
+            void customInputContainer.offsetWidth;
+            customInputContainer.classList.add('visible');
+        }
+    } else {
+        customInputContainer.style.display = 'none';
+        customInputContainer.classList.remove('visible');
+    }
+}
+
+// Long press logic for Creator Mode toggle
+let helpBtnTimer;
+const LONG_PRESS_DURATION = 5000; // 5 seconds press-and-hold
+
+// Hide by default until availability is fetched
+if (newStoryBtn) newStoryBtn.style.display = 'none';
+
+if (navHelpBtn) {
+    navHelpBtn.addEventListener('mousedown', startHelpPress);
+    navHelpBtn.addEventListener('touchstart', startHelpPress);
+    navHelpBtn.addEventListener('mouseup', endHelpPress);
+    navHelpBtn.addEventListener('mouseleave', endHelpPress);
+    navHelpBtn.addEventListener('touchend', endHelpPress);
+}
+
+function startHelpPress(e) {
+    helpBtnTimer = setTimeout(() => {
+        toggleCreatorModeSession();
+    }, LONG_PRESS_DURATION);
+}
+
+function endHelpPress(e) {
+    clearTimeout(helpBtnTimer);
+}
+
+function toggleCreatorModeSession() {
+    if (!creatorModeAvailable) {
+        alert("Modo Creador no está disponible en este servidor.");
+        return;
+    }
+    creatorModeEnabled = !creatorModeEnabled;
+    persistCreatorMode();
+    applyCreatorModeState();
+    if (creatorModeEnabled) {
+        updateCustomInputVisibility(true);
+    }
+    alert(`Modo Creador ${creatorModeEnabled ? 'activado' : 'desactivado'} para esta sesión.`);
+}
+
 let history = [];
 let currentSceneData = null;
 let currentAudio = null;
@@ -80,6 +178,11 @@ function returnToHome() {
         currentMusicSrc = null;
         storyMusicPath = null;
     }
+    // Clear replay mode state
+    savedStoryData = null;
+    currentStoryId = null;
+    currentSceneIndex = 0;
+    history = [];
     // Reset image upload
     selectedImagesBase64 = [];
     imageInput.value = '';
@@ -262,12 +365,7 @@ async function loadStories() {
         // Handle both old array format (just in case) and new object format
         const stories = Array.isArray(data) ? data : (data.stories || []);
         const creatorMode = data.creatorMode !== false; // Default to true if undefined (backward compat)
-
-        if (!creatorMode) {
-            if (newStoryBtn) newStoryBtn.style.display = 'none';
-        } else {
-            if (newStoryBtn) newStoryBtn.style.display = '';
-        }
+        syncCreatorModeAvailability(creatorMode);
         
         storiesList.innerHTML = '';
         stories.forEach(story => {
@@ -324,6 +422,10 @@ backHomeBtn.addEventListener('click', () => returnToHome());
 
 // Start Game
 startBtn.addEventListener('click', async () => {
+    if (!isCreatorModeActive()) {
+        alert('Modo Creador desactivado. Mantené presionado el signo de pregunta 5s para activarlo.');
+        return;
+    }
     const setting = settingInput.value.trim();
     if (!setting) return alert('¡Por favor ingresa un escenario!');
 
@@ -402,7 +504,9 @@ function updateGameScreen(data) {
     sceneTextContainer.innerHTML = ''; // Clear text
     optionsContainer.classList.remove('visible');
     optionsContainer.innerHTML = '';
-    customInputContainer.classList.remove('visible');
+    if (customInputContainer) {
+        customInputContainer.classList.remove('visible');
+    }
     customActionInput.value = '';
     // Reset game image upload
     selectedGameImagesBase64 = [];
@@ -413,10 +517,10 @@ function updateGameScreen(data) {
         document.getElementById('game-remove-img-btn').addEventListener('click', clearGameImages);
     }
 
-    if (isReplayMode()) {
+    // Ensure custom input is hidden initially (will be shown after options if needed)
+    if (customInputContainer) {
         customInputContainer.style.display = 'none';
-    } else {
-        customInputContainer.style.display = 'flex';
+        customInputContainer.classList.remove('visible');
     }
     
     // Handle Music: single track per story. If already known, reuse; else generate once.
@@ -434,8 +538,8 @@ function updateGameScreen(data) {
     if (data.image) {
         mainImage.src = data.image;
     }
-    
-    // Start Sequence
+
+    // Start Sequence (will wait for hero offsets before animating)
     playSequence(data);
 }
 
@@ -536,6 +640,9 @@ function fadeToVolume(audio, targetVolume) {
 
 async function playSequence(data) {
     const currentGenId = sceneGenerationId;
+    // Ensure hero start offsets are ready so the animation originates at viewport center
+    await prepareHeroPresentationOffsets();
+    if (currentGenId !== sceneGenerationId) return;
     // 1. Fade in Image (5s)
     requestAnimationFrame(() => {
         mainImage.classList.add('visible');
@@ -609,11 +716,62 @@ async function playSequence(data) {
     // 3. Show Options (inject selectedOption during replay)
     const optionsToRender = prepareOptionsForReplay(data);
     
+    console.log('Options to render:', optionsToRender);
+    console.log('Is replay mode:', isReplayMode());
+    console.log('Custom input container:', customInputContainer);
+    
     if (optionsToRender.length === 0) {
         showEndScreen();
     } else {
         showOptions(optionsToRender);
     }
+}
+
+// Compute starting offset so hero image animates from viewport center to its grid cell
+function prepareHeroPresentationOffsets() {
+    return new Promise(resolve => {
+        let resolved = false;
+        const resolveOnce = () => {
+            if (resolved) return;
+            resolved = true;
+            resolve();
+        };
+
+        const setOffsets = () => {
+            const rect = mainImage.getBoundingClientRect();
+            const viewportCenterX = window.innerWidth / 2;
+            const viewportCenterY = window.innerHeight / 2;
+            const imageCenterX = rect.left + rect.width / 2;
+            const imageCenterY = rect.top + rect.height / 2;
+
+            const startX = viewportCenterX - imageCenterX;
+            const startY = viewportCenterY - imageCenterY;
+
+            document.documentElement.style.setProperty('--hero-start-x', `${startX}px`);
+            document.documentElement.style.setProperty('--hero-start-y', `${startY}px`);
+        };
+
+        const run = () => {
+            setOffsets();
+            requestAnimationFrame(() => {
+                setOffsets();
+                resolveOnce();
+            });
+        };
+
+        if (mainImage.complete && mainImage.naturalWidth) {
+            run();
+        } else {
+            mainImage.onload = () => {
+                run();
+                mainImage.onload = null;
+            };
+            mainImage.onerror = resolveOnce;
+        }
+
+        // Fallback in case onload doesn't fire (cached or error)
+        setTimeout(resolveOnce, 300);
+    });
 }
 
 async function showEndScreen() {
@@ -629,7 +787,7 @@ async function showEndScreen() {
 
     // 2. Increase music volume
     if (currentMusic) {
-        fadeToVolume(currentMusic, 1.0); 
+        fadeToVolume(currentMusic, musicVolume); 
     }
     
     // 3. Prepare "Continuará..." text animation
@@ -689,7 +847,7 @@ async function playAudioWithEffects(audioUrl) {
     const audio = new Audio(audioSrc);
     audio.crossOrigin = "anonymous";
         // Ensure max volume
-    audio.volume = 1.0;
+    audio.volume = voiceVolume;
         // Lower pitch by slowing down (approx 1 tone down)
     audio.preservesPitch = false;
     audio.playbackRate = 1.2 * playbackSpeed; 
@@ -731,14 +889,20 @@ async function playAudioWithEffects(audioUrl) {
 
 async function showOptions(options) {
     const currentGenId = sceneGenerationId;
-    optionsContainer.classList.add('visible');
-    if (!isReplayMode()) {
-        customInputContainer.classList.add('visible');
-    }
+    console.log('showOptions called with:', options);
+    console.log('isReplayMode:', isReplayMode());
     
-    for (let i = 0; i < options.length; i++) {
+    optionsContainer.classList.add('visible');
+    
+    // Randomize options order in play mode (not replay)
+    let displayOptions = options;
+    if (!isReplayMode()) {
+        displayOptions = [...options].sort(() => Math.random() - 0.5);
+    }
+
+    for (let i = 0; i < displayOptions.length; i++) {
         if (currentGenId !== sceneGenerationId) return;
-        const option = options[i];
+        const option = displayOptions[i];
         const card = createOptionCard(option);
         optionsContainer.appendChild(card);
         
@@ -755,6 +919,14 @@ async function showOptions(options) {
         
         await wait(200);
     }
+
+    // Restore music volume after options are read
+    if (currentMusic) {
+        fadeToVolume(currentMusic, musicVolume);
+    }
+
+    // After all option narrations, ensure custom input is fully visible when creator mode is active
+    updateCustomInputVisibility(!isReplayMode() && isCreatorModeActive());
 }
 
 function createOptionCard(option) {
@@ -951,7 +1123,7 @@ async function handleCustomAction() {
     stopCurrentAudio();
 
     // Replay Mode Logic
-    if (savedStoryData) {
+    if (savedStoryData && !isCreatorModeActive()) {
         const currentScene = savedStoryData.scenes[currentSceneIndex];
         
         if (!currentScene.selectedOption) {
@@ -1008,9 +1180,31 @@ async function handleCustomAction() {
         }
         return;
     }
+
+    // Branching from Replay Mode
+    if (savedStoryData && isCreatorModeActive()) {
+        // Reconstruct history
+        history = [];
+        for (let i = 0; i <= currentSceneIndex; i++) {
+            const scene = savedStoryData.scenes[i];
+            const segments = Array.isArray(scene.narrative?.segments)
+                ? scene.narrative.segments
+                : Array.isArray(scene.scene_text)
+                    ? scene.scene_text
+                    : [scene.scene_text || ''];
+            const fullText = segments.join(' ');
+            history.push({ role: 'model', text: fullText });
+            
+            if (i < currentSceneIndex && scene.selectedOption) {
+                 history.push({ role: 'user', text: scene.selectedOption });
+            }
+        }
+        savedStoryData = null;
+        currentStoryId = null;
+    }
     
     // In creator mode: visually replace one option card with the custom prompt
-    if (text) replaceOneOptionCard(text);
+    if (text && isCreatorModeActive()) replaceOneOptionCard(text);
 
     // Add to history
     const choiceText = text || "I show you these images.";

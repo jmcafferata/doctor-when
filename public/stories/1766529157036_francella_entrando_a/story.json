@@ -1,0 +1,154 @@
+{
+  "id": "1766529157036_francella_entrando_a",
+  "title": "El Horizonte de Francella",
+  "setting": "francella entrando a un agujero negro",
+  "createdAt": "2025-12-23T22:33:11.599Z",
+  "scenes": [
+    {
+      "title": "El Horizonte de Francella",
+      "scene_text": [
+        "Guillermo se ajusta el cuello de su traje espacial plateado mientras la nave 'Puchero-1' vibra violentamente.",
+        "Frente a él, un inmenso vacío rodeado por un anillo de fuego dorado consume la luz y la esperanza: un agujero negro supermasivo.",
+        "Siente cómo la gravedad comienza a estirar el casco de la nave, un fenómeno físico conocido como espaguetización.",
+        "Con su clásica expresión de incredulidad, Guillermo mira el panel de control: '¡A comerla! Estamos cruzando el horizonte de sucesos'."
+      ],
+      "scene_image_prompt": "Cinematic shot of a middle-aged Argentine man with a distinctive mustache and expressive blue eyes, resembling Guillermo Francella, wearing a retro-futuristic silver spacesuit. He is inside a high-tech cockpit with glowing blue and orange displays. Outside the large curved cockpit window, a massive black hole with a glowing orange and white accretion disk is visible. The light is warping and bending around the black hole due to gravitational lensing. High detail, 8k, sci-fi atmosphere, dramatic lighting reflecting on his face.",
+      "scene_music_style": "Dramatic Space Orchestral, Tense Strings, Deep Sub-Bass Drones, Cinematic Sci-Fi",
+      "scene_music_title": "La Singularidad de la Nada",
+      "options": [
+        {
+          "text": "Analizar cómo la dilatación del tiempo afecta su reloj mientras se acerca a la singularidad.",
+          "audio": "/stories/1766529157036_francella_entrando_a/assets/option_0_1766529189413.mp3"
+        },
+        {
+          "text": "Intentar dar marcha atrás usando los espejos retrovisores de la nave.",
+          "audio": "/stories/1766529157036_francella_entrando_a/assets/option_1_1766529190490.mp3"
+        },
+        {
+          "text": "Lanzar un choripán al vacío para ver si el agujero negro tiene hambre.",
+          "audio": "/stories/1766529157036_francella_entrando_a/assets/option_2_1766529191598.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Guillermo se ajusta el cuello de su traje espacial plateado mientras la nave 'Puchero-1' vibra violentamente.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529183462_0_1766529183462.mp3"
+          },
+          {
+            "text": "Frente a él, un inmenso vacío rodeado por un anillo de fuego dorado consume la luz y la esperanza: un agujero negro supermasivo.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529185057_1_1766529185057.mp3"
+          },
+          {
+            "text": "Siente cómo la gravedad comienza a estirar el casco de la nave, un fenómeno físico conocido como espaguetización.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529186519_2_1766529186519.mp3"
+          },
+          {
+            "text": "Con su clásica expresión de incredulidad, Guillermo mira el panel de control: '¡A comerla! Estamos cruzando el horizonte de sucesos'.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529188184_3_1766529188184.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766529157036_francella_entrando_a/assets/scene_1766529182143.jpg",
+      "selectedOption": "Lanzar un choripán al vacío para ver si el agujero negro tiene hambre.",
+      "selectedOptionAudio": "/stories/1766529157036_francella_entrando_a/assets/option_2_1766529191598.mp3",
+      "music": "/stories/1766529157036_francella_entrando_a/assets/music_1766529783145_1766529783145.mp3"
+    },
+    {
+      "title": "El Choripán Espaguetizado",
+      "scene_text": [
+        "Guillermo arroja el choripán por la escotilla de residuos, observando con horror cómo el pan y el chorizo se estiran como un chicle infinito.",
+        "La 'espaguetización' es real: las fuerzas de marea son tan intensas que el extremo del sándwich más cercano al centro es atraído con mucha más fuerza que el otro.",
+        "Debido a la dilatación temporal, el choripán parece congelarse en el borde del abismo mientras su color vira hacia un rojo profundo.",
+        "Guillermo se rasca la cabeza y murmura: '¡Pero qué pedazo de gravedad, me dejó sin almuerzo en cámara lenta!'"
+      ],
+      "scene_image_prompt": "A cinematic shot of Guillermo Francella, looking like the famous Argentine actor with his signature comedic expression of disbelief, wearing a shiny silver retro-futuristic spacesuit. He is looking through the circular window of the 'Puchero-1' spaceship. Outside, a massive black hole with a glowing gold and white accretion disk consumes the light. A choripán (Argentine sausage sandwich) is being visually stretched into a long, thin, glowing thread of light and matter as it approaches the black hole's event horizon. High-quality visual novel art style, vibrant colors, cosmic scale.",
+      "scene_music_style": "Dramatic Space Tango, Melancholic Accordion, Cosmic Synthesizers, Orchestral Swell",
+      "scene_music_title": "Réquiem por un Choripán",
+      "options": [
+        {
+          "text": "Analizar cómo el 'desplazamiento al rojo' hace que el choripán desaparezca de su vista.",
+          "audio": "/stories/1766529157036_francella_entrando_a/assets/option_1766529267717_0_1766529267717.mp3"
+        },
+        {
+          "text": "Saltar fuera de la nave para intentar rescatar el choripán usando un tenedor gigante.",
+          "audio": "/stories/1766529157036_francella_entrando_a/assets/option_1766529268938_1_1766529268938.mp3"
+        },
+        {
+          "text": "Gritarle al agujero negro que el choripán no tenía suficiente chimichurri.",
+          "audio": "/stories/1766529157036_francella_entrando_a/assets/option_1766529270069_2_1766529270069.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Guillermo arroja el choripán por la escotilla de residuos, observando con horror cómo el pan y el chorizo se estiran como un chicle infinito.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529261748_0_1766529261748.mp3"
+          },
+          {
+            "text": "La 'espaguetización' es real: las fuerzas de marea son tan intensas que el extremo del sándwich más cercano al centro es atraído con mucha más fuerza que el otro.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529263496_1_1766529263496.mp3"
+          },
+          {
+            "text": "Debido a la dilatación temporal, el choripán parece congelarse en el borde del abismo mientras su color vira hacia un rojo profundo.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529265056_2_1766529265056.mp3"
+          },
+          {
+            "text": "Guillermo se rasca la cabeza y murmura: '¡Pero qué pedazo de gravedad, me dejó sin almuerzo en cámara lenta!'",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529266510_3_1766529266510.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766529157036_francella_entrando_a/assets/scene_1766529260154.jpg",
+      "selectedOption": "Analizar cómo el 'desplazamiento al rojo' hace que el choripán desaparezca de su vista.",
+      "selectedOptionAudio": "/stories/1766529157036_francella_entrando_a/assets/option_1766529267717_0_1766529267717.mp3"
+    },
+    {
+      "title": "El Misterio del Horizonte de Sucesos",
+      "scene_text": [
+        "Guillermo ajusta sus anteojos mientras ve cómo el choripán se torna de un rojo oscuro y profundo antes de desaparecer por completo.",
+        "El 'desplazamiento al rojo gravitacional' ha estirado las ondas de luz tanto que el objeto se vuelve invisible al ojo humano.",
+        "La nave 'Puchero-1' ahora cruza el umbral definitivo, donde el tiempo y el espacio intercambian sus roles de forma caótica.",
+        "¡Mirá vos! No es que se perdió, es que la luz está tan cansada que ya ni llega a mis ojos', comenta Guillermo con un gesto de resignación."
+      ],
+      "scene_image_prompt": "Guillermo Francella lookalike character in a shiny silver retro-futuristic spacesuit, inside a cramped spaceship cockpit named 'Puchero-1'. He is looking through a reinforced glass window at a massive black hole with a glowing golden accretion disk. Outside the window, a distorted, glowing red sandwich is being stretched into a thin line and fading away. The interior of the ship is filled with glowing analog buttons, old-school CRT monitors, and a nervous atmosphere. High quality cinematic lighting, realistic style with a touch of satire.",
+      "scene_music_style": "Dramatic Orchestral with Pulsing Synthesizers, Deep Space Ambience, Low Frequency Drones, Eerie and Majestic",
+      "scene_music_title": "Redshift Blues",
+      "options": [
+        {
+          "text": "Investigar la Singularidad donde toda la materia se comprime en un punto de densidad infinita.",
+          "audio": "/stories/1766529157036_francella_entrando_a/assets/option_1766529353338_0_1766529353338.mp3"
+        },
+        {
+          "text": "Encender los motores para intentar retroceder ahora que ha cruzado el horizonte de sucesos.",
+          "audio": "/stories/1766529157036_francella_entrando_a/assets/option_1766529354647_1_1766529354647.mp3"
+        },
+        {
+          "text": "Pedirle al agujero negro que le devuelva el choripán porque todavía no había pagado el alquiler.",
+          "audio": "/stories/1766529157036_francella_entrando_a/assets/option_1766529355958_2_1766529355958.mp3"
+        }
+      ],
+      "narrative": {
+        "parts": [
+          {
+            "text": "Guillermo ajusta sus anteojos mientras ve cómo el choripán se torna de un rojo oscuro y profundo antes de desaparecer por completo.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529347482_0_1766529347482.mp3"
+          },
+          {
+            "text": "El 'desplazamiento al rojo gravitacional' ha estirado las ondas de luz tanto que el objeto se vuelve invisible al ojo humano.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529348959_1_1766529348959.mp3"
+          },
+          {
+            "text": "La nave 'Puchero-1' ahora cruza el umbral definitivo, donde el tiempo y el espacio intercambian sus roles de forma caótica.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529350480_2_1766529350480.mp3"
+          },
+          {
+            "text": "¡Mirá vos! No es que se perdió, es que la luz está tan cansada que ya ni llega a mis ojos', comenta Guillermo con un gesto de resignación.",
+            "audio": "/stories/1766529157036_francella_entrando_a/assets/narrative_part_1766529352118_3_1766529352118.mp3"
+          }
+        ]
+      },
+      "image": "/stories/1766529157036_francella_entrando_a/assets/scene_1766529345971.jpg"
+    }
+  ]
+}
